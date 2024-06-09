@@ -1,0 +1,356 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - 5f047a55-c881-4a2b-906c-c4d4392bccf8
+  - a09a3775-e368-4675-aed8-6ab7793661a8
+  - b56a2ac8-db15-4c68-9344-d661cca4fa1f
+  - 48405770-be0b-470d-b6be-7567f9a75aba
+  - 54f9eda8-1296-4b9c-89f1-a5def0fd068a
+  - 7ca14e4d-bd52-4404-ab2d-04ba77f96380
+  - 09f5ea78-6a38-4a34-89a6-72d1865e474e
+  - 197bcf7b-0cae-4b14-ae14-f85f7b3174a4
+  - 829d44cc-746b-4f88-b83a-fde75f0ac19a
+  - 2a70a88c-8240-4d4d-be97-408bc2e9862c
+  - 6328e3ff-246a-4708-a473-a666d38af742
+  - 28a8c2cb-3c2f-4428-8fd2-6f36b44d3084
+  - c5332ce4-4a04-4dfa-ad06-3fd314690152
+  - 0c15a425-5993-4cf3-a277-ea6221bf53a6
+  - 02dd4d7d-4bb6-4335-9419-30805b376940
+  - f355d88b-4a4f-4bdf-9837-2ee4f657e81c
+  - 60ac727d-9c3f-40b9-a015-2e0c982b3911
+  - b23d6ecf-7da5-4f64-91cf-6b2db53822ca
+  - 4922e95c-50d3-47f3-aad3-3fce03ee21f2
+  - 987c2d4c-c047-4188-b635-0d0d623307a7
+  - 65a96545-31ca-45fe-8c0d-381d051751fa
+  - cbf60222-3ac2-4924-9f58-cc54a26cdc64
+  - ce0915ce-f518-42f0-a76a-0e152fd9d3fd
+  - 4c295007-c474-411f-abeb-fdc568e29d29
+  - 33b9ed96-27ce-4f4d-b918-7ac82da997b1
+  - a53f5f45-0c93-4494-bd4a-0c157403ae9f
+  - d4554ebc-7c92-4d5e-9329-dcababc9b84c
+  - b4dda480-26fa-45c6-9a80-2ad8590aad13
+  - 32681c99-333c-4875-b5a4-81be30a0dd03
+  - c8427927-b791-45c9-937f-b2e4cad653af
+  - 29cc00c1-4721-4278-abc0-8adb86caeb1e
+  - d1780131-ae5f-4310-9541-ec89a3624883
+  - 39dd86aa-433b-4b5f-8eb0-e163fcb58f9e
+  - 945834ea-7ab9-404b-b0ce-5e1fe3f17c78
+  - 8a339c70-2127-4a93-83ad-a883e1bc5c7b
+  - 33ab34b3-2471-42e2-b841-87e7420d4b26
+  - b112d1a1-77c8-47c5-91c9-9d7d30dd6e43
+  - 026cd963-11b8-4509-8895-07506598a084
+  - 6fec67ae-e86c-4dbf-a096-8401daf0c98a
+  - 98bc53db-86ba-4bc7-9685-653c602e91b2
+  - fd500fb5-9a24-41f4-894a-71c1f907e5f2
+  - 24415cda-2993-4dfe-ad13-3b2db7df33ef
+  - 8b8e0b35-7f97-4212-be13-ecef92a01fb9
+  - a9f86ec5-f00e-4831-aff0-9ff3ce4de873
+  - 92b533b2-cead-4479-9a68-ff222c2c057e
+  - 482f351d-f0ba-4e3a-ac74-10bdcc136f67
+  - 4e63adbc-e6ce-4308-b25e-95d941ecb4bf
+  - 76b721a9-858b-490a-aa26-5d3d3b7be861
+  - 938f1acb-9914-4673-be09-84e573d78a1f
+  - 1f30c968-853f-4b12-ad7c-453854f112ea
+  - 9d04b317-de49-49f1-a316-099235bfbf9f
+  - 9ae48040-0207-496a-8ce3-e18a246bf212
+  - a4195ccf-eb33-4a0b-92b5-db6e83e5ee6d
+  - d15181d9-b78f-4407-9fb2-aa7e5362b505
+  - e760caad-3eac-4f9b-b0c2-b5bd08d13814
+  - 2ce74af0-a05b-4372-aabd-ef4d0450a805
+  - f2093a30-f156-470d-9305-dd835c984a65
+  - 4af46c67-1d0b-4d01-81ad-076d3370a34c
+  - 1f1258f5-e6d6-4477-bdfe-9f366e935fe6
+  - c6b9a92c-1e36-4f89-93a3-7db0a4f3b01b
+  - 6f289494-5b26-4855-9554-9a8a35a5b167
+  - f889e660-31da-4282-9177-e98ac6b3725f
+  - 206a0297-4a5c-423d-8be8-28fa958085a7
+  - 6947550a-b7bf-486b-991c-119f1cbebeb7
+  - be4cfc37-f347-4c8b-a073-0df1004721e2
+  - 74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4
+  - 8621ff5e-5f1d-4208-93ca-7458ded3bf30
+  - 1db47f5c-3976-4351-9f47-b035468b0b0f
+  - 46852df8-7377-4206-8e1b-80d117ff63e8
+  - 047e1169-89c5-4f11-b31c-69eb8ce8c88a
+  - 0d0c9a1f-ca17-4f1b-8348-403b7744b932
+  - 5f43a784-ee30-44cc-a50e-2a1872ab39d3
+  - 3aabcd15-cc5b-4716-97b4-5c667a5cb96f
+  - f48ec2ea-4bbc-43d8-845e-2736700d593f
+  - 5c5034c4-6341-4463-ba5a-a6e3f01fc191
+  - ddad6438-3108-4a31-99da-bb54ce51857c
+  - 3250ec7a-61f2-407f-944e-17f075a12c33
+  - 01eb77b2-7d1d-4eec-8123-dd82380e891a
+  - 606a82ed-2a39-4211-83fd-ddffe0929a74
+  - b69077bf-f3f7-466e-a00b-47362291b246
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_5f047a55-c881-4a2b-906c-c4d4392bccf8:
+  - text: "La résistance à l'insuline est un problème de santé qui se produit lorsque le corps ne peut pas utiliser l'insuline efficacement pour faire entrer le glucose dans les cellules. Cela peut entraîner une augmentation de la glycémie et un risque de diabète de type 2. Pour gérer la résistance à l'insuline, il faut adopter un mode de vie sain qui comprend  :  - Un régime alimentaire équilibré et riche en fibres, avec des aliments ayant un indice glycémique faible ou moyen, comme les légumes, les fruits, les grains entiers, les légumineuses et les produits laitiers faibles en gras. - Une activité physique régulière, d'au moins 30 minutes par jour, qui aide à améliorer la sensibilité à l'insuline et à brûler le glucose excédentaire. - Un sommeil suffisant - Le médecin peut également prescrire un médicament comme la metformine, qui réduit la production de glucose par le foie et augmente l'utilisation du glucose par les muscles."
+
+  utter_a09a3775-e368-4675-aed8-6ab7793661a8:
+  - text: " La rotation des sites d'injection d'insuline permet d'éviter les contusions, les infections et l’inflammation due à l’injection en même site les dépôts de graisse et les variations d'absorption de l'insuline."
+
+  utter_b56a2ac8-db15-4c68-9344-d661cca4fa1f:
+  - text: "La transplantation d'organes et de tissus humains est une forme de traitement qui permet de sauver des vies pour plusieurs maladies et traumatismes graves ; - La transplantation pancréas  est souvent le traitement de choix. "
+
+  utter_48405770-be0b-470d-b6be-7567f9a75aba:
+  - text: "Oui Le diabète de type 1 est purement héréditaire, mais le risque de transmission est faible."
+
+  utter_54f9eda8-1296-4b9c-89f1-a5def0fd068a:
+  - text: "Le diabète de type 2 est une maladie qui se caractérise par un taux de sucre trop élevé dans le sang. Il peut être causé par plusieurs facteurs, dont certains ne sont pas liés au surpoids ou à la tension artérielle. Par exemple :  - Une prédisposition génétique - Un mode de vie sédentaire  - Une alimentation trop riche en glucides raffinés - Le vieillissement."
+
+  utter_7ca14e4d-bd52-4404-ab2d-04ba77f96380:
+  - text: "le risque d'endommager des organes chez une personne diabétique est lié à une **hyperglycémie** chronique qui affecte la paroi des **vaisseaux sanguins** et le fonctionnement de plusieurs organes, principalement les **reins**, les **yeux**, le **système nerveux**, le **cœur** et les **artères**  ."
+
+  utter_09f5ea78-6a38-4a34-89a6-72d1865e474e:
+  - text: "Oui,  car le diabète peut endommager la rétine, le cristallin, l'iris et la pression interne de l'œil. La rétinopathie diabétique est la complication du diabète la plus fréquente au niveau des yeux . Elle se développe en silence et peut progressivement entraîner une perte de la vue. Il est donc important de contrôler sa glycémie et de faire un examen du fond d'œil régulièrement et consulter le médecin traitant en cas de problème de vue."
+
+  utter_197bcf7b-0cae-4b14-ae14-f85f7b3174a4:
+  - text: "Non, tous les patients diabétiques de type 2 ne finiront pas par passer à l'insuline. Certains peuvent contrôler leur glycémie avec une alimentation saine et de l'exercice, et avec des médicaments antidiabétiques oraux. Cependant, le diabète est une maladie qui évolue et il se peut que le corps nécessite éventuellement des injections d'insuline pour palier sa diminution de production par le pancréas. L'insulinothérapie devient nécessaire lorsque l'hémoglobine glyquée reste supérieure à 8 % malgré les autres traitements   ou dans certaines circonstances particulières."
+
+  utter_829d44cc-746b-4f88-b83a-fde75f0ac19a:
+  - text: "Les infections de la peau chez le diabétique sont favorisées par l'hyperglycémie chronique qui affaiblit les défenses immunitaires. Pour les prévenir, il faut respecter les règles d'hygiène de base, contrôler sa glycémie et se faire vacciner contre certaines maladies infectieuses plus rotation des sites d injection . Pour les traiter, il faut consulter un médecin qui prescrira des antibiotiques adaptés à la bactérie responsable de l'infection    ."
+
+  utter_2a70a88c-8240-4d4d-be97-408bc2e9862c:
+  - text: "Non , il faut vivre avec ."
+
+  utter_6328e3ff-246a-4708-a473-a666d38af742:
+  - text: "L'impact d'une autre maladie sur une personne atteinte de diabète dépend du type et de la gravité de la maladie, ainsi que du niveau de contrôle du diabète. Une autre maladie peut aggraver le diabète telle que les infections bactériennes. Il est donc important de surveiller régulièrement sa glycémie et de consulter son médecin en cas de maladie concomitante au diabète."
+
+  utter_28a8c2cb-3c2f-4428-8fd2-6f36b44d3084:
+  - text: "Il y a plusieurs causes possibles pour avoir envie d'aller aux toilettes toutes les heures et se sentir toujours fatigué. Voici une liste de plusieurs causes : - **infection urinaire** ou une **cystite ;- **diabète ;- **maladie de prostate ;- **syndrome de la vessie irritable**, qui provoque une inflammation chronique de la vessie et une sensation de besoin urgent d'uriner. Vous pouvez aussi avoir des douleurs au niveau du bas-ventre ou pendant les rapports sexuels. - Vous pouvez avoir une **maladie neurologique** comme la sclérose en plaques, qui affecte le contrôle nerveux de la vessie et entraîne des troubles urinaires - Vous pouvez avoir une **consommation excessive de liquides**, surtout le soir ou des boissons diurétiques comme le thé, le café ou l'alcool. Cela peut augmenter le volume d'urine et la fréquence des mictions . - Vous pouvez avoir du **stress** ou de l'**anxiété**, qui peuvent stimuler la vessie et provoquer des envies fréquentes d'uriner. Cela peut aussi affecter votre sommeil et votre énergie . - Vous pouvez être **enceinte** si vous êtes une femme, ce qui peut augmenter la pression sur la vessie et réduire son volume. Cela peut aussi entraîner une fatigue plus importante.  Si vous avez envie d'uriner trop souvent, il est conseillé de consulter votre médecin traitant pour identifier la cause et vous proposer un traitement adapté ."
+
+  utter_c5332ce4-4a04-4dfa-ad06-3fd314690152:
+  - text: "Le profil génétique joue un rôle important dans transmission."
+
+  utter_0c15a425-5993-4cf3-a277-ea6221bf53a6:
+  - text: "Pour gérer votre diabète, vous devez :  - Prendre de l'insuline ou des médicaments selon la prescription de votre médecin  - Surveiller régulièrement votre taux de sucre sanguin  - Avoir une alimentation saine et équilibrée   - Faire de l'activité physique régulièrement   - Contrôler votre tension artérielle et votre cholestérol - Arrêter de fumer si vous êtes fumeur - Vérifier l'état de vos pieds"
+
+  utter_02dd4d7d-4bb6-4335-9419-30805b376940:
+  - text: "Non, cest une maladie chronique avec un traitement a vie."
+
+  utter_f355d88b-4a4f-4bdf-9837-2ee4f657e81c:
+  - text: "La fréquence à laquelle vous devez mesurer votre glycémie dépend de votre type de diabète et de votre traitement. Voici quelques recommandations générales :  -Avant et apres repas trois repas par jr. Il est conseillé d’effectuer des contrôles supplémentaires avant de conduire, avant et après des efforts physiques intenses ou imprévus, dans des circonstances de repas ou d’activités inhabituelles, en cas de suspicion de malaise hypoglycémique, en cas d’infection…  Vous pouvez aussi consulter votre médecin pour déterminer avec lui les modalités d'autosurveillance de la glycémie adaptées à votre situation."
+
+  utter_60ac727d-9c3f-40b9-a015-2e0c982b3911:
+  - text: "Lorsque votre taux de glycémie est élevé, vous devez prendre de l'insuline pour le faire baisser si vous êtes diabétique de type 1 ou si votre médecin vous l'a prescrit. L'insuline permet au glucose de pénétrer dans les cellules et de réduire le taux de sucre dans le sang . Si vous n'êtes pas diabétique ou si vous n'avez pas besoin d'insuline, vous pouvez faire baisser votre taux de glycémie en adoptant une alimentation saine, en faisant de l'exercice physique et en évitant le stress ."
+
+  utter_b23d6ecf-7da5-4f64-91cf-6b2db53822ca:
+  - text: "Le sucre n'est pas strictement interdit pour les personnes diabétiques, mais il doit être consommé avec modération et en choisissant des sucres à faible indice glycémique . Les sucres ajoutés sont à limiter car ils augmentent le taux de sucre dans le sang  et n'apportent pas de nutriments essentiels ."
+
+  utter_4922e95c-50d3-47f3-aad3-3fce03ee21f2:
+  - text: "Pour comprendre l'apport en glucides par rapport à la dose d'insuline, il faut connaître le **ratio insuline/glucides** qui correspond à la quantité de glucides  qu'une unité d'insuline à action rapide permet aux cellules du corps de consommer. Ce ratio peut varier selon les personnes et les moments de la journée. Il faut aussi mesurer sa **glycémie à jeun** chaque jour et adapter sa dose d'insuline en fonction de son objectif cible de glycémie. Cette procédure s'appelle l'**adaptation posologique** ou **titration** de la dose d'insuline ."
+
+  utter_987c2d4c-c047-4188-b635-0d0d623307a7:
+  - text: "Certains patients diabétiques doivent être amputés parce qu'ils ont des complications qui réduisent le flux sanguin ou la sensibilité dans leurs membres inférieurs . Cela peut entraîner des plaies ou des ulcères qui ne guérissent pas et qui peuvent s'infecter ou se nécroser. Si l'infection ne peut pas être arrêtée ou les dommages réparés, l'amputation peut être nécessaire."
+
+  utter_65a96545-31ca-45fe-8c0d-381d051751fa:
+  - text: "L'alimentation pour les diabétiques doit être **équilibrée**, **riche en fibres**, **antioxydants** et **acides gras oméga-3**. Il faut prendre **trois repas réguliers** par jour et éviter de sauter des repas. Parmi les aliments recommandés, on trouve les **lentilles**, les **grains entiers**, les **légumes verts feuillus**, les **haricots**, les **noix**, les **graines de lin**, le **saumon sauvage**, les **oranges**, les **myrtilles** et les **tomates**. Il faut limiter la consommation de produits **sucrés**, **salés** et **gras**. Il n'y a pas d'aliments interdits, mais il faut respecter les portions et la répartition des glucides ."
+
+  utter_cbf60222-3ac2-4924-9f58-cc54a26cdc64:
+  - text: "les parties du corps où on peut se faire des injections sont **le bras, la cuisse ou le ventre** . Il faut choisir des zones où il y a de la graisse sous la peau."
+
+  utter_ce0915ce-f518-42f0-a76a-0e152fd9d3fd:
+  - text: "-Rétinopathie diabétique ;-Néphropathie diabétique ;-Maladies cardiovasculaires ;-Neuropathie diabétique ;-Hypertension artérielle ;-Syndrome coronarien aigu ;"
+
+  utter_4c295007-c474-411f-abeb-fdc568e29d29:
+  - text: "Les diabétiques doivent se faire une injection d'insuline quand leur glycémie est trop élevée. Cela peut être le cas des diabétiques de type 1, qui sont insulino-dépendants,. Il existe différents types d'insuline et de schémas d'injection selon les besoins et le mode de vie de chaque personne."
+
+  utter_33b9ed96-27ce-4f4d-b918-7ac82da997b1:
+  - text: "Le diabète est une maladie chronique qui ne se guérit pas, mais que l’on peut traiter et contrôler . Il existe différents types de diabète, dont le plus fréquent est le diabète de type 2. "
+
+  utter_a53f5f45-0c93-4494-bd4a-0c157403ae9f:
+  - text: "Une personne atteinte de diabète doit suivre une alimentation équilibrée, variée et adaptée à ses besoins. Elle doit privilégier les aliments à index glycémique bas, riches en fibres et en bonnes graisses, et limiter la consommation de produits sucrés, salés et gras. Il n'y a pas d'aliments interdits, mais certains sont à éviter ou à consommer avec modération, comme le sucre ajouté, les boissons sucrées, les viennoiseries, les charcuteries, les fritures, etc. Le but est de maintenir une glycémie stable et de prévenir les complications du diabète    ."
+
+  utter_d4554ebc-7c92-4d5e-9329-dcababc9b84c:
+  - text: "Déconseiller pour les diabétiques."
+
+  utter_b4dda480-26fa-45c6-9a80-2ad8590aad13:
+  - text: "Les premiers symptômes du diabète peuvent inclure : **fatigue**, **soif intense**, **envie d'uriner fréquente**, **perte de poids**, **vision trouble**, **cicatrisation lente** et **infections récurrentes**   ."
+
+  utter_32681c99-333c-4875-b5a4-81be30a0dd03:
+  - text: "On peut contracter le diabète si tard dans la vie à cause de plusieurs facteurs, notamment la **prédisposition génétique**, le **mode de vie** , certaines **maladies**  ou des **événements fortuits**   .  Manger beaucoup de sucreries ne provoque pas directement le diabète, mais peut contribuer à l'**augmentation du taux de glucose dans le sang**, ce qui peut entraîner une **résistance à l'insuline** et favoriser le développement du diabète de type 2."
+
+  utter_c8427927-b791-45c9-937f-b2e4cad653af:
+  - text: "Outre les bonbons et autres aliments riches en sucre, les diabétiques doivent éviter les aliments à index glycémique élevé, comme le **pain blanc**, le **riz blanc**, les **pâtes blanches**, les **céréales raffinées** et les **fruits au sirop**  . Ils doivent également limiter les aliments riches en graisses saturées, comme la **charcuterie**, le **fromage**, le **beurre** et les **viandes grasses** ."
+
+  utter_29cc00c1-4721-4278-abc0-8adb86caeb1e:
+  - text: "Les diabétiques s'injectent de l'insuline sous la peau, à l'aide d'un stylo, d'une seringue ou d'une pompe à insuline. Ils peuvent varier les points d'injection entre différentes régions du corps, comme le ventre, les cuisses, le haut du bras ou les fesses."
+
+  utter_d1780131-ae5f-4310-9541-ec89a3624883:
+  - text: "Le cholestérol joue un rôle dans le diagnostic du diabète car il est un facteur de risque cardiovasculaire qui peut aggraver les complications du diabète. Le cholestérol LDL, aussi appelé mauvais cholestérol, doit être inférieur à 1,3 g/l chez les personnes diabétiques. Le cholestérol HDL, aussi appelé bon cholestérol, doit être supérieur à 0,35 g/l car il protège des maladies cardiovasculaires. Le taux de cholestérol sanguin est mesuré par une prise de sang à jeun."
+
+  utter_39dd86aa-433b-4b5f-8eb0-e163fcb58f9e:
+  - text: "L'obésité, surtout abdominale, augmente le risque de diabète de type 2 car elle entraîne une **résistance à l'insuline**, c'est-à-dire une diminution de l'efficacité de l'hormone qui régule le taux de glucose dans le sang ."
+
+  utter_945834ea-7ab9-404b-b0ce-5e1fe3f17c78:
+  - text: "Pour faire face au diabète, il faut modifier son mode de vie en adoptant une alimentation saine et équilibrée, en pratiquant une activité physique régulière, en arrêtant de fumer si on est fumeur et alcool, et en respectant son traitement médicamenteux  . Ces changements peuvent aider à normaliser le taux de sucre dans le sang et à prévenir les complications du diabète."
+  
+  utter_8a339c70-2127-4a93-83ad-a883e1bc5c7b:
+  - text: "La glycémie est le taux de sucre dans le sang. Elle se contrôle par des mesures régulières avec un lecteur de glycémie ou en laboratoire. Pour éviter l'hyperglycémie, il faut suivre un plan d'alimentation adapté, prendre son traitement et faire de l'activité physique. Si vous avez des symptômes d'hyperglycémie, consultez un médecin sans délai."
+
+  utter_33ab34b3-2471-42e2-b841-87e7420d4b26:
+  - text: "Le contrôle du diabète peut se détériorer avec l'âge, car le métabolisme se modifie et le risque de complications augmente. Il est donc important de faire un suivi régulier avec votre médecin et d'adapter votre mode de vie et votre traitement si nécessaire. Le diabète de type 1 nécessite une prise en charge particulière chez les enfants."
+
+  utter_b112d1a1-77c8-47c5-91c9-9d7d30dd6e43:
+  - text: "Pour mieux contrôler votre glycémie, vous pouvez :- Suivre une alimentation équilibrée et riche en fibres, en privilégiant les aliments à faible indice glycémique .- Faire de l'exercice physique régulièrement, car cela aide à utiliser le glucose comme source d'énergie et à réduire la résistance à l'insuline. - Mesurer votre glycémie plusieurs fois par jour avec un lecteur de glycémie ou un appareil de mesure du glucose interstitiel, pour adapter votre traitement si nécessaire.- Consulter votre médecin traitant pour faire un suivi de votre glycémie en laboratoire tous les 3 mois, avec la mesure de la glycémie à jeun et de l'hémoglobine glyquée ."
+
+  utter_026cd963-11b8-4509-8895-07506598a084:
+  - text: "Perdre du poids peut vous aider à contrôler certaines maladies comme le diabète, l'hypertension ou l'obésité. Mais il faut aussi adopter de bons comportements alimentaires et faire de l'activité physique régulièrement. Si vous n'arrivez pas à maigrir malgré vos efforts, consultez votre médecin pour vérifier s'il n'y a pas une cause médicale."
+
+  utter_6fec67ae-e86c-4dbf-a096-8401daf0c98a:
+  - text: "Vous devez prendre de l'insuline si votre pancréas ne produit pas assez d'insuline naturelle ou si vos cellules sont résistantes à l'insuline. L'insuline permet de réguler votre glycémie en facilitant l'entrée du glucose dans les cellules et en inhibant la production de glucose par le foie. Sans insuline, votre glycémie peut augmenter dangereusement et entraîner des complications du diabète."
+
+  utter_98bc53db-86ba-4bc7-9685-653c602e91b2:
+  - text: "Non, un meilleur régime alimentaire ne permet pas de se passer de l'insuline en cas de diabète de type 1 . L'insuline est indispensable pour réguler la glycémie et éviter les complications. En revanche, un meilleur régime alimentaire peut aider à contrôler la glycémie, à prévenir les maladies cardiovasculaires et à atteindre un poids santé . Il s'agit d'une alimentation variée, équilibrée et adaptée aux besoins de chacun. Il faut privilégier les aliments à indice glycémique bas ou moyen, les fibres, les graisses de bonne qualité, les fruits et légumes riches en vitamine C et les produits laitiers allégés . Il faut éviter le sucre ajouté, les acides gras saturés et trans, les viandes grasses et les aliments industriels ."
+
+  utter_fd500fb5-9a24-41f4-894a-71c1f907e5f2:
+  - text: "La glycémie est le taux de sucre dans le sang. Elle varie naturellement au cours de la journée en fonction de l'alimentation, de l'activité physique, du stress, des maladies ou des médicaments. Chez les personnes diabétiques, la glycémie peut être trop élevée  ou trop basse  si le traitement n'est pas adapté ou si l'autosurveillance n'est pas suffisante. L'hyperglycémie peut entraîner des complications à long terme, comme des infections dentaires, et l'hypoglycémie peut provoquer des malaises. Il est donc important de contrôler régulièrement sa glycémie et de suivre les recommandations de son médecin. Le sommeil peut aussi influencer la glycémie, car il régule les fonctions métaboliques. Les troubles du sommeil, comme l'insomnie ou l'apnée du sommeil, peuvent perturber l'équilibre glycémique et augmenter le risque de diabète. Il est conseillé de dormir environ 8 heures par nuit et d'avoir un rythme de vie régulier."
+
+  utter_24415cda-2993-4dfe-ad13-3b2db7df33ef:
+  - text: "Il n'existe pas de remède définitif contre le diabète, mais un ensemble de mesures qui composent le traitement antidiabétique. Ces mesures comprennent des médicaments  et des traitements non médicamenteux   . Certains remèdes de grand-mère peuvent limiter le taux de glycémie, mais ils ne sont pas suffisants pour résoudre un diabète ."
+
+  utter_8b8e0b35-7f97-4212-be13-ecef92a01fb9:
+  - text: "Pour rester plus positive, vous pouvez :  - Vous poser des questions qui ouvrent de nouvelles perspectives ou possibilités dans votre esprit, comme **Quelle est le ou les points positifs de cette situation ?** ou **Qu'est-ce que j'ai appris de cette situation ?**  - Créer un environnement positif dans lequel vivre, en passant plus de temps avec des gens qui vous remontent le moral et vous positivent, et en ne laissant entrer que les informations qui vous soutiennent - Être reconnaissant pour ce que vous avez et pour ce que vous êtes, en consacrant quelques minutes par jour à vous sentir reconnaissant pour toutes les choses positives et exceptionnelles de votre vie  - Être actif et prendre soin de votre corps, en faisant du sport, en mangeant sainement et en vous reposant suffisamment  - Commencer votre journée du bon pied, en vous levant avec le sourire et en vous disant des affirmations positives"
+
+  utter_a9f86ec5-f00e-4831-aff0-9ff3ce4de873:
+  - text: "La neuropathie diabétique est une atteinte des nerfs causée par l'hyperglycémie chronique. Elle peut provoquer des symptômes variés selon les nerfs touchés, comme des douleurs, des engourdissements, des troubles digestifs ou urinaires, ou des problèmes cardiaques. Il n'existe pas de traitement spécifique, mais un bon contrôle de la glycémie peut prévenir ou ralentir la progression de la maladie  ."
+
+  utter_92b533b2-cead-4479-9a68-ff222c2c057e:
+  - text: "L'oubli peut avoir plusieurs causes, dont le diabète. Le diabète peut entraîner des troubles de la mémoire et de la concentration, surtout si la glycémie est mal équilibrée. Le diabète peut aussi favoriser des infections ou des complications vasculaires qui peuvent affecter le cerveau. Il est donc important de consulter votre médecin si vous constatez que vous oubliez de plus en plus de choses."
+
+  utter_482f351d-f0ba-4e3a-ac74-10bdcc136f67:
+  - text: "L'apnée du sommeil est un trouble qui se caractérise par des arrêts respiratoires répétés pendant le sommeil. Elle peut être liée au diabète de type 2, car l'un des facteurs de risque commun aux deux conditions est le surpoids ou l'obésité. L'apnée du sommeil peut aussi nuire à la gestion du diabète en perturbant le sommeil, la glycémie et l'appétit. Il est donc important de consulter un médecin si vous présentez des symptômes d'apnée du sommeil, comme des ronflements, une somnolence diurne ou des maux de tête."
+
+  utter_4e63adbc-e6ce-4308-b25e-95d941ecb4bf:
+  - text: "Une glycémie élevée depuis longtemps peut entraîner des complications du diabète, comme des atteintes cardiaques, rénales, nerveuses ou oculaires . Il est possible d'améliorer les effets secondaires en contrôlant régulièrement sa glycémie, en adaptant son régime alimentaire et son traitement médicamenteux, et en pratiquant une activité physique régulière  . En cas de symptômes d'hyperglycémie, comme la fatigue, la soif, la bouche sèche ou les urines abondantes  , il faut consulter un médecin ou un diabétologue."
+
+  utter_76b721a9-858b-490a-aa26-5d3d3b7be861:
+  - text: "Le diabète est une maladie chronique qui ne se guérit pas, mais qui se traite. Il existe différents types de diabète, qui nécessitent des traitements adaptés. Le traitement du diabète repose sur l'équilibre alimentaire, l'activité physique et des médicaments par voie orale ou injectable. La recherche d'un remède et la prévention sont porteuses d'espoir ."
+
+  utter_938f1acb-9914-4673-be09-84e573d78a1f:
+  - text: "Oui, il existe des implants qui peuvent délivrer de l'insuline à la place du pancréas. Il s'agit de dispositifs médicaux qui contiennent une pompe à insuline. Ces implants sont capables de détecter le taux de glucose dans le sang et de libérer la quantité d'insuline nécessaire   . Certains implants peuvent même produire leur énergie avec l'excès de sucre dans le sang. Ces implants sont encore au stade expérimental et ne sont pas disponibles pour le grand public."
+
+  utter_1f30c968-853f-4b12-ad7c-453854f112ea:
+  - text: "La réponse à cette question dépend du type de glande et de la cause de son dysfonctionnement. Il existe plusieurs types de glandes dans le corps humain, comme les glandes endocrines, les glandes salivaires, les glandes thyroïdes, etc. Chaque glande a un rôle spécifique et peut être affectée par des infections, des obstructions, des tumeurs ou des maladies auto-immunes  .  En général, si la cause du dysfonctionnement est traitée à temps et de manière appropriée, la glande peut recommencer à fonctionner normalement. Par exemple, si une glande salivaire est infectée par des bactéries, elle peut être soignée avec des antibiotiques et retrouver sa fonction de production de salive. Si une glande thyroïde est affectée par une maladie auto-immune qui provoque une hyperthyroïdie ou une hypothyroïdie, elle peut être régulée avec des médicaments ou une chirurgie.  Cependant, il existe des cas où la glande ne peut pas se rétablir complètement et nécessite un traitement à vie ou un remplacement. Par exemple, si une glande rénale est endommagée par une infection sévère qui atteint le tissu rénal, elle peut perdre sa capacité de filtrer le sang et d'éliminer les déchets. Dans ce cas, la personne peut avoir besoin d'une dialyse ou d'une greffe de rein.  Donc, la réponse très courte à votre question est : oui, la glande peut recommencer à fonctionner dans certains cas, mais pas dans tous."
+
+  utter_9d04b317-de49-49f1-a316-099235bfbf9f:
+  - text: "Le stress fait augmenter la glycémie car il provoque la libération d'hormones de stress comme l'adrénaline, le cortisol ou le glucagon, qui ont pour effet de stimuler la production de glucose par le foie et de réduire la sensibilité à l'insuline . Le corps se prépare ainsi à faire face aux pressions mentales et physiques."
+
+  utter_9ae48040-0207-496a-8ce3-e18a246bf212:
+  - text: "Une pompe à insuline peut aider à mieux contrôler la glycémie que les stylos à insuline car elle délivre de l'insuline rapide en permanence et s'adapte au mode de vie de la personne. Elle nécessite moins d'injections et offre plus de discrétion . Cependant, elle implique de porter un appareil sur soi en permanence et peut occasionner des réactions allergiques ou des arrachages."
+
+  utter_a4195ccf-eb33-4a0b-92b5-db6e83e5ee6d:
+  - text: "Les mains et les pieds sont si affectés dans le diabète parce que le taux de sucre trop élevé dans le sang endommage les nerfs et les vaisseaux sanguins qui les irriguent. Cela entraîne une perte de sensibilité, une mauvaise cicatrisation des plaies et un risque d'infection ou d'amputation   ."
+
+  utter_d15181d9-b78f-4407-9fb2-aa7e5362b505:
+  - text: "Si vous avez un diabète de type 1, vous ne pouvez pas arrêter de prendre de l'insuline car votre pancréas n'en produit plus assez. L'insuline est indispensable pour réguler votre glycémie et éviter les complications du diabète.  Si vous avez un diabète de type 2, vous pouvez éventuellement arrêter de prendre de l'insuline si votre glycémie est bien contrôlée avec des médicaments oraux et des changements d'habitudes de vie. Cependant, le diabète étant une maladie évolutive, il se peut que vous ayez besoin de reprendre l'insuline plus tard.  Dans tous les cas, il ne faut jamais arrêter ou modifier votre traitement sans l'avis de votre médecin  . Il faut aussi surveiller régulièrement votre glycémie et votre hémoglobine glyquée pour adapter votre traitement selon vos besoins."
+
+  utter_e760caad-3eac-4f9b-b0c2-b5bd08d13814:
+  - text: "Une pompe à insuline est un appareil qui délivre de l'insuline en continu ou sur demande aux personnes diabétiques. Elle peut être implantée ou externe et permet de mieux contrôler la glycémie . C'est une alternative au traitement par injections d'insuline."
+
+  utter_2ce74af0-a05b-4372-aabd-ef4d0450a805:
+  - text: "L’injection d’insuline se fait en sous cutanée dans 4 sites possibles: l’abdomen, le bras, la fesse et la cuisse"
+
+  utter_f2093a30-f156-470d-9305-dd835c984a65:
+  - text: "Pour éviter les ecchymoses, il faut appliquer de la glace ou un produit froid sur la zone blessée dès que possible pour réduire le flux sanguin et la douleur . Il faut aussi éviter la chaleur, surélever la zone contusionnée et la laisser au repos . Certains produits naturels comme l'arnica, la vitamine K ou le gel d'aloe vera peuvent aussi aider à résorber les ecchymoses  ."
+
+  utter_4af46c67-1d0b-4d01-81ad-076d3370a34c:
+  - text: "Les résultats élevés de LFT  peuvent être dus au diabète, mais pas toujours. Le diabète est une maladie qui se caractérise par un excès de sucre dans le sang ou hyperglycémie. Il peut entraîner des complications au niveau de divers organes, dont le foie. Le diabète peut causer une stéatose hépatique , une hépatite  ou une cirrhose . Ces affections peuvent altérer la fonction hépatique et augmenter les taux de certains enzymes dans le sang, comme les transaminases ou les phosphatases alcalines. Cependant, il existe d'autres causes possibles de résultats élevés de LFT, comme l'alcoolisme, les infections virales, les médicaments, les maladies auto-immunes ou les tumeurs. Il est donc important de consulter un médecin pour établir le diagnostic et le traitement appropriés."
+
+  utter_1f1258f5-e6d6-4477-bdfe-9f366e935fe6:
+  - text: "un taux de glucose élevé peut endommager plusieurs organes du corps, comme les reins, les yeux, le système nerveux et le cœur . Il peut aussi provoquer des symptômes comme la fatigue, la soif, les urines abondantes et la perte de poids ."
+
+  utter_c6b9a92c-1e36-4f89-93a3-7db0a4f3b01b:
+  - text: "Pour prévenir la progression du diabète, il faut adopter un mode de vie sain qui inclut :  - Une alimentation équilibrée, riche en fruits et légumes, pauvre en graisses, en sucres et en sel    - Une activité physique régulière, d'au moins 30 minutes par jour    - Un arrêt du tabac - Un contrôle du poids, de la pression artérielle, du cholestérol et du glucose  - Une réduction du stress et un bon sommeil  Ces mesures peuvent diminuer le risque de développer le diabète de type 2 ou de prédiabète, ou retarder les complications du diabète de type 1 ou 2  ."
+
+  utter_6f289494-5b26-4855-9554-9a8a35a5b167:
+  - text: "si la glycémie est élevée, il faut **surveiller son alimentation**, **limiter les sucres rapides et les graisses saturées**, **consommer des fibres**, **pratiquer un exercice physique régulier** et **contrôler régulièrement sa glycémie** . Il faut également **consulter un médecin** pour adapter le traitement si nécessaire et éviter les complications du diabète ."
+
+  utter_f889e660-31da-4282-9177-e98ac6b3725f:
+  - text: "La glycémie est le taux de sucre dans le sang. Elle varie en fonction de plusieurs facteurs, comme l'alimentation, l'activité physique, le stress, les médicaments, les hormones, etc. La glycémie n'est jamais constante, mais elle doit rester dans une fourchette normale pour éviter les complications.  Quand la glycémie est trop basse , on parle d'**hypoglycémie**. Cela peut provoquer des symptômes comme la fatigue, la faim, les tremblements, la sueur, les palpitations, etc. Il faut alors se resucrer rapidement avec du sucre rapide  et contrôler sa glycémie.  Quand la glycémie est trop haute , on parle d'**hyperglycémie**. Cela peut provoquer des symptômes comme la soif, la sécheresse de la bouche, les urines abondantes, la fatigue, etc. Il faut alors adapter son traitement , boire de l'eau et contrôler sa glycémie.  L'hyperglycémie chronique peut entraîner des complications du diabète à long terme . L'hypoglycémie sévère peut entraîner des convulsions ou une perte de connaissance.  Pour éviter les variations trop importantes de la glycémie, il faut respecter son traitement , avoir une alimentation équilibrée et adaptée à ses besoins, pratiquer une activité physique régulière et modérée, et éviter le stress et l'alcool.  Si vous avez des doutes ou des questions sur votre glycémie ou votre diabète, consultez votre médecin traitant ou votre diabétologue."
+
+
+
+  utter_206a0297-4a5c-423d-8be8-28fa958085a7:
+  - text: "L'oubli peut avoir plusieurs causes, dont le diabète. Le diabète peut entraîner des troubles de la mémoire et de la concentration, surtout si la glycémie est mal équilibrée. Le diabète peut aussi favoriser des infections ou des complications vasculaires qui peuvent affecter le cerveau. Il est donc important de consulter votre médecin si vous constatez que vous oubliez de plus en plus de choses."
+
+  utter_6947550a-b7bf-486b-991c-119f1cbebeb7:
+  - text: "L'apnée du sommeil est un trouble qui se caractérise par des arrêts respiratoires répétés pendant le sommeil. Elle peut être liée au diabète de type 2, car l'un des facteurs de risque commun aux deux conditions est le surpoids ou l'obésité. L'apnée du sommeil peut aussi nuire à la gestion du diabète en perturbant le sommeil, la glycémie et l'appétit. Il est donc important de consulter un médecin si vous présentez des symptômes d'apnée du sommeil, comme des ronflements, une somnolence diurne ou des maux de tête."
+
+  utter_be4cfc37-f347-4c8b-a073-0df1004721e2:
+  - text: "Une glycémie élevée depuis longtemps peut entraîner des complications du diabète, comme des atteintes cardiaques, rénales, nerveuses ou oculaires . Il est possible d'améliorer les effets secondaires en contrôlant régulièrement sa glycémie, en adaptant son régime alimentaire et son traitement médicamenteux, et en pratiquant une activité physique régulière  . En cas de symptômes d'hyperglycémie, comme la fatigue, la soif, la bouche sèche ou les urines abondantes  , il faut consulter un médecin ou un diabétologue."
+
+  utter_74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4:
+  - text: "Le diabète est une maladie chronique qui ne se guérit pas, mais qui se traite. Il existe différents types de diabète, qui nécessitent des traitements adaptés. Le traitement du diabète repose sur l'équilibre alimentaire, l'activité physique et des médicaments par voie orale ou injectable. La recherche d'un remède et la prévention sont porteuses d'espoir ."
+
+  utter_8621ff5e-5f1d-4208-93ca-7458ded3bf30:
+  - text: "Oui, il existe des implants qui peuvent délivrer de l'insuline à la place du pancréas. Il s'agit de dispositifs médicaux qui contiennent une pompe à insuline. Ces implants sont capables de détecter le taux de glucose dans le sang et de libérer la quantité d'insuline nécessaire   . Certains implants peuvent même produire leur énergie avec l'excès de sucre dans le sang. Ces implants sont encore au stade expérimental et ne sont pas disponibles pour le grand public."
+
+  utter_1db47f5c-3976-4351-9f47-b035468b0b0f:
+  - text: "La réponse à cette question dépend du type de glande et de la cause de son dysfonctionnement. Il existe plusieurs types de glandes dans le corps humain, comme les glandes endocrines, les glandes salivaires, les glandes thyroïdes, etc. Chaque glande a un rôle spécifique et peut être affectée par des infections, des obstructions, des tumeurs ou des maladies auto-immunes  .  En général, si la cause du dysfonctionnement est traitée à temps et de manière appropriée, la glande peut recommencer à fonctionner normalement. Par exemple, si une glande salivaire est infectée par des bactéries, elle peut être soignée avec des antibiotiques et retrouver sa fonction de production de salive. Si une glande thyroïde est affectée par une maladie auto-immune qui provoque une hyperthyroïdie ou une hypothyroïdie, elle peut être régulée avec des médicaments ou une chirurgie.  Cependant, il existe des cas où la glande ne peut pas se rétablir complètement et nécessite un traitement à vie ou un remplacement. Par exemple, si une glande rénale est endommagée par une infection sévère qui atteint le tissu rénal, elle peut perdre sa capacité de filtrer le sang et d'éliminer les déchets. Dans ce cas, la personne peut avoir besoin d'une dialyse ou d'une greffe de rein.  Donc, la réponse très courte à votre question est : oui, la glande peut recommencer à fonctionner dans certains cas, mais pas dans tous."
+
+  utter_46852df8-7377-4206-8e1b-80d117ff63e8:
+  - text: "Le stress fait augmenter la glycémie car il provoque la libération d'hormones de stress comme l'adrénaline, le cortisol ou le glucagon, qui ont pour effet de stimuler la production de glucose par le foie et de réduire la sensibilité à l'insuline . Le corps se prépare ainsi à faire face aux pressions mentales et physiques."
+
+  utter_047e1169-89c5-4f11-b31c-69eb8ce8c88a:
+  - text: "Une pompe à insuline peut aider à mieux contrôler la glycémie que les stylos à insuline car elle délivre de l'insuline rapide en permanence et s'adapte au mode de vie de la personne. Elle nécessite moins d'injections et offre plus de discrétion . Cependant, elle implique de porter un appareil sur soi en permanence et peut occasionner des réactions allergiques ou des arrachages."
+
+  utter_0d0c9a1f-ca17-4f1b-8348-403b7744b932:
+  - text: "Les mains et les pieds sont si affectés dans le diabète parce que le taux de sucre trop élevé dans le sang endommage les nerfs et les vaisseaux sanguins qui les irriguent. Cela entraîne une perte de sensibilité, une mauvaise cicatrisation des plaies et un risque d'infection ou d'amputation   ."
+
+  utter_5f43a784-ee30-44cc-a50e-2a1872ab39d3:
+  - text: "Si vous avez un diabète de type 1, vous ne pouvez pas arrêter de prendre de l'insuline car votre pancréas n'en produit plus assez. L'insuline est indispensable pour réguler votre glycémie et éviter les complications du diabète.  Si vous avez un diabète de type 2, vous pouvez éventuellement arrêter de prendre de l'insuline si votre glycémie est bien contrôlée avec des médicaments oraux et des changements d'habitudes de vie. Cependant, le diabète étant une maladie évolutive, il se peut que vous ayez besoin de reprendre l'insuline plus tard.  Dans tous les cas, il ne faut jamais arrêter ou modifier votre traitement sans l'avis de votre médecin  . Il faut aussi surveiller régulièrement votre glycémie et votre hémoglobine glyquée pour adapter votre traitement selon vos besoins."
+
+  utter_3aabcd15-cc5b-4716-97b4-5c667a5cb96f:
+  - text: "Une pompe à insuline est un appareil qui délivre de l'insuline en continu ou sur demande aux personnes diabétiques. Elle peut être implantée ou externe et permet de mieux contrôler la glycémie . C'est une alternative au traitement par injections d'insuline."
+
+  utter_f48ec2ea-4bbc-43d8-845e-2736700d593f:
+  - text: "L’injection d’insuline se fait en sous cutanée dans 4 sites possibles: l’abdomen, le bras, la fesse et la cuisse"
+
+  utter_5c5034c4-6341-4463-ba5a-a6e3f01fc191:
+  - text: "Pour éviter les ecchymoses, il faut appliquer de la glace ou un produit froid sur la zone blessée dès que possible pour réduire le flux sanguin et la douleur . Il faut aussi éviter la chaleur, surélever la zone contusionnée et la laisser au repos . Certains produits naturels comme l'arnica, la vitamine K ou le gel d'aloe vera peuvent aussi aider à résorber les ecchymoses  ."
+
+  utter_ddad6438-3108-4a31-99da-bb54ce51857c:
+  - text: "Les résultats élevés de LFT  peuvent être dus au diabète, mais pas toujours. Le diabète est une maladie qui se caractérise par un excès de sucre dans le sang ou hyperglycémie. Il peut entraîner des complications au niveau de divers organes, dont le foie. Le diabète peut causer une stéatose hépatique , une hépatite  ou une cirrhose . Ces affections peuvent altérer la fonction hépatique et augmenter les taux de certains enzymes dans le sang, comme les transaminases ou les phosphatases alcalines. Cependant, il existe d'autres causes possibles de résultats élevés de LFT, comme l'alcoolisme, les infections virales, les médicaments, les maladies auto-immunes ou les tumeurs. Il est donc important de consulter un médecin pour établir le diagnostic et le traitement appropriés."
+
+  utter_3250ec7a-61f2-407f-944e-17f075a12c33:
+  - text: "un taux de glucose élevé peut endommager plusieurs organes du corps, comme les reins, les yeux, le système nerveux et le cœur . Il peut aussi provoquer des symptômes comme la fatigue, la soif, les urines abondantes et la perte de poids ."
+
+  utter_01eb77b2-7d1d-4eec-8123-dd82380e891a:
+  - text: "Pour prévenir la progression du diabète, il faut adopter un mode de vie sain qui inclut :  - Une alimentation équilibrée, riche en fruits et légumes, pauvre en graisses, en sucres et en sel    - Une activité physique régulière, d'au moins 30 minutes par jour    - Un arrêt du tabac - Un contrôle du poids, de la pression artérielle, du cholestérol et du glucose  - Une réduction du stress et un bon sommeil  Ces mesures peuvent diminuer le risque de développer le diabète de type 2 ou de prédiabète, ou retarder les complications du diabète de type 1 ou 2  ."
+
+  utter_606a82ed-2a39-4211-83fd-ddffe0929a74:
+  - text: "si la glycémie est élevée, il faut **surveiller son alimentation**, **limiter les sucres rapides et les graisses saturées**, **consommer des fibres**, **pratiquer un exercice physique régulier** et **contrôler régulièrement sa glycémie** . Il faut également **consulter un médecin** pour adapter le traitement si nécessaire et éviter les complications du diabète ."
+
+  utter_b69077bf-f3f7-466e-a00b-47362291b246:
+  - text: "La glycémie est le taux de sucre dans le sang. Elle varie en fonction de plusieurs facteurs, comme l'alimentation, l'activité physique, le stress, les médicaments, les hormones, etc. La glycémie n'est jamais constante, mais elle doit rester dans une fourchette normale pour éviter les complications.  Quand la glycémie est trop basse , on parle d'**hypoglycémie**. Cela peut provoquer des symptômes comme la fatigue, la faim, les tremblements, la sueur, les palpitations, etc. Il faut alors se resucrer rapidement avec du sucre rapide  et contrôler sa glycémie.  Quand la glycémie est trop haute , on parle d'**hyperglycémie**. Cela peut provoquer des symptômes comme la soif, la sécheresse de la bouche, les urines abondantes, la fatigue, etc. Il faut alors adapter son traitement , boire de l'eau et contrôler sa glycémie.  L'hyperglycémie chronique peut entraîner des complications du diabète à long terme . L'hypoglycémie sévère peut entraîner des convulsions ou une perte de connaissance.  Pour éviter les variations trop importantes de la glycémie, il faut respecter son traitement , avoir une alimentation équilibrée et adaptée à ses besoins, pratiquer une activité physique régulière et modérée, et éviter le stress et l'alcool.  Si vous avez des doutes ou des questions sur votre glycémie ou votre diabète, consultez votre médecin traitant ou votre diabétologue."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

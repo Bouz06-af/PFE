@@ -1,0 +1,761 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: 5f047a55-c881-4a2b-906c-c4d4392bccf8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 5f047a55-c881-4a2b-906c-c4d4392bccf8
+  - action: utter_5f047a55-c881-4a2b-906c-c4d4392bccf8
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: a09a3775-e368-4675-aed8-6ab7793661a8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: a09a3775-e368-4675-aed8-6ab7793661a8
+  - action: utter_a09a3775-e368-4675-aed8-6ab7793661a8
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: b56a2ac8-db15-4c68-9344-d661cca4fa1f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: b56a2ac8-db15-4c68-9344-d661cca4fa1f
+  - action: utter_b56a2ac8-db15-4c68-9344-d661cca4fa1f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 48405770-be0b-470d-b6be-7567f9a75aba
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 48405770-be0b-470d-b6be-7567f9a75aba
+  - action: utter_48405770-be0b-470d-b6be-7567f9a75aba
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 54f9eda8-1296-4b9c-89f1-a5def0fd068a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 54f9eda8-1296-4b9c-89f1-a5def0fd068a
+  - action: utter_54f9eda8-1296-4b9c-89f1-a5def0fd068a
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 7ca14e4d-bd52-4404-ab2d-04ba77f96380
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 7ca14e4d-bd52-4404-ab2d-04ba77f96380
+  - action: utter_7ca14e4d-bd52-4404-ab2d-04ba77f96380
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 09f5ea78-6a38-4a34-89a6-72d1865e474e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 09f5ea78-6a38-4a34-89a6-72d1865e474e
+  - action: utter_09f5ea78-6a38-4a34-89a6-72d1865e474e
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 197bcf7b-0cae-4b14-ae14-f85f7b3174a4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 197bcf7b-0cae-4b14-ae14-f85f7b3174a4
+  - action: utter_197bcf7b-0cae-4b14-ae14-f85f7b3174a4
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 829d44cc-746b-4f88-b83a-fde75f0ac19a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 829d44cc-746b-4f88-b83a-fde75f0ac19a
+  - action: utter_829d44cc-746b-4f88-b83a-fde75f0ac19a
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 2a70a88c-8240-4d4d-be97-408bc2e9862c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 2a70a88c-8240-4d4d-be97-408bc2e9862c
+  - action: utter_2a70a88c-8240-4d4d-be97-408bc2e9862c
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 6328e3ff-246a-4708-a473-a666d38af742
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 6328e3ff-246a-4708-a473-a666d38af742
+  - action: utter_6328e3ff-246a-4708-a473-a666d38af742
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 28a8c2cb-3c2f-4428-8fd2-6f36b44d3084
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 28a8c2cb-3c2f-4428-8fd2-6f36b44d3084
+  - action: utter_28a8c2cb-3c2f-4428-8fd2-6f36b44d3084
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: c5332ce4-4a04-4dfa-ad06-3fd314690152
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: c5332ce4-4a04-4dfa-ad06-3fd314690152
+  - action: utter_c5332ce4-4a04-4dfa-ad06-3fd314690152
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 0c15a425-5993-4cf3-a277-ea6221bf53a6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 0c15a425-5993-4cf3-a277-ea6221bf53a6
+  - action: utter_0c15a425-5993-4cf3-a277-ea6221bf53a6
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 02dd4d7d-4bb6-4335-9419-30805b376940
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 02dd4d7d-4bb6-4335-9419-30805b376940
+  - action: utter_02dd4d7d-4bb6-4335-9419-30805b376940
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: f355d88b-4a4f-4bdf-9837-2ee4f657e81c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: f355d88b-4a4f-4bdf-9837-2ee4f657e81c
+  - action: utter_f355d88b-4a4f-4bdf-9837-2ee4f657e81c
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 60ac727d-9c3f-40b9-a015-2e0c982b3911
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 60ac727d-9c3f-40b9-a015-2e0c982b3911
+  - action: utter_60ac727d-9c3f-40b9-a015-2e0c982b3911
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: b23d6ecf-7da5-4f64-91cf-6b2db53822ca
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: b23d6ecf-7da5-4f64-91cf-6b2db53822ca
+  - action: utter_b23d6ecf-7da5-4f64-91cf-6b2db53822ca
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 4922e95c-50d3-47f3-aad3-3fce03ee21f2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 4922e95c-50d3-47f3-aad3-3fce03ee21f2
+  - action: utter_4922e95c-50d3-47f3-aad3-3fce03ee21f2
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 987c2d4c-c047-4188-b635-0d0d623307a7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 987c2d4c-c047-4188-b635-0d0d623307a7
+  - action: utter_987c2d4c-c047-4188-b635-0d0d623307a7
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 65a96545-31ca-45fe-8c0d-381d051751fa
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 65a96545-31ca-45fe-8c0d-381d051751fa
+  - action: utter_65a96545-31ca-45fe-8c0d-381d051751fa
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: cbf60222-3ac2-4924-9f58-cc54a26cdc64
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cbf60222-3ac2-4924-9f58-cc54a26cdc64
+  - action: utter_cbf60222-3ac2-4924-9f58-cc54a26cdc64
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: ce0915ce-f518-42f0-a76a-0e152fd9d3fd
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ce0915ce-f518-42f0-a76a-0e152fd9d3fd
+  - action: utter_ce0915ce-f518-42f0-a76a-0e152fd9d3fd
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 4c295007-c474-411f-abeb-fdc568e29d29
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 4c295007-c474-411f-abeb-fdc568e29d29
+  - action: utter_4c295007-c474-411f-abeb-fdc568e29d29
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 33b9ed96-27ce-4f4d-b918-7ac82da997b1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 33b9ed96-27ce-4f4d-b918-7ac82da997b1
+  - action: utter_33b9ed96-27ce-4f4d-b918-7ac82da997b1
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: a53f5f45-0c93-4494-bd4a-0c157403ae9f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: a53f5f45-0c93-4494-bd4a-0c157403ae9f
+  - action: utter_a53f5f45-0c93-4494-bd4a-0c157403ae9f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+
+
+
+- story: d4554ebc-7c92-4d5e-9329-dcababc9b84c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: d4554ebc-7c92-4d5e-9329-dcababc9b84c
+  - action: utter_d4554ebc-7c92-4d5e-9329-dcababc9b84c
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: b4dda480-26fa-45c6-9a80-2ad8590aad13
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: b4dda480-26fa-45c6-9a80-2ad8590aad13
+  - action: utter_b4dda480-26fa-45c6-9a80-2ad8590aad13
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 32681c99-333c-4875-b5a4-81be30a0dd03
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 32681c99-333c-4875-b5a4-81be30a0dd03
+  - action: utter_32681c99-333c-4875-b5a4-81be30a0dd03
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: c8427927-b791-45c9-937f-b2e4cad653af
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: c8427927-b791-45c9-937f-b2e4cad653af
+  - action: utter_c8427927-b791-45c9-937f-b2e4cad653af
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 29cc00c1-4721-4278-abc0-8adb86caeb1e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 29cc00c1-4721-4278-abc0-8adb86caeb1e
+  - action: utter_29cc00c1-4721-4278-abc0-8adb86caeb1e
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: d1780131-ae5f-4310-9541-ec89a3624883
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: d1780131-ae5f-4310-9541-ec89a3624883
+  - action: utter_d1780131-ae5f-4310-9541-ec89a3624883
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 39dd86aa-433b-4b5f-8eb0-e163fcb58f9e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 39dd86aa-433b-4b5f-8eb0-e163fcb58f9e
+  - action: utter_39dd86aa-433b-4b5f-8eb0-e163fcb58f9e
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 945834ea-7ab9-404b-b0ce-5e1fe3f17c78
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 945834ea-7ab9-404b-b0ce-5e1fe3f17c78
+  - action: utter_945834ea-7ab9-404b-b0ce-5e1fe3f17c78
+  - intent: goodbye 
+  - action: utter_goodbye
+
+
+
+  ########
+
+
+
+- story: 8a339c70-2127-4a93-83ad-a883e1bc5c7b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 8a339c70-2127-4a93-83ad-a883e1bc5c7b
+  - action: utter_8a339c70-2127-4a93-83ad-a883e1bc5c7b
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 33ab34b3-2471-42e2-b841-87e7420d4b26
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 33ab34b3-2471-42e2-b841-87e7420d4b26
+  - action: utter_33ab34b3-2471-42e2-b841-87e7420d4b26
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: b112d1a1-77c8-47c5-91c9-9d7d30dd6e43
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: b112d1a1-77c8-47c5-91c9-9d7d30dd6e43
+  - action: utter_b112d1a1-77c8-47c5-91c9-9d7d30dd6e43
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 026cd963-11b8-4509-8895-07506598a084
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 026cd963-11b8-4509-8895-07506598a084
+  - action: utter_026cd963-11b8-4509-8895-07506598a084
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 6fec67ae-e86c-4dbf-a096-8401daf0c98a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 6fec67ae-e86c-4dbf-a096-8401daf0c98a
+  - action: utter_6fec67ae-e86c-4dbf-a096-8401daf0c98a
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 98bc53db-86ba-4bc7-9685-653c602e91b2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 98bc53db-86ba-4bc7-9685-653c602e91b2
+  - action: utter_98bc53db-86ba-4bc7-9685-653c602e91b2
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: fd500fb5-9a24-41f4-894a-71c1f907e5f2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fd500fb5-9a24-41f4-894a-71c1f907e5f2
+  - action: utter_fd500fb5-9a24-41f4-894a-71c1f907e5f2
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 24415cda-2993-4dfe-ad13-3b2db7df33ef
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 24415cda-2993-4dfe-ad13-3b2db7df33ef
+  - action: utter_24415cda-2993-4dfe-ad13-3b2db7df33ef
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 8b8e0b35-7f97-4212-be13-ecef92a01fb9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 8b8e0b35-7f97-4212-be13-ecef92a01fb9
+  - action: utter_8b8e0b35-7f97-4212-be13-ecef92a01fb9
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: a9f86ec5-f00e-4831-aff0-9ff3ce4de873
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: a9f86ec5-f00e-4831-aff0-9ff3ce4de873
+  - action: utter_a9f86ec5-f00e-4831-aff0-9ff3ce4de873
+  - intent: goodbye 
+  - action: utter_goodbye
+
+
+- story: 92b533b2-cead-4479-9a68-ff222c2c057e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 92b533b2-cead-4479-9a68-ff222c2c057e
+  - action: utter_92b533b2-cead-4479-9a68-ff222c2c057e
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 482f351d-f0ba-4e3a-ac74-10bdcc136f67
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 482f351d-f0ba-4e3a-ac74-10bdcc136f67
+  - action: utter_482f351d-f0ba-4e3a-ac74-10bdcc136f67
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 4e63adbc-e6ce-4308-b25e-95d941ecb4bf
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 4e63adbc-e6ce-4308-b25e-95d941ecb4bf
+  - action: utter_4e63adbc-e6ce-4308-b25e-95d941ecb4bf
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 76b721a9-858b-490a-aa26-5d3d3b7be861
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 76b721a9-858b-490a-aa26-5d3d3b7be861
+  - action: utter_76b721a9-858b-490a-aa26-5d3d3b7be861
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 938f1acb-9914-4673-be09-84e573d78a1f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 938f1acb-9914-4673-be09-84e573d78a1f
+  - action: utter_938f1acb-9914-4673-be09-84e573d78a1f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 1f30c968-853f-4b12-ad7c-453854f112ea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 1f30c968-853f-4b12-ad7c-453854f112ea
+  - action: utter_1f30c968-853f-4b12-ad7c-453854f112ea
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 9d04b317-de49-49f1-a316-099235bfbf9f 
+
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 9d04b317-de49-49f1-a316-099235bfbf9f
+  - action: utter_9d04b317-de49-49f1-a316-099235bfbf9f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 9ae48040-0207-496a-8ce3-e18a246bf212
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 9ae48040-0207-496a-8ce3-e18a246bf212
+  - action: utter_9ae48040-0207-496a-8ce3-e18a246bf212
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: a4195ccf-eb33-4a0b-92b5-db6e83e5ee6d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: a4195ccf-eb33-4a0b-92b5-db6e83e5ee6d
+  - action: utter_a4195ccf-eb33-4a0b-92b5-db6e83e5ee6d
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: d15181d9-b78f-4407-9fb2-aa7e5362b505
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: d15181d9-b78f-4407-9fb2-aa7e5362b505
+  - action: utter_d15181d9-b78f-4407-9fb2-aa7e5362b505
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: e760caad-3eac-4f9b-b0c2-b5bd08d13814
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: e760caad-3eac-4f9b-b0c2-b5bd08d13814
+  - action: utter_e760caad-3eac-4f9b-b0c2-b5bd08d13814
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 2ce74af0-a05b-4372-aabd-ef4d0450a805
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 2ce74af0-a05b-4372-aabd-ef4d0450a805
+  - action: utter_2ce74af0-a05b-4372-aabd-ef4d0450a805
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: f2093a30-f156-470d-9305-dd835c984a65
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: f2093a30-f156-470d-9305-dd835c984a65
+  - action: utter_f2093a30-f156-470d-9305-dd835c984a65
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 4af46c67-1d0b-4d01-81ad-076d3370a34c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 4af46c67-1d0b-4d01-81ad-076d3370a34c
+  - action: utter_4af46c67-1d0b-4d01-81ad-076d3370a34c
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 1f1258f5-e6d6-4477-bdfe-9f366e935fe6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 1f1258f5-e6d6-4477-bdfe-9f366e935fe6
+  - action: utter_1f1258f5-e6d6-4477-bdfe-9f366e935fe6
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: c6b9a92c-1e36-4f89-93a3-7db0a4f3b01b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: c6b9a92c-1e36-4f89-93a3-7db0a4f3b01b
+  - action: utter_c6b9a92c-1e36-4f89-93a3-7db0a4f3b01b
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 6f289494-5b26-4855-9554-9a8a35a5b167
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 6f289494-5b26-4855-9554-9a8a35a5b167
+  - action: utter_6f289494-5b26-4855-9554-9a8a35a5b167
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: f889e660-31da-4282-9177-e98ac6b3725f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: f889e660-31da-4282-9177-e98ac6b3725f
+  - action: utter_f889e660-31da-4282-9177-e98ac6b3725f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 206a0297-4a5c-423d-8be8-28fa958085a7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 206a0297-4a5c-423d-8be8-28fa958085a7
+  - action: utter_206a0297-4a5c-423d-8be8-28fa958085a7
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 6947550a-b7bf-486b-991c-119f1cbebeb7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 6947550a-b7bf-486b-991c-119f1cbebeb7
+  - action: utter_6947550a-b7bf-486b-991c-119f1cbebeb7
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: be4cfc37-f347-4c8b-a073-0df1004721e2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: be4cfc37-f347-4c8b-a073-0df1004721e2
+  - action: utter_be4cfc37-f347-4c8b-a073-0df1004721e2
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4
+  - action: utter_74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 8621ff5e-5f1d-4208-93ca-7458ded3bf30
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 8621ff5e-5f1d-4208-93ca-7458ded3bf30
+  - action: utter_8621ff5e-5f1d-4208-93ca-7458ded3bf30
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 1db47f5c-3976-4351-9f47-b035468b0b0f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 1db47f5c-3976-4351-9f47-b035468b0b0f
+  - action: utter_1db47f5c-3976-4351-9f47-b035468b0b0f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 46852df8-7377-4206-8e1b-80d117ff63e8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 46852df8-7377-4206-8e1b-80d117ff63e8
+  - action: utter_46852df8-7377-4206-8e1b-80d117ff63e8
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 047e1169-89c5-4f11-b31c-69eb8ce8c88a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 047e1169-89c5-4f11-b31c-69eb8ce8c88a
+  - action: utter_047e1169-89c5-4f11-b31c-69eb8ce8c88a
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 0d0c9a1f-ca17-4f1b-8348-403b7744b932
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 0d0c9a1f-ca17-4f1b-8348-403b7744b932
+  - action: utter_0d0c9a1f-ca17-4f1b-8348-403b7744b932
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 5f43a784-ee30-44cc-a50e-2a1872ab39d3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 5f43a784-ee30-44cc-a50e-2a1872ab39d3
+  - action: utter_5f43a784-ee30-44cc-a50e-2a1872ab39d3
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 3aabcd15-cc5b-4716-97b4-5c667a5cb96f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 3aabcd15-cc5b-4716-97b4-5c667a5cb96f
+  - action: utter_3aabcd15-cc5b-4716-97b4-5c667a5cb96f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: f48ec2ea-4bbc-43d8-845e-2736700d593f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: f48ec2ea-4bbc-43d8-845e-2736700d593f
+  - action: utter_f48ec2ea-4bbc-43d8-845e-2736700d593f
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 5c5034c4-6341-4463-ba5a-a6e3f01fc191
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 5c5034c4-6341-4463-ba5a-a6e3f01fc191
+  - action: utter_5c5034c4-6341-4463-ba5a-a6e3f01fc191
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: ddad6438-3108-4a31-99da-bb54ce51857c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ddad6438-3108-4a31-99da-bb54ce51857c
+  - action: utter_ddad6438-3108-4a31-99da-bb54ce51857c
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 3250ec7a-61f2-407f-944e-17f075a12c33
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 3250ec7a-61f2-407f-944e-17f075a12c33
+  - action: utter_3250ec7a-61f2-407f-944e-17f075a12c33
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 01eb77b2-7d1d-4eec-8123-dd82380e891a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 01eb77b2-7d1d-4eec-8123-dd82380e891a
+  - action: utter_01eb77b2-7d1d-4eec-8123-dd82380e891a
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: 606a82ed-2a39-4211-83fd-ddffe0929a74
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 606a82ed-2a39-4211-83fd-ddffe0929a74
+  - action: utter_606a82ed-2a39-4211-83fd-ddffe0929a74
+  - intent: goodbye 
+  - action: utter_goodbye
+
+- story: b69077bf-f3f7-466e-a00b-47362291b246
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: b69077bf-f3f7-466e-a00b-47362291b246
+  - action: utter_b69077bf-f3f7-466e-a00b-47362291b246
+  - intent: goodbye 
+  - action: utter_goodbye

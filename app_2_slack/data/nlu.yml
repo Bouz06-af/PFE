@@ -1,0 +1,2024 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: 5f047a55-c881-4a2b-906c-c4d4392bccf8
+  examples: |
+    - Quelles sont les meilleures stratégies pour contrôler la RÉSISTANCE À L'INSULINE? 
+    - Comment faire face à la RÉSISTANCE À L'INSULINE de manière efficace? 
+    - Quels sont les moyens de réduire la RÉSISTANCE À L'INSULINE? 
+    - Comment traiter la RÉSISTANCE À L'INSULINE naturellement? 
+    - Comment inverser la RÉSISTANCE À L'INSULINE avec l'alimentation et l'exercice? 
+    - Comment améliorer la sensibilité à l'insuline et diminuer la RÉSISTANCE À L'INSULINE? 
+    - Quels sont les facteurs de risque et les symptômes de la RÉSISTANCE À L'INSULINE? 
+    - Comment prévenir ou retarder l'apparition de la RÉSISTANCE À L'INSULINE? 
+    - Quels sont les traitements médicamenteux disponibles pour la RÉSISTANCE À L'INSULINE? 
+    - Comment vivre avec la RÉSISTANCE À L'INSULINE au quotidien? 
+    - Quels sont les aliments à éviter ou à privilégier en cas de RÉSISTANCE À L'INSULINE? 
+    - Comment mesurer son niveau de RÉSISTANCE À L'INSULINE? 
+    - Quel est le lien entre la RÉSISTANCE À L'INSULINE et le diabète de type 2? 
+    - Comment adapter son régime alimentaire en fonction de sa RÉSISTANCE À L'INSULINE? 
+    - Quels sont les compléments alimentaires ou les plantes bénéfiques pour la RÉSISTANCE À L'INSULINE? 
+    - Comment gérer le stress et le sommeil en cas de RÉSISTANCE À L'INSULINE? 
+    - Quels sont les effets secondaires ou les complications possibles de la RÉSISTANCE À L'INSULINE? 
+    - Comment augmenter sa production d'insuline et réduire sa RÉSISTANCE À L'INSULINE? 
+    - Quels sont les tests ou les examens à faire pour diagnostiquer la RÉSISTANCE À L'INSULINE? 
+    - Comment perdre du poids et améliorer sa RÉSISTANCE À L'INSULINE? 
+    - Quel est le rôle de l'insuline dans le métabolisme du glucose et comment se développe la RÉSISTANCE À L'INSULINE? 
+    - Comment choisir son activité physique en fonction de sa RÉSISTANCE À L'INSULINE? 
+    - Quelles sont les causes génétiques ou environnementales de la RÉSISTANCE À L'INSULINE? 
+    - Comment suivre son évolution et son traitement en cas de RÉSISTANCE À L'INSULINE? 
+    - Quelles sont les recommandations officielles pour la prise en charge de la RÉSISTANCE À L'INSULINE? 
+    - Comment gérer ses émotions et son moral en cas de RÉSISTANCE À L'INSULINE? 
+    - Quels sont les autres troubles associés à la RÉSISTANCE À L'INSULINE, comme le syndrome des ovaires polykystiques ou le syndrome métabolique? 
+    - Comment se faire accompagner par un professionnel de santé en cas de RÉSISTANCE À L'INSULINE? 
+    - Quelles sont les dernières avancées scientifiques ou médicales sur la RÉSISTANCE À L'INSULINE? 
+    - Comment sensibiliser son entourage à la RÉSISTANCE À L'INSULINE?
+- intent: a09a3775-e368-4675-aed8-6ab7793661a8
+  examples: |
+    - Pourquoi faut-il changer plus souvent de sites? 
+    - Quels sont les avantages d'une rotation plus rapide des sites? 
+    - Comment justifier une fréquence plus élevée de rotation des sites? 
+    - Quel est le bénéfice d'une rotation plus fréquente des sites? 
+    - Quel est le problème d'une rotation trop lente des sites? 
+    - Quels sont les inconvénients d'une rotation insuffisante des sites? 
+    - Quelle est la raison d'une rotation plus régulière des sites? 
+    - Quel est l'objectif d'une rotation plus fréquente des sites? 
+    - Quels sont les risques d'une rotation trop espacée des sites? 
+    - Quelle est la valeur ajoutée d'une rotation plus rapide des sites? 
+    - Quel est le besoin d'une rotation plus soutenue des sites? 
+    - Quels sont les effets d'une rotation plus fréquente des sites? 
+    - Comment expliquer une fréquence plus importante de rotation des sites? 
+    - Quel est l'intérêt d'une rotation plus fréquente des sites? 
+    - Quelle est la conséquence d'une rotation trop faible des sites? 
+    - Quels sont les enjeux d'une rotation suffisante des sites? 
+    - Quelle est la motivation d'une rotation plus régulière des sites? 
+    - Quel est le résultat d'une rotation plus fréquente des sites? 
+    - Quels sont les facteurs d'une rotation trop espacée des sites? 
+    - Quelle est la différence d'une rotation plus rapide des sites? 
+    - Quel est le défi d'une rotation plus soutenue des sites? 
+    - Quels sont les impacts d'une rotation plus fréquente des sites? 
+    - Comment argumenter une fréquence plus élevée de rotation des sites? 
+    - Quel est le gain d'une rotation plus fréquente des sites? 
+    - Quelle est la cause d'une rotation trop lente des sites? 
+    - Quels sont les critères d'une rotation adéquate des sites? 
+    - Quelle est l'opportunité d'une rotation plus régulière des sites? 
+    - Quel est le processus d'une rotation plus fréquente des sites? 
+    - Quels sont les obstacles d'une rotation trop espacée des sites? 
+    - Quelle est la qualité d'une rotation plus rapide des sites?
+- intent: b56a2ac8-db15-4c68-9344-d661cca4fa1f
+  examples: |
+    - Quelles sont les avancées récentes dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Comment la science progresse-t-elle dans la recherche sur la guérison, la transplantation, etc. ? 
+    - Quels sont les développements actuels en matière de guérison, de transplantation, etc. ? 
+    - Quoi de neuf dans le secteur de la guérison, de la transplantation, etc. ? 
+    - Quels sont les résultats les plus prometteurs dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Quelles sont les innovations les plus marquantes dans le secteur de la guérison, de la transplantation, etc. ? 
+    - Quels sont les enjeux et les perspectives de la guérison, de la transplantation, etc. ? 
+    - Comment la guérison, la transplantation, etc. évoluent-elles grâce à la science ? 
+    - Quelles sont les découvertes les plus importantes dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Quels sont les progrès les plus significatifs dans le secteur de la guérison, de la transplantation, etc. ?  
+    - Existe-t-il des sources fiables sur les progrès réalisés en matière de guérison, de transplantation, etc. ? 
+    - Où peut-on trouver des informations sur les avancées scientifiques dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Comment se tenir informé des progrès de la recherche sur la guérison, la transplantation, etc. ? 
+    - Quelles sont les meilleures références pour suivre l'actualité de la guérison, de la transplantation, etc. ? 
+    - Comment accéder aux données les plus récentes sur les développements dans le secteur de la guérison, de la transplantation, etc. ?  
+    - Quels sont les bénéfices et les risques des progrès réalisés en matière de guérison, de transplantation, etc. ? 
+    - Comment évaluer l'impact des avancées scientifiques dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Quelles sont les conséquences éthiques et sociales des progrès de la recherche sur la guérison, la transplantation, etc. ? 
+    - Comment garantir la sécurité et l'efficacité des développements dans le secteur de la guérison, de la transplantation, etc. ? 
+    - Quelles sont les limites et les défis des progrès réalisés en matière de guérison, de transplantation, etc. ?  
+    - Comment participer aux progrès réalisés en matière de guérison, de transplantation, etc. ? 
+    - Quelles sont les opportunités et les modalités pour contribuer aux avancées scientifiques dans le domaine de la guérison, de la transplantation, etc. ? 
+    - Comment soutenir ou bénéficier des progrès de la recherche sur la guérison, la transplantation, etc. ? 
+    - Quelles sont les conditions et les critères pour accéder aux développements dans le secteur de la guérison, de la transplantation, etc. ? 
+    - Comment s'impliquer ou se former aux progrès réalisés en matière de guérison, de transplantation, etc. ?
+- intent: 48405770-be0b-470d-b6be-7567f9a75aba
+  examples: |
+    - Est-ce que le diabète héréditaire peut toucher les enfants ? 
+    - Quelle est la probabilité que les enfants héritent du diabète ? 
+    - Le diabète héréditaire est-il une maladie qui affecte les enfants ? 
+    - Comment savoir si les enfants sont susceptibles de développer un diabète héréditaire ? 
+    - Les enfants peuvent-ils être atteints de diabète héréditaire ? 
+    - Quels sont les facteurs de risque du diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire se transmet-il aux enfants ? 
+    - Quels sont les signes du diabète héréditaire chez les enfants ? 
+    - Comment prévenir le diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire a-t-il une incidence sur la santé des enfants ? 
+    - Quelle est la fréquence du diabète héréditaire chez les enfants ? 
+    - Comment dépister le diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire est-il curable chez les enfants ? 
+    - Quelles sont les causes du diabète héréditaire chez les enfants ? 
+    - Comment traiter le diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire a-t-il des conséquences sur le développement des enfants ? 
+    - Quels sont les types de diabète héréditaire qui touchent les enfants ? 
+    - Comment vivre avec le diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire peut-il se manifester dès la naissance chez les enfants ? 
+    - Quelles sont les complications du diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire est-il évitable chez les enfants ? 
+    - Quels sont les facteurs génétiques du diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire est-il plus fréquent chez les garçons ou chez les filles ? 
+    - Comment éduquer les enfants sur le diabète héréditaire ? 
+    - Le diabète héréditaire a-t-il un impact sur la vie sociale des enfants ? 
+    - Quelles sont les recommandations alimentaires pour les enfants atteints de diabète héréditaire ? 
+    - Le diabète héréditaire nécessite-t-il une surveillance médicale régulière chez les enfants ? 
+    - Quels sont les avantages et les inconvénients des traitements médicamenteux du diabète héréditaire chez les enfants ? 
+    - Le diabète héréditaire peut-il se guérir spontanément chez les enfants ? 
+    - Quelles sont les ressources disponibles pour aider les parents d'enfants atteints de diabète héréditaire ?
+- intent: 54f9eda8-1296-4b9c-89f1-a5def0fd068a
+  examples: |
+    - Quelle est la cause de mon diabète si je n'ai jamais eu de problème de poids ni d'hypertension ? 
+    - Comment se fait-il que je sois diabétique alors que je n'ai jamais été en surpoids et que ma tension artérielle est normale ? 
+    - Quels sont les facteurs qui ont déclenché mon diabète sans que je sois en surpoids ni hypertendu ? 
+    - Comment expliquer mon diabète alors que je n'ai jamais eu d'excès de poids ni de tension artérielle élevée ? 
+    - Quel est le mécanisme qui a provoqué mon diabète sans que je sois en surpoids ni que ma tension artérielle soit anormale ? 
+    - Comment comprendre mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est bonne ? 
+    - Quelles sont les raisons de mon diabète si je n'ai jamais eu de surpoids ni d'hypertension artérielle ? 
+    - Comment justifier mon diabète alors que je n'ai jamais été en surpoids et que ma tension artérielle est correcte ? 
+    - Quels sont les éléments qui ont causé mon diabète sans que je sois en surpoids ni que ma tension artérielle soit élevée ? 
+    - Comment interpréter mon diabète alors que je n'ai jamais eu de problème de poids ni de tension artérielle anormale ? 
+    - Quel est le processus qui a entraîné mon diabète sans que je sois en surpoids ni que ma tension artérielle soit mauvaise ? 
+    - Comment envisager mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est satisfaisante ? 
+    - Quelles sont les origines de mon diabète si je n'ai jamais eu d'embonpoint ni d'hypertension artérielle ? 
+    - Comment déterminer mon diabète alors que je n'ai jamais été en surpoids et que ma tension artérielle est dans la norme ? 
+    - Quels sont les déclencheurs de mon diabète sans que je sois en surpoids ni que ma tension artérielle soit trop haute ? 
+    - Comment analyser mon diabète alors que je n'ai jamais eu d'excédent de poids ni de tension artérielle basse ? 
+    - Quel est le facteur qui a engendré mon diabète sans que je sois en surpoids ni que ma tension artérielle soit problématique ? 
+    - Comment évaluer mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est optimale ? 
+    - Quelles sont les sources de mon diabète si je n'ai jamais eu de graisse superflue ni d'hypertension artérielle ? 
+    - Comment mesurer mon diabète alors que je n'ai jamais été en surpoids et que ma tension artérielle est équilibrée ? 
+    - Quels sont les événements qui ont induit mon diabète sans que je sois en surpoids ni que ma tension artérielle soit déréglée ? 
+    - Comment apprécier mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est stable ? 
+    - Quelles sont les conséquences de mon diabète si je n'ai jamais eu de poids excessif ni d'hypertension artérielle ? 
+    - Comment qualifier mon diabète alors que je n'ai jamais été en surpoids et que ma tension artérielle est conforme ? 
+    - Quels sont les symptômes de mon diabète sans que je sois en surpoids ni que ma tension artérielle soit anormalement basse ou haute ? 
+    - Comment caractériser mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est régulière ? 
+    - Quelles sont les manifestations de mon diabète si je n'ai jamais eu de masse graisseuse excessive ni d'hypertension artérielle ? 
+    - Comment identifier mon diabète alors que je n'ai jamais été en surpoids et que ma tension artérielle est adéquate ? 
+    - Quels sont les signes de mon diabète sans que je sois en surpoids ni que ma tension artérielle soit déséquilibrée ? 
+    - Comment reconnaître mon diabète si je n'ai jamais été en surpoids et que ma tension artérielle est idéale ?
+- intent: 7ca14e4d-bd52-4404-ab2d-04ba77f96380
+  examples: |
+    - Comment le diabète peut-il nuire aux organes d'une personne? 
+    - Quelle est la probabilité que les organes d'une personne diabétique soient affectés? 
+    - Quels sont les dangers du diabète pour les organes d'un individu? 
+    - De quelle manière le diabète peut-il endommager les organes d'une personne? 
+    - Quelle est la fréquence des dommages aux organes chez les personnes diabétiques? 
+    - Quels organes sont les plus exposés au risque d'endommagement par le diabète? 
+    - Comment prévenir les dommages aux organes causés par le diabète chez une personne? 
+    - Quels sont les facteurs qui augmentent le risque d'endommager des organes chez une personne diabétique? 
+    - Quels sont les symptômes des dommages aux organes dus au diabète chez une personne? 
+    - Comment traiter les dommages aux organes provoqués par le diabète chez une personne? 
+    - Quel est le mécanisme qui entraîne des dommages aux organes chez une personne diabétique? 
+    - Quelles sont les conséquences des dommages aux organes chez une personne diabétique? 
+    - Quelles sont les mesures à prendre pour réduire le risque d'endommager des organes chez une personne diabétique? 
+    - Quelle est la gravité des dommages aux organes chez une personne diabétique? 
+    - Quelle est la durée des dommages aux organes chez une personne diabétique? 
+    - Quels sont les types de dommages aux organes que peut causer le diabète chez une personne? 
+    - Quelle est la différence entre le risque d'endommager des organes chez une personne diabétique et une personne non-diabétique? 
+    - Quels sont les facteurs de protection qui diminuent le risque d'endommager des organes chez une personne diabétique? 
+    - Quelles sont les complications possibles des dommages aux organes chez une personne diabétique? 
+    - Comment dépister les dommages aux organes chez une personne diabétique? 
+    - Comment évaluer le risque d'endommager des organes chez une personne diabétique? 
+    - Comment gérer le risque d'endommager des organes chez une personne diabétique? 
+    - Comment vivre avec des dommages aux organes causés par le diabète chez une personne? 
+    - Comment réparer les dommages aux organes causés par le diabète chez une personne? 
+    - Comment expliquer le risque d'endommager des organes chez une personne diabétique? 
+    - Comment comparer le risque d'endommager des organes chez une personne diabétique avec d'autres maladies chroniques? 
+    - Comment identifier les facteurs de risque d'endommager des organes chez une personne diabétique? 
+    - Comment prévoir l'évolution des dommages aux organes chez une personne diabétique? 
+    - Comment mesurer l'impact des dommages aux organes sur la qualité de vie d'une personne diabétique? 
+    - Comment sensibiliser à la prévention des dommages aux organes chez les personnes diabétiques?
+- intent: 09f5ea78-6a38-4a34-89a6-72d1865e474e
+  examples: |
+    - Le diabète accélère-t-il la dégradation de la vision? 
+    - Comment le diabète affecte-t-il la santé des yeux? 
+    - La vue se détériore-t-elle plus vite avec le diabète? 
+    - Quel est l'impact du diabète sur la qualité de la vue? 
+    - Le diabète peut-il causer une perte de vision plus rapide? 
+    - La santé visuelle est-elle compromise par le diabète? 
+    - Comment le diabète altère-t-il la vue? 
+    - Le diabète entraîne-t-il une baisse plus rapide de l'acuité visuelle? 
+    - Quels sont les effets du diabète sur la vue? 
+    - La vue se dégrade-t-elle plus rapidement en présence de diabète? 
+    - Le diabète est-il un facteur de détérioration de la vue? 
+    - Comment le diabète diminue-t-il la qualité de la vision? 
+    - Le diabète favorise-t-il une perte de vue plus rapide? 
+    - La santé des yeux est-elle affectée par le diabète? 
+    - Comment le diabète détériore-t-il la santé visuelle? 
+    - Le diabète provoque-t-il une dégradation plus rapide de la vue? 
+    - Quel est l'effet du diabète sur la santé des yeux? 
+    - Le diabète peut-il nuire à la qualité de la vue? 
+    - La vue baisse-t-elle plus vite en cas de diabète? 
+    - Quelle est l'influence du diabète sur la vue? 
+    - Le diabète est-il une cause de perte de vision plus rapide? 
+    - La santé oculaire est-elle menacée par le diabète? 
+    - Comment le diabète réduit-il l'acuité visuelle? 
+    - Le diabète augmente-t-il le risque de détérioration de la vue? 
+    - Quels sont les risques du diabète pour la vue? 
+    - La vue s'affaiblit-elle plus rapidement avec le diabète? 
+    - Le diabète est-il nuisible pour la qualité de la vision? 
+    - Comment le diabète endommage-t-il les yeux? 
+    - Le diabète entraîne-t-il une perte de vue plus rapide? 
+    - Quelle est la conséquence du diabète sur la vue?
+- intent: 197bcf7b-0cae-4b14-ae14-f85f7b3174a4
+  examples: |
+    - L'insuline est-elle inévitable pour les personnes atteintes de diabète de type 2? 
+    - Tous les diabétiques de type 2 devront-ils un jour s'injecter de l'insuline? 
+    - Quelle est la probabilité que les patients diabétiques de type 2 aient besoin d'insuline à l'avenir? 
+    - Le passage à l'insuline concerne-t-il tous les cas de diabète de type 2? 
+    - Existe-t-il des alternatives à l'insuline pour les patients diabétiques de type 2? 
+    - Le diabète de type 2 implique-t-il forcément un traitement par insuline? 
+    - Comment éviter l'insuline quand on souffre de diabète de type 2? 
+    - L'insuline est-elle le seul recours pour les patients diabétiques de type 2? 
+    - Quels sont les facteurs qui déterminent le passage à l'insuline chez les diabétiques de type 2? 
+    - Peut-on contrôler le diabète de type 2 sans insuline? 
+    - À quel moment les patients diabétiques de type 2 doivent-ils commencer l'insuline? 
+    - Quels sont les avantages et les inconvénients de l'insuline pour les diabétiques de type 2? 
+    - Le diabète de type 2 peut-il être traité autrement que par l'insuline? 
+    - L'insuline est-elle obligatoire pour tous les patients diabétiques de type 2? 
+    - Comment savoir si on a besoin d'insuline quand on a le diabète de type 2? 
+    - Quelles sont les causes du passage à l'insuline chez les patients diabétiques de type 2? 
+    - L'insuline peut-elle être évitée chez les patients diabétiques de type 2? 
+    - Quelles sont les conséquences du passage à l'insuline pour les diabétiques de type 2? 
+    - Le passage à l'insuline est-il une fatalité pour les patients diabétiques de type 2? 
+    - Quelles sont les solutions alternatives à l'insuline pour les patients diabétiques de type 2? 
+    - L'insuline est-elle la seule option thérapeutique pour les patients diabétiques de type 2? 
+    - Comment retarder le passage à l'insuline chez les patients diabétiques de type 2? 
+    - Le passage à l'insuline dépend-il du stade du diabète de type 2? 
+    - L'insuline est-elle systématique pour les patients diabétiques de type 2? 
+    - Peut-on se passer d'insuline quand on est atteint de diabète de type 2? 
+    - À quelle fréquence les patients diabétiques de type 2 doivent-ils recourir à l'insuline? 
+    - Quels sont les risques et les bénéfices de l'insuline pour les patients diabétiques de type 2? 
+    - Le passage à l'insuline est-il inéluctable pour les patients diabétiques de type 2? 
+    - Comment gérer le passage à l'insuline chez les patients diabétiques de type 2? 
+    - L'insuline est-elle indispensable pour contrôler le diabète de type 2?
+- intent: 829d44cc-746b-4f88-b83a-fde75f0ac19a
+  examples: |
+    - Comment prévenir et traiter les problèmes cutanés liés au diabète ? 
+    - Quelles sont les solutions pour lutter contre les affections de la peau chez les personnes diabétiques ? 
+    - Quels sont les gestes à adopter pour éviter et soigner les infections cutanées dues au diabète ? 
+    - Comment protéger sa peau des complications du diabète ? 
+    - Quelles sont les bonnes pratiques pour prendre soin de sa peau quand on est diabétique ? 
+    - Comment réduire le risque d'infections de la peau en cas de diabète ? 
+    - Quels sont les traitements efficaces pour les problèmes de peau causés par le diabète ? 
+    - Comment gérer les troubles cutanés associés au diabète ? 
+    - Quelles sont les mesures à suivre pour préserver sa peau si on souffre de diabète ? 
+    - Comment faire face aux infections cutanées qui touchent les diabétiques ? 
+    - Quels sont les conseils pour maintenir une bonne santé de la peau quand on a le diabète ? 
+    - Comment limiter et guérir les affections de la peau provoquées par le diabète ? 
+    - Quelles sont les stratégies pour combattre les problèmes cutanés liés au diabète ? 
+    - Comment garder une peau saine et sans infection quand on est diabétique ? 
+    - Quels sont les remèdes pour les troubles de la peau dus au diabète ? 
+    - Comment préserver et restaurer sa peau en présence de diabète ? 
+    - Quelles sont les astuces pour éviter et traiter les infections de la peau chez le diabétique ? 
+    - Comment contrôler et soigner les complications cutanées du diabète ? 
+    - Quelles sont les recommandations pour protéger sa peau quand on a le diabète ? 
+    - Comment faire pour réduire et guérir les problèmes de peau causés par le diabète ? 
+    - Quelles sont les actions à mettre en place pour lutter contre les infections cutanées liées au diabète ? 
+    - Comment prendre soin de sa peau et prévenir les complications du diabète ? 
+    - Quels sont les moyens pour éviter et soulager les affections de la peau dues au diabète ? 
+    - Comment traiter et prévenir les problèmes cutanés associés au diabète ? 
+    - Quelles sont les solutions naturelles pour combattre les infections de la peau chez le diabétique ? 
+    - Comment gérer sa peau et éviter les complications du diabète ? 
+    - Quels sont les produits à utiliser pour soigner et protéger sa peau quand on est diabétique ? 
+    - Comment faire pour limiter et traiter les troubles cutanés provoqués par le diabète ? 
+    - Quelles sont les habitudes à adopter pour préserver sa peau en cas de diabète ? 
+    - Comment faire face aux problèmes de peau liés au diabète ?
+- intent: 2a70a88c-8240-4d4d-be97-408bc2e9862c
+  examples: |
+    - Est-il possible de se débarrasser du diabète de type II ou faut-il seulement le contrôler? 
+    - Le diabète de type II a-t-il un remède ou une gestion suffit-elle? 
+    - Peut-on vaincre le diabète de type II ou doit-on simplement le gérer? 
+    - Comment sortir du diabète de type II ou comment le prendre en charge? 
+    - Quelles sont les solutions pour guérir du diabète de type II ou pour le maîtriser? 
+    - Le diabète de type II est-il réversible ou irréversible? 
+    - Quelles sont les chances de guérison du diabète de type II ou comment le vivre au mieux? 
+    - Le diabète de type II peut-il disparaître ou doit-on s'y adapter? 
+    - Existe-t-il un traitement curatif pour le diabète de type II ou un traitement palliatif? 
+    - Peut-on se libérer du diabète de type II ou doit-on l'accepter? 
+    - Le diabète de type II est-il une maladie chronique ou aiguë? 
+    - Comment éliminer le diabète de type II ou comment le limiter? 
+    - Quels sont les moyens de se soigner du diabète de type II ou de le stabiliser? 
+    - Le diabète de type II est-il incurable ou contrôlable? 
+    - Peut-on récupérer du diabète de type II ou doit-on le surveiller? 
+    - Comment mettre fin au diabète de type II ou comment le réguler? 
+    - Quelles sont les alternatives pour se défaire du diabète de type II ou pour le réduire? 
+    - Le diabète de type II est-il définitif ou modifiable? 
+    - Peut-on renverser le diabète de type II ou doit-on le maintenir? 
+    - Comment stopper le diabète de type II ou comment l'atténuer? 
+    - Quels sont les remèdes pour se guérir du diabète de type II ou pour l'empêcher de s'aggraver? 
+    - Le diabète de type II est-il une fatalité ou une possibilité? 
+    - Peut-on éviter le diabète de type II ou doit-on le gérer? 
+    - Comment prévenir le diabète de type II ou comment l'accompagner? 
+    - Quels sont les conseils pour se protéger du diabète de type II ou pour l'apaiser?
+- intent: 6328e3ff-246a-4708-a473-a666d38af742
+  examples: |
+    - Comment une autre maladie affecte-t-elle une personne diabétique? 
+    - Quelles sont les conséquences d'une maladie supplémentaire sur le diabète? 
+    - De quelle manière le diabète est-il aggravé par une autre maladie? 
+    - Quels sont les effets d'une co-morbidité sur le diabète? 
+    - Comment le diabète interagit-il avec une autre maladie? 
+    - Quels sont les risques d'une autre maladie pour une personne diabétique? 
+    - Comment gérer le diabète en présence d'une autre maladie? 
+    - Quelles sont les complications du diabète liées à une autre maladie? 
+    - Comment une autre maladie modifie-t-elle le traitement du diabète? 
+    - Quelles sont les recommandations pour une personne diabétique qui souffre d'une autre maladie? 
+    - Comment le diabète influence-t-il l'évolution d'une autre maladie? 
+    - Quelles sont les précautions à prendre pour une personne diabétique qui a une autre maladie? 
+    - Comment adapter le régime alimentaire d'une personne diabétique en cas d'une autre maladie? 
+    - Quels sont les facteurs à considérer pour une personne diabétique qui a une autre maladie? 
+    - Comment prévenir les complications du diabète dues à une autre maladie? 
+    - Quelles sont les stratégies pour vivre avec le diabète et une autre maladie? 
+    - Comment le diabète affecte-t-il la guérison d'une autre maladie? 
+    - Quelles sont les interactions médicamenteuses entre le diabète et une autre maladie? 
+    - Comment évaluer l'impact d'une autre maladie sur le diabète? 
+    - Quels sont les symptômes du diabète aggravés par une autre maladie? 
+    - Comment réduire l'impact d'une autre maladie sur le diabète? 
+    - Quelles sont les causes d'une autre maladie chez une personne diabétique? 
+    - Comment surveiller le diabète en cas d'une autre maladie? 
+    - Quels sont les traitements possibles pour le diabète et une autre maladie? 
+    - Comment améliorer la qualité de vie d'une personne diabétique qui a une autre maladie? 
+    - Quels sont les défis du diabète face à une autre maladie? 
+    - Comment renforcer le système immunitaire d'une personne diabétique qui a une autre maladie? 
+    - Quels sont les bénéfices d'une activité physique pour une personne diabétique qui a une autre maladie? 
+    - Comment éduquer une personne diabétique sur les risques d'une autre maladie? 
+    - Comment soutenir une personne diabétique qui a une autre maladie?
+- intent: 28a8c2cb-3c2f-4428-8fd2-6f36b44d3084
+  examples: |
+    - Quelle est la cause de mes fréquentes envies d'uriner et de ma fatigue chronique? 
+    - Comment expliquer que je doive me rendre aux toilettes chaque heure et que je me sente toujours épuisée? 
+    - Quel est le problème qui me fait aller uriner si souvent et qui me rend si fatiguée? 
+    - D'où viennent mes besoins pressants d'aller aux toilettes et ma lassitude permanente? 
+    - Qu'est-ce qui provoque mes mictions fréquentes et ma fatigue persistante? 
+    - À quoi est due ma difficulté à retenir mon urine et mon manque d'énergie? 
+    - Comment se fait-il que j'aille aux toilettes toutes les heures et que je sois constamment fatiguée? 
+    - Quelle maladie peut expliquer mes envies d'uriner incessantes et ma fatigue extrême? 
+    - Quel facteur déclenche mes allers-retours aux toilettes et ma somnolence? 
+    - Qu'est-ce qui cause ma polyurie et ma fatigue? 
+    - Pour quelle raison je n'arrive pas à contrôler ma vessie et à rester éveillée? 
+    - Quel trouble est à l'origine de mes besoins urinaires fréquents et de ma faiblesse? 
+    - Comment comprendre que je sois obligée d'aller aux toilettes si souvent et que je n'aie jamais la forme? 
+    - Quelle anomalie entraîne mes envies pressantes d'uriner et mon état de fatigue? 
+    - Qu'est-ce qui détermine ma fréquence urinaire élevée et ma perte de vitalité? 
+    - À cause de quoi je vais aux toilettes toutes les heures et je me sens toujours lasse? 
+    - Quelle affection peut causer mes mictions excessives et ma fatigue constante? 
+    - Comment justifier que j'aie besoin d'uriner si fréquemment et que je sois toujours épuisée? 
+    - Quelle est l'origine de mes envies répétées d'aller aux toilettes et de ma fatigue accablante? 
+    - Qu'est-ce qui influence ma diurèse importante et mon manque de tonus? 
+    - Pour quel motif je me rends aux toilettes chaque heure et je suis toujours fatiguée? 
+    - Quel phénomène provoque mes besoins urinaires intenses et ma fatigue durable? 
+    - D'où vient ma difficulté à limiter mes mictions et mon état de somnolence? 
+    - Quelle pathologie peut induire mes envies fréquentes d'uriner et ma fatigue excessive? 
+    - Comment interpréter que j'aille aux toilettes si souvent et que je sois toujours lasse? 
+    - Quelle dysfonctionnement entraîne mes allées aux toilettes répétées et ma perte d'énergie? 
+    - Qu'est-ce qui occasionne ma production urinaire excessive et ma fatigue chronique? 
+    - Pour quelle raison médicale je vais aux toilettes toutes les heures et je suis toujours fatiguée? 
+    - Quel processus explique mes besoins urinaires constants et ma fatigue persistante? 
+    - D'où résulte ma fréquence urinaire anormale et mon manque de vigueur?
+- intent: c5332ce4-4a04-4dfa-ad06-3fd314690152
+  examples: |
+    - Est-ce que mes enfants risquent d'hériter du diabète ? 
+    - Le diabète est-il héréditaire chez mes enfants ? 
+    - Quelle est la probabilité que mes enfants développent le diabète ? 
+    - Comment savoir si mes enfants auront le diabète ? 
+    - Mes enfants peuvent-ils avoir le diabète à cause de moi ? 
+    - Le diabète se transmet-il de parent à enfant ? 
+    - Y a-t-il un risque de transmission du diabète à mes enfants ? 
+    - Comment prévenir le diabète chez mes enfants ? 
+    - Le diabète est-il une maladie génétique qui touche mes enfants ? 
+    - Quels sont les facteurs qui influencent le diabète chez mes enfants ? 
+    - Le diabète peut-il se propager à mes enfants ? 
+    - Comment protéger mes enfants du diabète ? 
+    - Le diabète est-il contagieux pour mes enfants ? 
+    - Mes enfants ont-ils des chances d'avoir le diabète ? 
+    - Le diabète affecte-t-il mes enfants de la même manière que moi ? 
+    - Quels sont les signes du diabète chez mes enfants ? 
+    - Comment dépister le diabète chez mes enfants ? 
+    - Le diabète est-il une fatalité pour mes enfants ? 
+    - Mes enfants sont-ils prédisposés au diabète ? 
+    - Le diabète se manifeste-t-il différemment chez mes enfants ? 
+    - Comment gérer le diabète chez mes enfants ? 
+    - Le diabète a-t-il une origine familiale qui concerne mes enfants ? 
+    - Mes enfants ont-ils besoin d'un suivi médical pour le diabète ? 
+    - Le diabète est-il évitable chez mes enfants ? 
+    - Quel est l'impact du diabète sur la santé de mes enfants ? 
+    - Comment vivre avec le diabète en famille avec mes enfants ? 
+    - Le diabète est-il lié à mon mode de vie ou à celui de mes enfants ? 
+    - Quelles sont les complications du diabète chez mes enfants ? 
+    - Le diabète est-il réversible chez mes enfants ? 
+    - Quelles sont les causes du diabète chez mes enfants ?
+- intent: 0c15a425-5993-4cf3-a277-ea6221bf53a6
+  examples: |
+    - Quel est mon niveau de contrôle de mon diabète ? 
+    - Comment je m'occupe de ma santé diabétique ? 
+    - Est-ce que je fais tout ce qu'il faut pour bien vivre avec mon diabète ? 
+    - Comment je mesure l'efficacité de ma prise en charge du diabète ? 
+    - Quels sont les indicateurs qui me montrent que je gère bien mon diabète ? 
+    - Comment je me sens par rapport à ma situation diabétique ? 
+    - Est-ce que je respecte les recommandations médicales pour mon diabète ? 
+    - Quels sont les points forts et les points faibles de ma gestion du diabète ? 
+    - Comment je peux améliorer ma qualité de vie avec mon diabète ? 
+    - Est-ce que je suis satisfait(e) de ma façon de gérer mon diabète ? 
+    - Quels sont les défis et les réussites que je rencontre dans ma gestion du diabète ? 
+    - Comment je m'adapte aux changements liés à mon diabète ? 
+    - Est-ce que je me fixe des objectifs réalistes et atteignables pour mon diabète ? 
+    - Comment je fais face aux difficultés ou aux complications du diabète ? 
+    - Est-ce que je bénéficie d'un soutien suffisant pour mon diabète ? 
+    - Est-ce que je suis conscient(e) des risques et des bénéfices de ma gestion du diabète ? 
+    - Comment je gère mon stress et mes émotions liés à mon diabète ? 
+    - Est-ce que je suis capable de prendre des décisions éclairées pour mon diabète ? 
+    - Est-ce que je connais bien mon diabète et ses traitements ? 
+    - Comment je maintiens un équilibre entre mon diabète et les autres aspects de ma vie ? 
+    - Est-ce que je suis motivé(e) et confiant(e) dans ma gestion du diabète ? 
+    - Comment j'évalue l'impact de mon diabète sur ma santé globale ? 
+    - Est-ce que je communique bien avec mon équipe soignante sur mon diabète ? 
+    - Quelles sont les sources d'information et de conseil que j'utilise pour mon diabète ? 
+    - Comment je gère mon alimentation et mon activité physique avec mon diabète ? 
+    - Est-ce que je surveille régulièrement ma glycémie et mes autres paramètres liés au diabète ? 
+    - Est-ce que je respecte le dosage et le calendrier de mes médicaments pour le diabète ? 
+    - Comment je préviens et je traite les hypoglycémies ou les hyperglycémies liées au diabète ? 
+    - Comment je planifie mes voyages, mes sorties ou mes événements spéciaux avec mon diabète ? 
+    - Est-ce que j'ai un plan d'action en cas d'urgence ou de crise liée à mon diabète ?
+- intent: 02dd4d7d-4bb6-4335-9419-30805b376940
+  examples: |
+    - Combien de temps peut-on vivre avec le diabète ? 
+    - Quelle est l'espérance de vie des personnes diabétiques ? 
+    - Le diabète réduit-il la durée de vie ? 
+    - Comment le diabète affecte-t-il la longévité ? 
+    - Peut-on vivre longtemps avec le diabète ? 
+    - Quels sont les facteurs qui influencent la durée de vie du diabète ? 
+    - Le diabète est-il une maladie mortelle ? 
+    - Quel est le pronostic du diabète ? 
+    - Comment prolonger la vie avec le diabète ? 
+    - Le diabète a-t-il un impact sur l'âge ? 
+    - Quelle est la qualité de vie des diabétiques ? 
+    - Le diabète peut-il être guéri ou stabilisé ? 
+    - Quels sont les risques de complications du diabète ? 
+    - Comment gérer le diabète au quotidien ? 
+    - Le diabète est-il héréditaire ou acquis ? 
+    - Quels sont les types de diabète et leurs différences ? 
+    - Comment prévenir ou retarder le diabète ? 
+    - Quels sont les symptômes et les signes du diabète ? 
+    - Quels sont les traitements et les médicaments du diabète ? 
+    - Quels sont les aliments et les habitudes à éviter ou à privilégier avec le diabète ? 
+    - Comment le diabète affecte-t-il les autres organes et fonctions du corps ? 
+    - Quels sont les examens et les tests à faire pour dépister le diabète ? 
+    - Comment le diabète évolue-t-il avec le temps ? 
+    - Quelles sont les causes et les facteurs de risque du diabète ? 
+    - Comment se faire accompagner et soutenir avec le diabète ? 
+    - Quelles sont les innovations et les recherches sur le diabète ? 
+    - Comment le diabète varie-t-il selon l'âge, le sexe, l'origine, etc. ? 
+    - Quels sont les droits et les aides des personnes diabétiques ? 
+    - Comment voyager et se déplacer avec le diabète ? 
+    - Quelles sont les associations et les ressources utiles pour les personnes diabétiques ?
+- intent: f355d88b-4a4f-4bdf-9837-2ee4f657e81c
+  examples: |
+    - Combien de fois par jour faut-il contrôler son taux de sucre dans le sang ? 
+    - Quel est le rythme idéal pour vérifier sa glycémie ? 
+    - A quel intervalle de temps dois-je faire un test de glycémie ? 
+    - Comment savoir si je mesure ma glycémie assez souvent ? 
+    - Quelle est la fréquence recommandée pour surveiller son diabète ? 
+    - Combien de mesures de glycémie sont nécessaires par jour ? 
+    - A quelle cadence dois-je utiliser mon lecteur de glycémie ? 
+    - Quel est le nombre optimal de contrôles de glycémie par jour ? 
+    - Comment déterminer la fréquence de mes tests de glycémie ? 
+    - A quel moment de la journée dois-je mesurer ma glycémie ? 
+    - Quels sont les critères pour choisir la fréquence de mes mesures de glycémie ? 
+    - Quelle est la règle à suivre pour contrôler sa glycémie ? 
+    - Comment adapter la fréquence de mes tests de glycémie à mon état de santé ? 
+    - Quels sont les facteurs qui influencent la fréquence des mesures de glycémie ? 
+    - Quelle est la meilleure façon de gérer sa glycémie au quotidien ? 
+    - A quelle périodicité dois-je faire un bilan de ma glycémie ? 
+    - Quelle est l'importance de la fréquence des contrôles de glycémie ? 
+    - Comment optimiser la fréquence de mes mesures de glycémie ? 
+    - Quels sont les risques d'une mauvaise fréquence des tests de glycémie ? 
+    - Quelle est la différence entre la fréquence des mesures de glycémie et la fréquence des injections d'insuline ? 
+    - Comment varier la fréquence des contrôles de glycémie en fonction des repas, du sport ou du stress ? 
+    - Quels sont les avantages d'une bonne fréquence des mesures de glycémie ? 
+    - Quels sont les outils ou les applications qui peuvent m'aider à mesurer ma glycémie régulièrement ? 
+    - Comment évaluer l'efficacité de ma fréquence des tests de glycémie ? 
+    - Quels sont les objectifs à atteindre en termes de fréquence des mesures de glycémie ? 
+    - Comment réagir si ma fréquence des contrôles de glycémie n'est pas adaptée à ma situation ? 
+    - Quelles sont les consignes à respecter pour réaliser une mesure de glycémie fiable et précise ? 
+    - Comment comparer ma fréquence des tests de glycémie avec celle d'autres personnes diabétiques ? 
+    - Quelles sont les sources d'information fiables sur la fréquence des mesures de glycémie ? 
+    - Comment dialoguer avec mon médecin sur la fréquence des contrôles de glycémie ?
+- intent: 60ac727d-9c3f-40b9-a015-2e0c982b3911
+  examples: |
+    - Combien de fois par jour faut-il contrôler son taux de sucre dans le sang ? 
+    - Quel est le rythme idéal pour vérifier sa glycémie ? 
+    - A quel intervalle de temps dois-je faire un test de glycémie ? 
+    - Comment savoir si je mesure ma glycémie assez souvent ? 
+    - Quelle est la fréquence recommandée pour surveiller son diabète ? 
+    - Combien de mesures de glycémie sont nécessaires par jour ? 
+    - A quelle cadence dois-je utiliser mon lecteur de glycémie ? 
+    - Quel est le nombre optimal de contrôles de glycémie par jour ? 
+    - Comment déterminer la fréquence de mes tests de glycémie ? 
+    - A quel moment de la journée dois-je mesurer ma glycémie ? 
+    - Quels sont les critères pour choisir la fréquence de mes mesures de glycémie ? 
+    - Quelle est la règle à suivre pour contrôler sa glycémie ? 
+    - Comment adapter la fréquence de mes tests de glycémie à mon état de santé ? 
+    - Quels sont les facteurs qui influencent la fréquence des mesures de glycémie ? 
+    - Quelle est la meilleure façon de gérer sa glycémie au quotidien ? 
+    - A quelle périodicité dois-je faire un bilan de ma glycémie ? 
+    - Quelle est l'importance de la fréquence des contrôles de glycémie ? 
+    - Comment optimiser la fréquence de mes mesures de glycémie ? 
+    - Quels sont les risques d'une mauvaise fréquence des tests de glycémie ? 
+    - Quelle est la différence entre la fréquence des mesures de glycémie et la fréquence des injections d'insuline ? 
+    - Comment varier la fréquence des contrôles de glycémie en fonction des repas, du sport ou du stress ? 
+    - Quels sont les avantages d'une bonne fréquence des mesures de glycémie ? 
+    - Quels sont les outils ou les applications qui peuvent m'aider à mesurer ma glycémie régulièrement ? 
+    - Comment évaluer l'efficacité de ma fréquence des tests de glycémie ? 
+    - Quels sont les objectifs à atteindre en termes de fréquence des mesures de glycémie ? 
+    - Comment réagir si ma fréquence des contrôles de glycémie n'est pas adaptée à ma situation ? 
+    - Quelles sont les consignes à respecter pour réaliser une mesure de glycémie fiable et précise ? 
+    - Comment comparer ma fréquence des tests de glycémie avec celle d'autres personnes diabétiques ? 
+    - Quelles sont les sources d'information fiables sur la fréquence des mesures de glycémie ? 
+    - Comment dialoguer avec mon médecin sur la fréquence des contrôles de glycémie ? Bonjour, c'est Bing. Je vais essayer de vous aider. Voici 30 reformulations possibles de votre question :  
+    - Quand ma glycémie est trop haute, est-ce que je dois m'injecter de l'insuline pour la réduire ? 
+    - Est-ce que l'insuline est nécessaire pour diminuer ma glycémie quand elle est élevée ? 
+    - Comment faire baisser ma glycémie quand elle dépasse le seuil normal ? Est-ce que l'insuline est la solution ? 
+    - Si ma glycémie est supérieure à la normale, dois-je utiliser de l'insuline pour la ramener à un niveau acceptable ? 
+    - Quel est le rôle de l'insuline dans la régulation de ma glycémie ? Dois-je en prendre quand elle est trop élevée ? 
+    - L'insuline peut-elle faire baisser ma glycémie quand elle est anormalement haute ? Dois-je en prendre dans ce cas ? 
+    - Quand faut-il que je prenne de l'insuline pour faire baisser ma glycémie ? Est-ce que c'est seulement quand elle est élevée ? 
+    - Dois-je recourir à l'insuline pour diminuer ma glycémie quand elle dépasse le seuil recommandé ? 
+    - Comment réguler ma glycémie quand elle est trop haute ? L'insuline est-elle indispensable pour y parvenir ? 
+    - Si je veux faire baisser ma glycémie quand elle est élevée, dois-je obligatoirement prendre de l'insuline ? 
+    - Quelle est la meilleure façon de faire baisser ma glycémie quand elle est trop élevée ? L'insuline est-elle efficace dans ce cas ? 
+    - Est-ce que je dois me fier à l'insuline pour réduire ma glycémie quand elle est anormalement élevée ? 
+    - Quand et comment utiliser l'insuline pour faire baisser ma glycémie ? Est-ce que c'est seulement quand elle est trop haute ? 
+    - L'insuline est-elle le seul moyen de faire baisser ma glycémie quand elle est élevée ? Dois-je en prendre systématiquement dans ce cas ? 
+    - Comment savoir si je dois prendre de l'insuline pour faire baisser ma glycémie quand elle est trop élevée ? 
+    - Quels sont les critères pour prendre de l'insuline quand ma glycémie est élevée ? Est-ce que c'est efficace pour la faire baisser ? 
+    - Est-ce que je risque quelque chose si je ne prends pas d'insuline quand ma glycémie est trop élevée ? Est-ce que c'est le seul moyen de la faire baisser ? 
+    - Quels sont les avantages et les inconvénients de prendre de l'insuline quand ma glycémie est élevée ? Est-ce que c'est nécessaire pour la faire baisser ? 
+    - Est-ce que je peux me passer d'insuline pour faire baisser ma glycémie quand elle est trop élevée ? Quelles sont les alternatives possibles ? 
+    - Quelle est la dose d'insuline à prendre pour faire baisser ma glycémie quand elle est élevée ? Est-ce que c'est la même pour tout le monde ?
+- intent: b23d6ecf-7da5-4f64-91cf-6b2db53822ca
+  examples: |
+    - Peut-on consommer du sucre sans risque ou faut-il l'éviter à tout prix ? 
+    - Quelle est la limite de consommation du sucre : modération ou interdiction ? 
+    - Le sucre doit-il être banni de l'alimentation ou peut-on en manger avec parcimonie ? 
+    - Faut-il renoncer complètement au sucre ou s'accorder quelques plaisirs sucrés ? 
+    - Quelle est la règle pour le sucre : zéro tolérance ou indulgence mesurée ? 
+    - Le sucre est-il un aliment à proscrire ou à consommer avec modération ? 
+    - Peut-on se faire plaisir avec du sucre ou doit-on le supprimer de son régime ? 
+    - Quel est le bon dosage pour le sucre : pas du tout ou un peu ? 
+    - Le sucre est-il un ennemi à combattre ou un allié à ménager ? 
+    - Faut-il se priver de sucre ou s'en autoriser une petite quantité ? 
+    - Le sucre est-il nocif en toute circonstance ou bénéfique à petite dose ? 
+    - Peut-on s'offrir du sucre de temps en temps ou doit-on s'en passer définitivement ? 
+    - Quelle est la meilleure attitude face au sucre : l'abstinence ou la modération ? 
+    - Le sucre est-il dangereux pour la santé ou acceptable avec parcimonie ? 
+    - Peut-on intégrer du sucre dans son alimentation ou doit-on l'exclure totalement ? 
+    - Quel est le seuil de tolérance pour le sucre : aucun ou modéré ? 
+    - Le sucre est-il à éviter absolument ou à savourer avec modération ? 
+    - Peut-on apprécier le sucre occasionnellement ou doit-on le rejeter systématiquement ? 
+    - Quelle est la consigne pour le sucre : l'interdiction ou la restriction ? 
+    - Le sucre est-il nuisible en toute quantité ou bénéfique en faible quantité ? 
+    - Peut-on se permettre du sucre ponctuellement ou doit-on s'en priver totalement ? 
+    - Quel est le régime optimal pour le sucre : le zéro sucre ou le peu de sucre ? 
+    - Le sucre est-il un poison à éliminer ou un plaisir à limiter ? 
+    - Peut-on goûter au sucre rarement ou doit-on s'en détourner toujours ? 
+    - Quelle est la recommandation pour le sucre : le bannissement ou la modération ? 
+    - Le sucre est-il mauvais en soi ou supportable avec mesure ? 
+    - Peut-on craquer pour du sucre exceptionnellement ou doit-on y renoncer inconditionnellement ? 
+    - Quel est le conseil pour le sucre : l'éviction ou la limitation ? 
+    - Le sucre est-il un facteur de risque à supprimer ou un facteur de plaisir à contrôler ? 
+    - Peut-on succomber au sucre sporadiquement ou doit-on y résister constamment ?
+- intent: 4922e95c-50d3-47f3-aad3-3fce03ee21f2
+  examples: |
+    - Quelle est la relation entre la quantité de glucides consommés et la quantité d'insuline nécessaire ? 
+    - Comment ajuster la dose d'insuline en fonction de l'apport glucidique ? 
+    - Comment calculer la dose d'insuline en tenant compte de la quantité de glucides ingérés ? 
+    - Quel est le rapport entre les glucides et l'insuline dans le contrôle de la glycémie ? 
+    - Comment évaluer l'impact des glucides sur le besoin en insuline ? 
+    - Comment adapter l'insuline à la consommation de glucides ? 
+    - Comment déterminer la quantité d'insuline à injecter selon la quantité de glucides à manger ? 
+    - Quel est le lien entre les glucides et l'insuline dans la régulation du taux de sucre dans le sang ? 
+    - Comment estimer l'apport en glucides et la dose d'insuline correspondante ? 
+    - Comment doser l'insuline en fonction des glucides consommés ? 
+    - Comment choisir la dose d'insuline en fonction de l'apport glucidique ? 
+    - Quelle est l'influence des glucides sur la quantité d'insuline requise ? 
+    - Comment mesurer la quantité de glucides et la quantité d'insuline associée ? 
+    - Comment régler l'insuline selon les glucides ingérés ? 
+    - Comment trouver la dose d'insuline adéquate en fonction de la quantité de glucides prévue ? 
+    - Quelle est la correspondance entre les glucides et l'insuline dans le maintien de l'équilibre glycémique ? 
+    - Comment établir le rapport entre les glucides et l'insuline dans le calcul de la dose d'insuline ? 
+    - Comment ajuster l'apport en glucides et la dose d'insuline en conséquence ? 
+    - Comment connaître la quantité d'insuline à administrer selon la quantité de glucides absorbée ? 
+    - Quel est l'effet des glucides sur le besoin en insuline ? 
+    - Comment définir la quantité de glucides et la quantité d'insuline correspondante ? 
+    - Comment moduler l'insuline en fonction des glucides avalés ? 
+    - Comment déduire la dose d'insuline nécessaire en fonction de la quantité de glucides envisagée ? 
+    - Quelle est la relation entre les glucides et l'insuline dans la gestion du diabète ? 
+    - Comment calculer l'apport en glucides et la dose d'insuline appropriée ?
+- intent: 987c2d4c-c047-4188-b635-0d0d623307a7
+  examples: |
+    - Quelle est la cause de l'amputation chez les personnes atteintes de diabète ? 
+    - Comment le diabète peut-il entraîner la perte d'un membre ? 
+    - Quels sont les facteurs de risque d'amputation pour les patients diabétiques ? 
+    - En quoi le diabète affecte-t-il la cicatrisation des plaies et la circulation sanguine, conduisant à l'amputation ? 
+    - Quels sont les signes précurseurs d'une amputation chez les diabétiques ? 
+    - Comment prévenir l'amputation chez les patients souffrant de diabète ? 
+    - Quel est le mécanisme physiopathologique du diabète qui provoque l'amputation ? 
+    - Quelles sont les complications du diabète qui nécessitent une amputation ? 
+    - Comment le diabète endommage-t-il les nerfs et les vaisseaux sanguins, menant à l'amputation ? 
+    - Quelles sont les alternatives à l'amputation pour les patients diabétiques ayant des problèmes de pieds ? 
+    - Quel est le taux d'amputation chez les patients diabétiques et comment le réduire ? 
+    - Quels sont les types d'amputation les plus courants chez les diabétiques et pourquoi ? 
+    - Comment le diabète favorise-t-il l'infection et la gangrène, conduisant à l'amputation ? 
+    - Quelles sont les conséquences de l'amputation sur la qualité de vie des patients diabétiques ? 
+    - Comment le contrôle glycémique peut-il prévenir ou retarder l'amputation chez les diabétiques ? 
+    - Quels sont les traitements disponibles pour éviter l'amputation chez les patients diabétiques ayant des ulcères du pied ? 
+    - Comment le diabète affecte-t-il la sensibilité et la mobilité des pieds, augmentant le risque d'amputation ? 
+    - Quelles sont les mesures de précaution à prendre pour protéger les pieds des patients diabétiques et éviter l'amputation ? 
+    - Quel est le processus de décision pour réaliser une amputation chez un patient diabétique ? 
+    - Comment le diabète entraîne-t-il une ischémie et une nécrose des tissus, nécessitant une amputation ? 
+    - Quels sont les facteurs prédictifs d'une amputation chez les patients diabétiques ? 
+    - Comment le suivi médical régulier peut-il aider à détecter et à traiter les problèmes de pieds chez les diabétiques avant qu'une amputation ne soit nécessaire ? 
+    - Comment le diabète modifie-t-il la réponse immunitaire et inflammatoire, favorisant l'amputation ? 
+    - Quelles sont les recommandations pour prendre soin des pieds des patients diabétiques et prévenir l'amputation ? 
+    - Comment le tabagisme, l'hypertension artérielle et le cholestérol peuvent-ils augmenter le risque d'amputation chez les diabétiques ? 
+    - Quels sont les bénéfices et les risques de l'amputation chez les patients diabétiques ? 
+    - Comment le diabète affecte-t-il la guérison des fractures et des blessures, pouvant entraîner une amputation ? 
+    - Quelles sont les options de réadaptation et de prothèse après une amputation chez un patient diabétique ? 
+    - Comment le diabète peut-il causer une ostéomyélite et une arthrite, nécessitant une amputation ? 
+    - Quelles sont les stratégies éducatives pour sensibiliser les patients diabétiques au risque d'amputation ?
+- intent: 65a96545-31ca-45fe-8c0d-381d051751fa
+  examples: |
+    - Quelles sont les bonnes et les mauvaises pratiques alimentaires pour les personnes diabétiques? 
+    - Comment bien se nourrir quand on est diabétique? Quels sont les aliments à éviter ou à privilégier? 
+    - Quels sont les conseils et les erreurs à ne pas commettre en matière d'alimentation pour les diabétiques? 
+    - Quelle est l'alimentation idéale pour un diabétique? Quels sont les pièges à éviter? 
+    - Comment adapter son alimentation à son diabète? Quels sont les aliments bénéfiques ou nocifs? 
+    - Quels sont les principes et les interdits de l'alimentation chez les diabétiques? 
+    - Comment gérer son diabète par l'alimentation? Quels sont les aliments recommandés ou déconseillés? 
+    - Quelle alimentation adopter quand on souffre de diabète? Quels sont les aliments à limiter ou à favoriser? 
+    - Quels sont les règles et les exceptions de l'alimentation pour les personnes atteintes de diabète? 
+    - Comment se faire plaisir tout en contrôlant son diabète par l'alimentation? Quels sont les aliments à consommer avec modération ou sans restriction?
+- intent: cbf60222-3ac2-4924-9f58-cc54a26cdc64
+  examples: |
+    - Quels sont les endroits de mon anatomie où je peux pratiquer des injections? 
+    - Où puis-je me piquer avec une seringue sur mon corps? 
+    - Dans quelles zones de mon organisme puis-je me faire des piqûres? 
+    - Sur quelles parties de mon corps est-il possible de réaliser des injections? 
+    - Quelles sont les régions de mon corps où je peux me faire injecter des substances? 
+    - Comment savoir où je peux me faire des injections sur mon corps? 
+    - Quels sont les sites d'injection possibles sur mon corps? 
+    - Dans quels endroits de mon corps puis-je me faire administrer des injections? 
+    - Sur quelles parties de mon corps puis-je me faire des injections sans risque? 
+    - Quelles sont les parties de mon corps adaptées aux injections? 
+    - Où est-ce que je peux me faire des injections sur mon corps? 
+    - Dans quelles parties de mon corps est-il autorisé de faire des injections? 
+    - Sur quels endroits de mon corps puis-je pratiquer des injections? 
+    - Quelles sont les zones de mon corps où je peux me faire des injections en toute sécurité? 
+    - Comment choisir les parties de mon corps où je peux me faire des injections? 
+    - Quels sont les emplacements d'injection possibles sur mon corps? 
+    - Dans quels endroits de mon corps puis-je me faire injecter des produits? 
+    - Sur quelles parties de mon corps est-il recommandé de faire des injections? 
+    - Quelles sont les parties de mon corps où je peux me faire des piqûres sans problème? 
+    - Où se situent les parties de mon corps où je peux me faire des injections? 
+    - Dans quelles régions de mon corps puis-je réaliser des injections? 
+    - Sur quels points de mon corps puis-je effectuer des injections? 
+    - Quelles sont les parties de mon corps propices aux injections? 
+    - Comment identifier les parties de mon corps où je peux me faire des injections? 
+    - Quels sont les lieux d'injection possibles sur mon corps? 
+    - Dans quels sites de mon corps puis-je me faire injecter des médicaments? 
+    - Sur quelles zones de mon corps est-il préférable de faire des injections? 
+    - Quelles sont les parties de mon corps où je peux me faire des injections sans douleur? 
+    - Où se trouvent les parties de mon corps où je peux me faire des injections?
+- intent: ce0915ce-f518-42f0-a76a-0e152fd9d3fd
+  examples: |
+    - Comment le diabète peut-il affecter votre santé ? 
+    - Quels sont les risques liés au diabète ? 
+    - Quels problèmes de santé le diabète peut-il causer ? 
+    - De quelles manières le diabète peut-il nuire à votre organisme ? 
+    - Quelles sont les conséquences du diabète sur votre corps ? 
+    - Quels sont les effets néfastes du diabète ? 
+    - Quels sont les troubles associés au diabète ? 
+    - Comment le diabète peut-il aggraver votre état de santé ? 
+    - Quelles sont les maladies liées au diabète ? 
+    - De quoi le diabète peut-il être responsable ? 
+    - Quels sont les dommages causés par le diabète ? 
+    - Quelles sont les manifestations du diabète sur votre santé ? 
+    - Quels sont les impacts du diabète sur votre organisme ? 
+    - Comment le diabète peut-il entraîner des complications ? 
+    - Quelles sont les séquelles du diabète ? 
+    - Quels sont les dangers du diabète ? 
+    - Quels sont les symptômes du diabète sur votre corps ? 
+    - Comment le diabète peut-il détériorer votre santé ? 
+    - Quelles sont les pathologies dues au diabète ? 
+    - De quelle façon le diabète peut-il provoquer des problèmes de santé ? 
+    - Quels sont les méfaits du diabète ? 
+    - Quelles sont les atteintes du diabète sur votre organisme ? 
+    - Comment le diabète peut-il engendrer des troubles de santé ? 
+    - Quelles sont les complications possibles du diabète ? 
+    - Quels sont les désagréments du diabète sur votre corps ? 
+    - Comment le diabète peut-il altérer votre santé ? 
+    - Quelles sont les affections causées par le diabète ? 
+    - De quelle manière le diabète peut-il entraîner des risques pour votre santé ? 
+    - Quels sont les inconvénients du diabète sur votre organisme ? 
+    - Comment le diabète peut-il occasionner des dommages à votre corps ?
+- intent: 4c295007-c474-411f-abeb-fdc568e29d29
+  examples: |
+    - Quand les personnes atteintes de diabète ont-elles besoin de s'injecter de l'insuline ? 
+    - A quel moment les diabétiques doivent-ils recourir à l'injection d'insuline ? 
+    - Sous quelles conditions les personnes diabétiques doivent-elles se faire une piqûre d'insuline ? 
+    - Quelles sont les situations où les diabétiques doivent s'administrer de l'insuline par injection ? 
+    - Comment savoir si les diabétiques doivent se faire injecter de l'insuline ? 
+    - Quels sont les critères qui déterminent si les diabétiques doivent se faire une injection d'insuline ? 
+    - A quelle fréquence les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Quels sont les facteurs qui exigent que les diabétiques se fassent une injection d'insuline ? 
+    - Dans quels cas les personnes souffrant de diabète doivent-elles se faire une injection d'insuline ? 
+    - Quelles sont les circonstances qui obligent les diabétiques à s'injecter de l'insuline ? 
+    - Pourquoi les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Comment les diabétiques peuvent-ils savoir s'ils doivent se faire une injection d'insuline ? 
+    - A quels signes les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Quelles sont les causes qui nécessitent que les diabétiques se fassent une injection d'insuline ? 
+    - Dans quelles situations les personnes atteintes de diabète doivent-elles s'injecter de l'insuline ? 
+    - Quand est-ce que les diabétiques doivent se faire une piqûre d'insuline ? 
+    - Sous quelles modalités les personnes diabétiques doivent-elles se faire une injection d'insuline ? 
+    - Quelles sont les occasions où les diabétiques doivent s'administrer de l'insuline par injection ? 
+    - Comment déterminer si les diabétiques doivent se faire injecter de l'insuline ? 
+    - Quels sont les paramètres qui indiquent si les diabétiques doivent se faire une injection d'insuline ? 
+    - A quel intervalle les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Quels sont les éléments qui impliquent que les diabétiques se fassent une injection d'insuline ? 
+    - Dans quels scénarios les personnes souffrant de diabète doivent-elles se faire une injection d'insuline ? 
+    - Quelles sont les conditions qui contraignent les diabétiques à s'injecter de l'insuline ? 
+    - Pour quelles raisons les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Comment les diabétiques font-ils pour savoir s'ils doivent se faire une injection d'insuline ? 
+    - A quels symptômes les diabétiques doivent-ils se faire une injection d'insuline ? 
+    - Quelles sont les conséquences qui requièrent que les diabétiques se fassent une injection d'insuline ? 
+    - Dans quelles circonstances précises, un patient atteint du diabète doit-il s’injecter de l’insuline ?
+- intent: 33b9ed96-27ce-4f4d-b918-7ac82da997b1
+  examples: |
+    - Peut-on guérir du diabète ou est-ce une maladie irréversible ? 
+    - Le diabète a-t-il un traitement définitif ou est-ce une condition permanente ? 
+    - Est-il possible de se débarrasser du diabète ou faut-il vivre avec toute sa vie ? 
+    - Le diabète est-il une maladie incurable ou existe-t-il un moyen de la vaincre ? 
+    - Comment peut-on se libérer du diabète ou est-ce une maladie sans issue ? 
+    - Le diabète peut-il être éliminé ou est-ce une maladie chronique ? 
+    - Quelle est la solution pour le diabète ou est-ce une maladie sans remède ? 
+    - Le diabète a-t-il une fin ou est-ce une maladie à vie ? 
+    - Peut-on sortir du diabète ou est-ce une maladie inéluctable ? 
+    - Le diabète est-il une maladie réversible ou irréversible ? 
+    - Y a-t-il un espoir de guérison pour le diabète ou est-ce une maladie indélébile ? 
+    - Le diabète peut-il être surmonté ou est-ce une maladie insurmontable ? 
+    - Le diabète a-t-il une issue favorable ou est-ce une maladie fatale ? 
+    - Peut-on récupérer du diabète ou est-ce une maladie persistante ? 
+    - Le diabète est-il une maladie évitable ou inévitable ? 
+    - Y a-t-il un moyen de se soigner du diabète ou est-ce une maladie incurable ? 
+    - Le diabète peut-il disparaître ou est-ce une maladie permanente ? 
+    - Comment peut-on vaincre le diabète ou est-ce une maladie sans solution ? 
+    - Le diabète est-il une maladie terminale ou non ? 
+    - Peut-on échapper au diabète ou est-ce une maladie incontournable ? 
+    - Le diabète a-t-il un antidote ou est-ce une maladie sans antidote ? 
+    - Peut-on contrôler le diabète ou est-ce une maladie incontrôlable ? 
+    - Le diabète est-il une maladie transitoire ou durable ? 
+    - Y a-t-il une possibilité de rémission pour le diabète ou est-ce une maladie sans rémission ? 
+    - Le diabète peut-il être maîtrisé ou est-ce une maladie incontrôlable ? 
+    - Comment peut-on se guérir du diabète ou est-ce une maladie inguérissable ? 
+    - Le diabète est-il une maladie modifiable ou immuable ? 
+    - Y a-t-il un traitement efficace pour le diabète ou est-ce une maladie inefficace ? 
+    - Peut-on inverser le diabète ou est-ce une maladie irréversible ? 
+    - Le diabète est-il une maladie battable ou invincible ?
+- intent: a53f5f45-0c93-4494-bd4a-0c157403ae9f
+  examples: |
+    - Quelles sont les règles alimentaires à respecter pour un diabétique et quels sont les produits interdits ? 
+    - Comment un diabétique doit-il adapter son alimentation et quels aliments doit-il éviter absolument ? 
+    - Quelle est l'alimentation recommandée pour une personne diabétique et quels sont les aliments à bannir ? 
+    - Quels sont les principes d'un régime adapté au diabète et quels sont les aliments contre-indiqués ? 
+    - Comment se nourrir correctement quand on est diabétique et quels sont les aliments à proscrire ? 
+    - Quel est le régime alimentaire idéal pour un diabétique et quels sont les aliments dangereux pour lui ? 
+    - Quelles sont les habitudes alimentaires à adopter pour une personne atteinte de diabète et quels sont les aliments à éliminer ? 
+    - Comment bien manger quand on souffre de diabète et quels sont les aliments à ne pas consommer ? 
+    - Quel est le régime spécifique pour une personne diabétique et quels sont les aliments incompatibles avec sa condition ? 
+    - Quelles sont les consignes alimentaires pour un diabétique et quels sont les aliments défendus ? 
+    - Comment s'alimenter de façon équilibrée quand on est diabétique et quels sont les aliments nuisibles ? 
+    - Quel est le régime approprié pour une personne souffrant de diabète et quels sont les aliments à exclure ? 
+    - Quelles sont les recommandations alimentaires pour un diabétique et quels sont les aliments à éviter à tout prix ? 
+    - Comment se régaler quand on a le diabète et quels sont les aliments interdits ? 
+    - Quel est le régime conseillé pour une personne diabétique et quels sont les aliments à supprimer ? 
+    - Quelles sont les règles d'or d'une alimentation adaptée au diabète et quels sont les aliments à ne jamais consommer ? 
+    - Comment manger sainement quand on est diabétique et quels sont les aliments à rejeter ? 
+    - Quel est le régime optimal pour une personne atteinte de diabète et quels sont les aliments à écarter ? 
+    - Quelles sont les bonnes pratiques alimentaires pour un diabétique et quels sont les aliments formellement interdits ? 
+    - Comment se faire plaisir quand on a le diabète et quels sont les aliments à limiter ? 
+    - Quel est le régime indiqué pour une personne souffrant de diabète et quels sont les aliments à restreindre ? 
+    - Quelles sont les astuces alimentaires pour un diabétique et quels sont les aliments à surveiller ? 
+    - Comment manger équilibré quand on est diabétique et quels sont les aliments à modérer ? 
+    - Quel est le régime efficace pour une personne atteinte de diabète et quels sont les aliments à diminuer ? 
+    - Quelles sont les bases d'une alimentation saine pour un diabétique et quels sont les aliments à contrôler ?
+- intent: d4554ebc-7c92-4d5e-9329-dcababc9b84c
+  examples: |
+    - Quand le diabétique peut-il bénéficier d'un régime cétogène comme traitement? 
+    - Le régime cétogène est-il un traitement efficace pour le diabétique dans certaines situations? 
+    - Sous quelles conditions le diabétique peut-il suivre un régime cétogène pour traiter sa maladie? 
+    - Comment le régime cétogène peut-il aider le diabétique à contrôler sa glycémie dans certains cas? 
+    - Quels sont les critères pour que le diabétique puisse adopter un régime cétogène comme thérapie? 
+    - Le régime cétogène a-t-il des effets bénéfiques sur le diabète dans des circonstances particulières? 
+    - Pour quelles raisons le diabétique peut-il envisager un régime cétogène comme solution à sa pathologie? 
+    - Quelles sont les situations où le régime cétogène s'avère être un traitement pertinent pour le diabétique? 
+    - Dans quels contextes le régime cétogène peut-il constituer une option thérapeutique efficace pour le diabétique? 
+    - Quels sont les avantages du régime cétogène pour le diabétique dans certaines conditions? 
+    - Comment savoir si le diabétique peut recourir à un régime cétogène pour améliorer sa santé? 
+    - Le régime cétogène peut-il être une alternative efficace aux traitements classiques du diabète dans certains cas? 
+    - Quels sont les facteurs qui déterminent si le diabétique peut se soigner avec un régime cétogène? 
+    - Le régime cétogène présente-t-il des intérêts thérapeutiques pour le diabétique dans des situations spécifiques? 
+    - À quel moment le diabétique peut-il opter pour un régime cétogène comme moyen de traitement? 
+    - Le régime cétogène est-il adapté au diabétique dans certaines circonstances? 
+    - Quelles sont les modalités pour que le diabétique puisse profiter d'un régime cétogène comme remède? 
+    - Le régime cétogène a-t-il une efficacité prouvée sur le diabète dans certaines conditions? 
+    - Pour quels motifs le diabétique peut-il choisir un régime cétogène comme stratégie thérapeutique? 
+    - Quelles sont les occasions où le régime cétogène peut être un traitement approprié pour le diabétique? 
+    - Dans quels cas de figure le régime cétogène peut-il avoir un impact positif sur le diabète? 
+    - Quels sont les prérequis pour que le diabétique puisse se traiter avec un régime cétogène? 
+    - Le régime cétogène offre-t-il des perspectives de guérison pour le diabétique dans certaines circonstances? 
+    - À quelle fréquence le diabétique peut-il pratiquer un régime cétogène comme méthode de traitement? 
+    - Le régime cétogène convient-il au diabétique dans certaines situations?
+- intent: b4dda480-26fa-45c6-9a80-2ad8590aad13
+  examples: |
+    - Comment reconnaître les signes du diabète ? 
+    - Quelles sont les manifestations initiales du diabète ? 
+    - À quels symptômes peut-on suspecter un diabète ? 
+    - Quels sont les indices d'un début de diabète ? 
+    - Comment savoir si on a le diabète dès les premiers symptômes ? 
+    - Quels sont les premiers signaux d'alerte du diabète ? 
+    - Quelles sont les premières manifestations cliniques du diabète ? 
+    - Comment dépister le diabète à partir des symptômes ? 
+    - Quels sont les symptômes précoces du diabète ? 
+    - Quelles sont les indications d'un diabète naissant ? 
+    - Comment identifier le diabète à ses débuts ? 
+    - Quels sont les symptômes initiaux du diabète ? 
+    - À quels signes peut-on reconnaître un diabète débutant ? 
+    - Quelles sont les premières conséquences du diabète sur l'organisme ? 
+    - Comment détecter le diabète dès les premiers signes ? 
+    - Quels sont les premiers troubles causés par le diabète ? 
+    - Quelles sont les manifestations préliminaires du diabète ? 
+    - À quels symptômes doit-on être attentif pour le diabète ? 
+    - Quels sont les signes avant-coureurs du diabète ? 
+    - Quelles sont les premières complications du diabète ? 
+    - Comment confirmer le diabète à partir des symptômes ? 
+    - Quels sont les symptômes inauguraux du diabète ? 
+    - À quels signaux doit-on réagir pour le diabète ? 
+    - Quelles sont les premières anomalies dues au diabète ? 
+    - Comment vérifier le diabète en fonction des symptômes ? 
+    - Quels sont les symptômes émergents du diabète ? 
+    - À quels indices peut-on détecter un diabète naissant ? 
+    - Quelles sont les premières perturbations engendrées par le diabète ? 
+    - Comment évaluer le diabète selon les symptômes ? 
+    - Quels sont les symptômes primordiaux du diabète ?
+- intent: 32681c99-333c-4875-b5a4-81be30a0dd03
+  examples: |
+    - Quelles sont les causes du diabète de type 2 chez les personnes âgées ? La consommation excessive de sucre est-elle un facteur de risque ? 
+    - Comment se fait-il que le diabète survienne tardivement chez certains individus ? Le fait de manger trop de sucreries peut-il déclencher le diabète ? 
+    - Quels sont les mécanismes du diabète qui apparaît plus tard dans la vie ? Y a-t-il un lien entre le diabète et la quantité de sucre ingérée ? 
+    - Comment expliquer le diabète tardif chez certaines personnes ? Est-ce que le sucre est responsable du diabète ? 
+    - Qu'est-ce qui provoque le diabète qui se manifeste à un âge avancé ? Le diabète est-il causé par une alimentation trop riche en sucre ? 
+    - Comment développe-t-on le diabète à un stade tardif de la vie ? Le sucre a-t-il un effet néfaste sur le diabète ? 
+    - Quelles sont les origines du diabète qui se déclare plus tard dans l'existence ? La surconsommation de sucre favorise-t-elle le diabète ? 
+    - Comment le diabète peut-il apparaître à un moment avancé de la vie ? Le sucre est-il un élément déclencheur du diabète ? 
+    - Qu'est-ce qui détermine le diabète qui survient à un âge mûr ? Le diabète est-il lié à la consommation de sucre ? 
+    - Comment contracte-t-on le diabète à une période tardive de la vie ? Le sucre a-t-il une influence sur le diabète ? 
+    - Quelles sont les raisons du diabète qui émerge plus tard dans la vie ? La quantité de sucre consommée joue-t-elle un rôle dans le diabète ? 
+    - Comment le diabète peut-il se développer à un moment tardif de l'existence ? Le sucre est-il nocif pour le diabète ? 
+    - Qu'est-ce qui cause le diabète qui apparaît à une époque avancée de la vie ? Le diabète est-il dû à une ingestion excessive de sucre ? 
+    - Comment acquiert-on le diabète à un stade avancé de la vie ? Le sucre a-t-il un impact sur le diabète ? 
+    - Quelles sont les sources du diabète qui se révèle plus tard dans la vie ? La dose de sucre ingérée a-t-elle une incidence sur le diabète ? 
+    - Comment le diabète peut-il naître à une phase tardive de la'existence ? Le sucre est-il préjudiciable pour le diabète ? 
+    - Qu'est-ce qui engendre le diabète qui se produit à un moment mûr de la vie ? Le diabète est-il entraîné par une absorption excessive de sucre ? 
+    - Comment attrape-t-on le diabète à une époque tardive de la vie ? Le sucre a-t-il une conséquence sur le diabète ? 
+    - Quelles sont les origines du diabète qui se manifeste plus tard dans l'existence ? La dose de sucre consommée influe-t-elle sur le diabète ? 
+    - Comment le diabète peut-il surgir à une période avancée de la vie ? Le sucre est-il dommageable pour le diabète ?
+- intent: c8427927-b791-45c9-937f-b2e4cad653af
+  examples: |
+    - Quels sont les aliments autres que les sucreries et les produits sucrés que les personnes atteintes de diabète doivent limiter ? 
+    - Quels aliments, en plus des friandises et des aliments contenant beaucoup de sucre, sont déconseillés aux diabétiques ? 
+    - En dehors des confiseries et des aliments à forte teneur en sucre, quels sont les aliments dont les diabétiques doivent se méfier ? 
+    - Quels sont les aliments à éviter pour les diabétiques, en plus des bonbons et des aliments sucrés ? 
+    - Quels sont les aliments que les personnes diabétiques ne doivent pas consommer, hormis les sucreries et les produits riches en sucre ? 
+    - Quels sont les aliments à proscrire pour les diabétiques, mis à part les bonbons et les aliments chargés en sucre ? 
+    - Quels sont les aliments dont les diabétiques doivent réduire la consommation, à part les sucreries et les aliments sucrés ? 
+    - Quels sont les aliments déconseillés aux diabétiques, outre les bonbons et les produits contenant du sucre ? 
+    - Quels sont les aliments que les diabétiques doivent bannir de leur alimentation, sauf les sucreries et les aliments riches en sucre ? 
+    - Quels sont les aliments à limiter pour les diabétiques, hormis les bonbons et les produits sucrés ? 
+    - Quels sont les aliments que les personnes atteintes de diabète doivent fuir, en plus des friandises et des aliments sucrés ? 
+    - Quels sont les aliments interdits aux diabétiques, à l'exception des confiseries et des aliments à haute teneur en sucre ? 
+    - Quels sont les aliments que les diabétiques doivent écarter de leur régime alimentaire, outre les bonbons et les produits sucrés ? 
+    - Quels sont les aliments dont la consommation est déconseillée aux diabétiques, hormis les sucreries et les produits riches en sucre ? 
+    - Quels sont les aliments que les diabétiques ne doivent pas manger, sauf exception pour les bonbons et les aliments sucrés ? 
+    - Quels sont les aliments à éviter absolument pour les diabétiques, sauf pour les sucreries et les produits sucrés ? 
+    - Quels sont les aliments qui ne conviennent pas aux diabétiques, en dehors des bonbons et des produits contenant du sucre ? 
+    - Quels sont les aliments qui posent problème aux diabétiques, mis à part les friandises et les produits chargés en sucre ? 
+    - Quels sont les aliments qui nuisent aux diabétiques, à l'exception des confiseries et des produits à forte teneur en sucre ? 
+    - Quels sont les aliments qui aggravent le diabète, outre les bonbons et les produits sucrés ? 
+    - Parmi tous les aliments, quels sont ceux que les diabétiques doivent éviter, sauf pour ce qui concerne les bonbons et autres produits riches en sucre ? 
+    - En matière d'alimentation, quels sont ceux que l'on déconseille aux diabétiques, hormis pour ce qui est des friandises et autres produits contenant beaucoup de sucre ? 
+    - Dans le domaine de la nutrition, quels sont ceux que l'on interdit aux diabétiques, sauf exception pour ce qui touche aux confiseries et autres produits à haute teneur en sucre ? 
+    - Sur le plan alimentaire, quels sont ceux que l'on proscrit aux diabétiques, outre pour ce qui a trait aux sucreries et autres produits chargés en sucre ? 
+    - Du point de vue de la santé, quels sont ceux que l'on bannit pour les diabétiques, hormis pour ce qui concerne le domaine des bonbons et autres produits riches en sucre ?
+- intent: 29cc00c1-4721-4278-abc0-8adb86caeb1e
+  examples: |
+    - Quelle est la zone du corps où les diabétiques se font des injections d'insuline ? 
+    - À quel endroit du corps les diabétiques doivent-ils s'administrer de l'insuline ? 
+    - Où les diabétiques se piquent-ils pour recevoir de l'insuline ? 
+    - Quelle partie du corps est utilisée par les diabétiques pour s'injecter de l'insuline ? 
+    - Quelle région du corps les diabétiques choisissent-ils pour se faire des piqûres d'insuline ? 
+    - Où se situe le site d'injection d'insuline pour les diabétiques ? 
+    - Quel est l'emplacement du corps où les diabétiques se mettent de l'insuline ? 
+    - À quelle partie du corps les diabétiques appliquent-ils de l'insuline ? 
+    - Quelle zone du corps est préférée par les diabétiques pour s'injecter de l'insuline ? 
+    - Où les diabétiques placent-ils leur aiguille pour se donner de l'insuline ? 
+    - Quelle partie du corps convient aux diabétiques pour s'injecter de l'insuline ? 
+    - À quel endroit du corps les diabétiques introduisent-ils de l'insuline ? 
+    - Où les diabétiques se font-ils des perfusions d'insuline ? 
+    - Quelle partie du corps est adaptée aux diabétiques pour s'injecter de l'insuline ? 
+    - Quelle région du corps les diabétiques utilisent-ils pour se faire des injections d'insuline ? 
+    - Où se trouve le point d'injection d'insuline pour les diabétiques ? 
+    - Quel est le lieu du corps où les diabétiques se délivrent de l'insuline ? 
+    - À quelle partie du corps les diabétiques injectent-ils de l'insuline ? 
+    - Quelle zone du corps est recommandée aux diabétiques pour s'injecter de l'insuline ? 
+    - Où les diabétiques insèrent-ils leur seringue pour se procurer de l'insuline ? 
+    - Quelle partie du corps est appropriée aux diabétiques pour s'injecter de l'insuline ? 
+    - À quel endroit du corps les diabétiques administrent-ils de l'insuline ? 
+    - Où les diabétiques se font-ils des piqûres d'insuline ? 
+    - Quelle partie du corps est idéale pour les diabétiques qui s'injectent de l'insuline ? 
+    - Quelle région du corps les diabétiques préfèrent-ils pour se faire des perfusions d'insuline ? 
+    - Où se situe le lieu d'injection d'insuline pour les diabétiques ? 
+    - Quel est le point du corps où les diabétiques se fournissent en insuline ? 
+    - À quelle partie du corps les diabétiques appliquent-ils une dose d'insuline ? 
+    - Quelle zone du corps est conseillée aux diabétiques pour s'injecter de l'insuline ? 
+    - Où les diabétiques positionnent-ils leur stylo pour se transmettre de l'insuline ?
+- intent: d1780131-ae5f-4310-9541-ec89a3624883
+  examples: |
+    - Quel est le lien entre le cholestérol et le diabète ? 
+    - Comment le cholestérol influence-t-il le dépistage du diabète ? 
+    - Le diabète peut-il être détecté grâce au cholestérol ? 
+    - Le taux de cholestérol est-il un facteur de diagnostic du diabète ? 
+    - Le cholestérol et le diabète sont-ils liés ? 
+    - Peut-on diagnostiquer le diabète à partir du cholestérol ? 
+    - Le cholestérol a-t-il une incidence sur le diabète ? 
+    - Comment le cholestérol intervient-il dans le diabète ? 
+    - Le cholestérol est-il un indicateur du diabète ? 
+    - Le diabète et le cholestérol ont-ils une relation ? 
+    - Le cholestérol peut-il aider à identifier le diabète ? 
+    - Le cholestérol est-il impliqué dans le diabète ? 
+    - Comment le cholestérol affecte-t-il le diabète ? 
+    - Le cholestérol est-il un élément de diagnostic du diabète ? 
+    - Le diabète et le cholestérol sont-ils associés ? 
+    - Peut-on reconnaître le diabète grâce au cholestérol ? 
+    - Le cholestérol a-t-il un rôle dans le diabète ? 
+    - Comment le cholestérol participe-t-il au diabète ? 
+    - Le cholestérol est-il un signe du diabète ? 
+    - Le diabète et le cholestérol ont-ils un lien ? 
+    - Le cholestérol peut-il contribuer au diagnostic du diabète ? 
+    - Le cholestérol est-il en rapport avec le diabète ? 
+    - Comment le cholestérol influe-t-il sur le diabète ? 
+    - Le cholestérol est-il un critère de diagnostic du diabète ? 
+    - Le diabète et le cholestérol sont-ils connectés ? 
+    - Peut-on détecter le diabète par le cholestérol ? 
+    - Le cholestérol a-t-il une fonction dans le diabète ? 
+    - Comment le cholestérol agit-il sur le diabète ? 
+    - Le cholestérol est-il un marqueur du diabète ? 
+    - Le diabète et le cholestérol ont-ils une connexion ?
+- intent: 39dd86aa-433b-4b5f-8eb0-e163fcb58f9e
+  examples: |
+    - Comment l'obésité augmente-t-elle le risque de diabète de type 2 ? 
+    - Quel est le lien entre l'obésité et le diabète de type 2 ? 
+    - Quels sont les mécanismes physiologiques qui expliquent la vulnérabilité au diabète de type 2 chez les personnes obèses ? 
+    - En quoi l'obésité affecte-t-elle le métabolisme du glucose et favorise-t-elle le diabète de type 2 ? 
+    - Quels sont les facteurs de l'obésité qui contribuent au développement du diabète de type 2 ? 
+    - Pourquoi les personnes obèses sont-elles plus susceptibles de souffrir de diabète de type 2 ? 
+    - Qu'est-ce qui cause le diabète de type 2 chez les personnes obèses ? 
+    - Comment l'obésité modifie-t-elle la sensibilité à l'insuline et entraîne-t-elle le diabète de type 2 ? 
+    - Quels sont les effets de l'obésité sur le pancréas et la production d'insuline, qui sont impliqués dans le diabète de type 2 ? 
+    - Quel est le rôle de l'inflammation dans la relation entre l'obésité et le diabète de type 2 ? 
+    - Comment l'obésité perturbe-t-elle l'équilibre énergétique et favorise-t-elle le diabète de type 2 ? 
+    - Quels sont les aspects génétiques, environnementaux et comportementaux de l'obésité qui influencent le risque de diabète de type 2 ? 
+    - Comment l'obésité altère-t-elle la régulation du sucre dans le sang et provoque-t-elle le diabète de type 2 ? 
+    - Quels sont les processus cellulaires et moléculaires qui sous-tendent la prédisposition au diabète de type 2 chez les personnes obèses ? 
+    - En quoi l'obésité interfère-t-elle avec l'action de l'insuline et déclenche-t-elle le diabète de type 2 ? 
+    - Quels sont les changements hormonaux et nerveux induits par l'obésité qui affectent le développement du diabète de type 2 ? 
+    - Comment l'obésité entraîne-t-elle une résistance à l'insuline et une hyperglycémie, qui sont caractéristiques du diabète de type 2 ? 
+    - Quels sont les facteurs liés à l'obésité qui aggravent la progression du diabète de type 2 ? 
+    - Pourquoi l'obésité est-elle un facteur de risque majeur pour le diabète de type 2 ? 
+    - Qu'est-ce qui détermine la susceptibilité au diabète de type 2 en fonction du niveau d'obésité ? 
+    - Comment l'obésité affecte-t-elle la fonction des cellules bêta du pancréas, qui sécrètent l'insuline, et conduit au diabète de type 2 ? 
+    - Quels sont les mécanismes biochimiques et immunologiques qui relient l'obésité au diabète de type 2 ? 
+    - Comment l'obésité influence-t-elle la réponse à l'insuline et la régulation du glucose, qui sont perturbées dans le diabète de type 2 ? 
+    - Quels sont les effets néfastes de l'obésité sur le système endocrinien et le système nerveux, qui jouent un rôle dans le diabète de type 2 ? 
+    - En quoi l'obésité modifie-t-elle la composition corporelle et la distribution des graisses, ce qui a des conséquences sur le diabète de type 2 ? 
+    - Quels sont les facteurs déclenchants ou protecteurs de l'obésité qui modulent le risque de diabète de type 2 ? 
+    - Comment l'obésité réduit-elle la capacité du corps à utiliser efficacement le glucose et à maintenir une glycémie normale, ce qui entraîne le diabète de type 2 ? 
+    - Quels sont les aspects psychologiques et sociaux de l'obésité qui peuvent avoir un impact sur le contrôle du diabète de type 2 ? 
+    - Comment l'obésité compromet-elle la qualité de vie et la santé des personnes atteintes de diabète de type 2 ? 
+    - Quelles sont les stratégies préventives et thérapeutiques pour réduire l'obésité et prévenir ou traiter le diabète de type 2 ?
+- intent: 945834ea-7ab9-404b-b0ce-5e1fe3f17c78
+  examples: |
+    - Quels changements devrez-vous apporter à votre quotidien pour gérer le diabète ? 
+    - Comment adapter votre style de vie à votre condition diabétique ? 
+    - Quelles sont les modifications nécessaires à votre mode de vie pour vivre avec le diabète ? 
+    - Comment faire face au diabète en ajustant votre mode de vie ? 
+    - Quels aspects de votre mode de vie devrez-vous modifier pour contrôler le diabète ? 
+    - Comment concilier votre mode de vie et votre diabète ? 
+    - Quelles sont les conséquences du diabète sur votre mode de vie ? 
+    - Comment modifier votre mode de vie pour mieux gérer le diabète ? 
+    - Quelles habitudes devrez-vous changer pour faire face au diabète ? 
+    - Comment vivre avec le diabète en adaptant votre mode de vie ? 
+    - Quels sont les enjeux du diabète pour votre mode de vie ? 
+    - Comment faire évoluer votre mode de vie pour tenir compte du diabète ? 
+    - Quelles sont les adaptations nécessaires à votre mode de vie pour faire face au diabète ? 
+    - Comment réorganiser votre mode de vie en fonction du diabète ? 
+    - Quels défis devrez-vous relever pour modifier votre mode de vie à cause du diabète ? 
+    - Comment composer avec le diabète en changeant votre mode de vie ? 
+    - Quelles sont les implications du diabète pour votre mode de vie ? 
+    - Comment transformer votre mode de vie pour lutter contre le diabète ? 
+    - Quelles pratiques devrez-vous adopter pour faire face au diabète ? 
+    - Comment gérer le diabète en modifiant votre mode de vie ? 
+    - Quels sont les impacts du diabète sur votre mode de vie ? 
+    - Comment ajuster votre mode de vie pour prévenir les complications du diabète ? 
+    - Quelles stratégies devrez-vous mettre en place pour faire face au diabète ? 
+    - Comment améliorer votre mode de vie pour limiter les effets du diabète ? 
+    - Quels sont les facteurs de votre mode de vie que vous devrez modifier pour faire face au diabète ? 
+    - Comment optimiser votre mode de vie pour vivre sainement avec le diabète ? 
+    - Quelles sont les recommandations à suivre pour adapter votre mode de vie au diabète ? 
+    - Comment réduire l'impact du diabète sur votre mode de vie ? 
+    - Quelles actions devrez-vous entreprendre pour faire face au diabète ? 
+    - Comment harmoniser votre mode de vie avec le traitement du diabète ?
+- intent: 8a339c70-2127-4a93-83ad-a883e1bc5c7b
+  examples: |
+    - Quelles sont les mesures à prendre pour réguler mon taux de sucre dans le sang ? Y a-t-il des actions supplémentaires à faire ? 
+    - Comment puis-je maintenir une glycémie normale ? Dois-je changer quelque chose à mon mode de vie ? 
+    - Quels sont les facteurs qui influencent ma glycémie ? Ai-je besoin de faire plus d'efforts ? 
+    - Comment gérer mon diabète efficacement ? Quelles sont les recommandations à suivre ? 
+    - Quel est le meilleur moyen de contrôler ma glycémie ? Y a-t-il des habitudes à adopter ou à éviter ? 
+    - Comment surveiller mon taux de glucose dans le sang ? Quels sont les gestes à faire au quotidien ? 
+    - Quelles sont les causes de ma glycémie élevée ou basse ? Comment puis-je l'améliorer ? 
+    - Comment savoir si ma glycémie est dans la norme ? Quelles sont les bonnes pratiques à respecter ? 
+    - Quels sont les symptômes d'une glycémie déséquilibrée ? Que dois-je faire pour la stabiliser ? 
+    - Comment adapter mon alimentation et mon activité physique à ma glycémie ? Dois-je modifier quelque chose ? 
+    - Quels sont les traitements disponibles pour ma glycémie ? Dois-je en prendre davantage ou moins ? 
+    - Comment prévenir les complications liées à ma glycémie ? Quelles sont les précautions à prendre ? 
+    - Comment mesurer ma glycémie régulièrement ? Dois-je utiliser un appareil spécifique ? 
+    - Comment équilibrer ma glycémie selon les moments de la journée ? Dois-je respecter un rythme particulier ? 
+    - Quels sont les conseils de mon médecin pour ma glycémie ? Dois-je le consulter plus souvent ? 
+    - Comment vivre avec ma glycémie ? Quels sont les impacts sur ma santé et mon bien-être ? 
+    - Comment réduire les variations de ma glycémie ? Dois-je suivre un régime spécial ? 
+    - Comment optimiser mon traitement pour ma glycémie ? Dois-je ajuster les doses ou la fréquence ? 
+    - Comment faire face aux situations stressantes qui affectent ma glycémie ? Dois-je apprendre des techniques de relaxation ? 
+    - Comment gérer ma glycémie pendant les vacances ou les voyages ? Dois-je emporter des médicaments ou des aliments spécifiques ? 
+    - Comment améliorer ma qualité de vie avec ma glycémie ? Dois-je me fixer des objectifs ou des défis ? 
+    - Comment éviter les hypoglycémies ou les hyperglycémies ? Dois-je avoir toujours du sucre ou de l'insuline à portée de main ? 
+    - Comment bénéficier du soutien de mes proches pour ma glycémie ? Dois-je leur parler de ma situation ou de mes besoins ? 
+    - Comment utiliser les nouvelles technologies pour ma glycémie ? Dois-je télécharger une application ou un logiciel ? 
+    - Comment profiter des activités qui me font plaisir avec ma glycémie ? Dois-je faire des concessions ou des adaptations ?
+- intent: 33ab34b3-2471-42e2-b841-87e7420d4b26
+  examples: |
+    - Est-ce que mon contrôle va s'aggraver en vieillissant, si mon métabolisme change ? 
+    - Mon contrôle est bon pour le moment, mais va-t-il se dégrader avec l'âge, en fonction de mon métabolisme ? 
+    - Jusqu'ici, mon contrôle est satisfaisant, mais risque-t-il de se détériorer en prenant de l'âge, selon mon métabolisme ? 
+    - Mon contrôle est correct actuellement, mais peut-il se dégrader avec le temps, à cause de mon métabolisme ? 
+    - Pour l'instant, mon contrôle est bon, mais est-il menacé de se détériorer en vieillissant, quand mon métabolisme évolue ? 
+    - Mon contrôle est convenable à présent, mais pourrait-il se dégrader avec l'âge, suivant mon métabolisme ? 
+    - Actuellement, mon contrôle est bon, mais risque-t-il de s'aggraver en prenant de l'âge, avec les changements de mon métabolisme ? 
+    - Mon contrôle est satisfaisant maintenant, mais peut-il se détériorer avec le temps, en raison de mon métabolisme ? 
+    - Maintenant, mon contrôle est bon, mais est-il susceptible de s'aggraver en vieillissant, quand mon métabolisme se modifie ? 
+    - Mon contrôle est correct pour le moment, mais pourrait-il se détériorer avec l'âge, à mesure que mon métabolisme change ? 
+    - Pour le moment, mon contrôle est satisfaisant, mais va-t-il s'aggraver en vieillissant, si mon métabolisme évolue ? 
+    - Mon contrôle est convenable actuellement, mais peut-il s'aggraver avec le temps, à cause de mon métabolisme ? 
+    - Actuellement, mon contrôle est satisfaisant, mais est-il menacé de se dégrader en vieillissant, selon mon métabolisme ? 
+    - Mon contrôle est bon maintenant, mais pourrait-il se détériorer avec l'âge, en fonction de mon métabolisme ? 
+    - Maintenant, mon contrôle est satisfaisant, mais risque-t-il de se détériorer en prenant de l'âge, avec les changements de mon métabolisme ? 
+    - Mon contrôle est bon pour l'instant, mais peut-il s'aggraver avec l'âge, à mesure que mon métabolisme se modifie ? 
+    - Pour l'instant, mon contrôle est correct, mais va-t-il se dégrader en vieillissant, si mon métabolisme change ? 
+    - Mon contrôle est correct à présent, mais risque-t-il de s'aggraver avec le temps, en raison de mon métabolisme ? 
+    - À présent, mon contrôle est correct, mais est-il susceptible de se dégrader en vieillissant, quand mon métabolisme évolue ? 
+    - Mon contrôle est bon actuellement, mais pourrait-il se dégrader avec le temps, suivant mon métabolisme ? 
+    - Actuellement, mon contrôle est correct, mais va-t-il s'aggraver en prenant de l'âge, à cause de mon métabolisme ? 
+    - Mon contrôle est satisfaisant pour l'instant, mais peut-il se détériorer avec l'âge, selon mon métabolisme ? 
+    - Pour le moment, mon contrôle est correct, mais risque-t-il de se détériorer en vieillissant, quand mon métabolisme change ? 
+    - Mon contrôle est bon à présent, mais va-t-il se dégrader avec le temps, en fonction de mon métabolisme ? 
+    - À présent, mon contrôle est bon, mais est-il menacé de se dégrader en prenant de l'âge, avec les changements de mon métabolisme ? 
+    - Mon contrôle est correct maintenant, mais pourrait-il se détériorer avec l'âge, à mesure que mon métabolisme évolue ? 
+    - Maintenant, mon contrôle est correct, mais peut-il s'aggraver en vieillissant,si mon métabolisme se modifie?
+- intent: b112d1a1-77c8-47c5-91c9-9d7d30dd6e43
+  examples: |
+    - Quelles sont les meilleures méthodes pour réguler mon taux de glucose ? 
+    - Comment faire pour diminuer les variations de ma glycémie ? 
+    - Quels conseils pour maintenir un bon équilibre de mon sucre dans le sang ? 
+    - Comment gérer efficacement ma glycémie au quotidien ? 
+    - Quelles sont les astuces pour stabiliser mon taux de glucose ? 
+    - Comment éviter les pics et les chutes de ma glycémie ? 
+    - Quels sont les facteurs qui influencent ma glycémie et comment les contrôler ? 
+    - Comment adapter mon alimentation et mon activité physique pour ma glycémie ? 
+    - Quelles sont les bonnes pratiques pour surveiller mon taux de sucre dans le sang ? 
+    - Comment optimiser mon traitement pour ma glycémie ? 
+    - Quels sont les objectifs à atteindre pour ma glycémie et comment y parvenir ? 
+    - Comment prévenir les complications liées à ma glycémie ? 
+    - Quelles sont les solutions naturelles pour améliorer ma glycémie ? 
+    - Comment vivre mieux avec ma glycémie ? 
+    - Quels sont les pièges à éviter pour ma glycémie et comment les déjouer ? 
+    - Comment réagir en cas d'hypoglycémie ou d'hyperglycémie ? 
+    - Quels sont les aliments à privilégier et à limiter pour ma glycémie ? 
+    - Comment calculer les glucides de mes repas pour ma glycémie ? 
+    - Quelles sont les nouvelles technologies pour mesurer et gérer ma glycémie ? 
+    - Comment concilier ma vie sociale et ma glycémie ? 
+    - Quels sont les bénéfices d'une bonne glycémie sur ma santé ? 
+    - Comment renforcer mon éducation thérapeutique pour ma glycémie ? 
+    - Quelles sont les ressources disponibles pour m'aider à contrôler ma glycémie ? 
+    - Comment impliquer mon entourage dans la gestion de ma glycémie ? 
+    - Comment faire face au stress et aux émotions qui affectent ma glycémie ? 
+    - Quels sont les signes qui indiquent que ma glycémie est déséquilibrée et comment y remédier ? 
+    - Comment ajuster ma glycémie en fonction des saisons, des voyages ou des maladies ? 
+    - Quelles sont les erreurs courantes à éviter pour ma glycémie et comment les corriger ? 
+    - Comment booster ma motivation pour prendre soin de ma glycémie ? 
+    - Quelles sont les questions à poser à mon médecin ou à mon diabétologue sur ma glycémie ?
+- intent: 026cd963-11b8-4509-8895-07506598a084
+  examples: |
+    - Est-il possible de maîtriser la maladie sans médicaments en faisant un régime ? 
+    - Perdre du poids peut-il me permettre de contrôler la maladie sans avoir recours aux médicaments ? 
+    - Sans prendre de médicaments, comment puis-je gérer la maladie en réduisant mon poids ? 
+    - Quelle est la possibilité de contrôler la maladie en diminuant mon poids sans utiliser de médicaments ? 
+    - Comment faire pour maîtriser la maladie en perdant du poids sans prendre de médicaments ? 
+    - Peut-on gérer la maladie sans médicaments en faisant baisser son poids ? 
+    - Est-ce que je peux me passer de médicaments et contrôler la maladie en perdant du poids ? 
+    - Comment contrôler la maladie sans médicaments en diminuant mon poids ? 
+    - Peut-on maîtriser la maladie en réduisant son poids sans avoir besoin de médicaments ? 
+    - Est-ce que je peux éviter les médicaments et gérer la maladie en faisant un régime ? 
+    - Comment gérer la maladie en perdant du poids sans utiliser de médicaments ? 
+    - Peut-on éviter les médicaments et contrôler la maladie en réduisant son poids ? 
+    - Est-ce que je peux contrôler la maladie sans médicaments en faisant baisser mon poids ? 
+    - Comment éviter les médicaments et maîtriser la maladie en diminuant mon poids ? 
+    - Peut-on se passer de médicaments et gérer la maladie en perdant du poids ? 
+    - Est-ce que je peux maîtriser la maladie sans médicaments en faisant un régime ? 
+    - Comment se passer de médicaments et contrôler la maladie en réduisant son poids ? 
+    - Peut-on contrôler la maladie sans médicaments en diminuant son poids ? 
+    - Est-ce que je peux gérer la maladie sans médicaments en perdant du poids ? 
+    - Comment maîtriser la maladie sans médicaments en faisant baisser son poids ? 
+    - Peut-on maîtriser la maladie en faisant un régime sans prendre de médicaments ? 
+    - Est-ce que je peux contrôler la maladie en réduisant mon poids sans utiliser de médicaments ? 
+    - Comment gérer la maladie en faisant un régime sans avoir recours aux médicaments ? 
+    - Peut-on contrôler la maladie en perdant du poids sans avoir besoin de médicaments ? 
+    - Est-ce que je peux gérer la maladie en diminuant mon poids sans avoir recours aux médicaments ? 
+    - Comment contrôler la maladie en faisant baisser son poids sans avoir besoin de médicaments ? 
+    - Peut-on gérer la maladie en diminuant son poids sans utiliser de médicaments ? 
+    - Est-ce que je peux éviter les médicaments et maîtriser la maladie en faisant baisser mon poids ? 
+    - Comment éviter les médicaments et gérer la maladie en perdant du poids ? 
+    - Peut-on éviter les médicaments et maîtriser la maladie en faisant un régime ?
+- intent: 6fec67ae-e86c-4dbf-a096-8401daf0c98a
+  examples: |
+    - Quelle est la raison de mon traitement à l'insuline ? 
+    - Quels sont les bénéfices de l'insuline pour ma santé ? 
+    - Comment l'insuline m'aide-t-elle à réguler mon taux de sucre ? 
+    - En quoi l'insuline est-elle indispensable pour mon organisme ? 
+    - Quel est le rôle de l'insuline dans le contrôle du diabète ? 
+    - Quels sont les risques si je n'utilise pas d'insuline ? 
+    - Comment l'insuline agit-elle sur mes cellules ? 
+    - Qu'est-ce qui justifie la prescription d'insuline pour moi ? 
+    - Quels sont les objectifs de l'insuline dans ma prise en charge ? 
+    - Comment l'insuline influe-t-elle sur mon métabolisme ? 
+    - Quelles sont les conséquences de l'absence d'insuline dans mon corps ? 
+    - Comment l'insuline contribue-t-elle à ma qualité de vie ? 
+    - Quels sont les mécanismes de l'insuline sur le glucose ? 
+    - Qu'est-ce qui explique la nécessité de l'insuline pour mon cas ? 
+    - Quels sont les avantages de l'insuline par rapport aux autres traitements ? 
+    - Comment l'insuline prévient-elle les complications du diabète ? 
+    - Quelles sont les fonctions de l'insuline dans mon système endocrinien ? 
+    - Qu'est-ce qui détermine la dose d'insuline dont j'ai besoin ? 
+    - Quels sont les effets de l'insuline sur mon énergie et mon humeur ? 
+    - En quoi l'insuline est-elle compatible avec mon alimentation et mon activité physique ? 
+    - Quelles sont les alternatives à l'insuline si je ne veux pas en prendre ? 
+    - Comment l'insuline favorise-t-elle l'équilibre glycémique ? 
+    - Quelles sont les caractéristiques de l'insuline que je dois connaître ? 
+    - Comment l'insuline renforce-t-elle mon système immunitaire ? 
+    - En quoi l'insuline est-elle différente des autres hormones ? 
+    - Quels sont les types d'insuline et comment les choisir ? 
+    - Comment l'insuline interagit-elle avec mes autres médicaments ? 
+    - Quelles sont les précautions à prendre avec l'insuline ? 
+    - Comment l'insuline améliore-t-elle ma longévité et ma résilience ? 
+    - En quoi l'insuline est-elle un allié pour ma santé ?
+- intent: 98bc53db-86ba-4bc7-9685-653c602e91b2
+  examples: |
+    - Est-il possible de se libérer de l'insuline en adoptant une meilleure alimentation ? 
+    - Une alimentation plus saine peut-elle réduire ou supprimer le besoin d'insuline ? 
+    - Comment changer son régime alimentaire pour se passer de l'insuline ? 
+    - Quels sont les bienfaits d'une meilleure nutrition sur la dépendance à l'insuline ? 
+    - Peut-on arrêter l'insuline en améliorant son régime alimentaire ? 
+    - Quel régime alimentaire suivre pour se débarrasser de l'insuline ? 
+    - L'insuline est-elle encore nécessaire si l'on mange mieux ? 
+    - Une meilleure hygiène alimentaire permet-elle de se passer de l'insuline ? 
+    - Comment diminuer ou arrêter l'insuline en changeant son alimentation ? 
+    - Quelle alimentation adopter pour se libérer de l'insuline ? 
+    - Peut-on se passer de l'insuline en ayant une meilleure nutrition ? 
+    - Quels changements alimentaires faire pour réduire ou supprimer l'insuline ? 
+    - L'insuline peut-elle être remplacée par une meilleure alimentation ? 
+    - Quels sont les effets d'une meilleure alimentation sur la nécessité de l'insuline ? 
+    - Comment se débarrasser de l'insuline en améliorant son régime alimentaire ? 
+    - Quel régime alimentaire choisir pour diminuer ou arrêter l'insuline ? 
+    - L'insuline est-elle évitable si l'on a une meilleure hygiène alimentaire ? 
+    - Une alimentation plus équilibrée peut-elle permettre de se passer de l'insuline ? 
+    - Comment réduire ou éliminer l'insuline en modifiant son régime alimentaire ? 
+    - Quelle nutrition privilégier pour se libérer de l'insuline ? 
+    - Peut-on éliminer l'insuline en changeant son régime alimentaire ? 
+    - Quels ajustements alimentaires faire pour diminuer ou éliminer l'insuline ? 
+    - L'insuline peut-elle être évitée par une meilleure nutrition ? 
+    - Quels sont les avantages d'une meilleure hygiène alimentaire sur le besoin d'insuline ? 
+    - Comment arrêter l'insuline en changeant son alimentation ? 
+    - Quel régime alimentaire adopter pour éliminer ou réduire l'insuline ? 
+    - L'insuline est-elle indispensable si l'on suit une meilleure alimentation ? 
+    - Une alimentation plus saine peut-elle aider à se libérer de l'insuline ? 
+    - Comment modifier son régime alimentaire pour diminuer ou éliminer l'insuline ? 
+    - Quelle hygiène alimentaire suivre pour se passer de l'insuline ?
+- intent: fd500fb5-9a24-41f4-894a-71c1f907e5f2
+  examples: |
+    - Quelle est la cause de mes fluctuations de glycémie ? Comment faire pour les stabiliser ? 
+    - Comment expliquer mes variations de taux de sucre dans le sang ? Quelles sont les solutions pour les maîtriser ? 
+    - Quels sont les facteurs qui influencent ma glycémie ? Comment les réguler efficacement ? 
+    - D'où viennent mes déséquilibres de glycémie ? Comment les corriger ? 
+    - Qu'est-ce qui provoque mes changements de glycémie ? Comment les éviter ? 
+    - Quelles sont les raisons de mes écarts de glycémie ? Comment les réduire ? 
+    - Comment se fait-il que ma glycémie soit si instable ? Que faire pour la normaliser ? 
+    - Qu'est-ce qui détermine ma glycémie ? Comment la gérer correctement ? 
+    - Quels sont les éléments qui affectent ma glycémie ? Comment les contrôler ? 
+    - Pourquoi ma glycémie varie-t-elle autant ? Comment la maintenir à un niveau optimal ? 
+    - Qu'est-ce qui entraîne mes oscillations de glycémie ? Comment les limiter ? 
+    - Quelles sont les causes de mes anomalies de glycémie ? Comment les rectifier ? 
+    - Comment comprendre mes différences de glycémie ? Que faire pour les harmoniser ? 
+    - Qu'est-ce qui explique mes irrégularités de glycémie ? Comment y remédier ? 
+    - Quels sont les mécanismes qui régulent ma glycémie ? Comment les ajuster ? 
+    - Pourquoi ma glycémie n'est-elle pas constante ? Que faire pour la rendre plus stable ? 
+    - Qu'est-ce qui influence ma glycémie ? Comment la moduler ? 
+    - Quelles sont les origines de mes problèmes de glycémie ? Comment les résoudre ? 
+    - Comment interpréter mes fluctuations de taux de glucose dans le sang ? Que faire pour les atténuer ? 
+    - Qu'est-ce qui cause mes variations de niveau de sucre dans le sang ? Comment les prévenir ? 
+    - Quels sont les paramètres qui modifient ma glycémie ? Comment les optimiser ? 
+    - Pourquoi ma glycémie est-elle si changeante ? Que faire pour l'équilibrer ? 
+    - Qu'est-ce qui déclenche mes perturbations de glycémie ? Comment y faire face ? 
+    - Quelles sont les conséquences de mes écarts de taux de sucre dans le sang ? Comment les minimiser ? 
+    - Comment gérer mes changements de niveau de glucose dans le sang ? Que faire pour les stabiliser ? 
+    - Qu'est-ce qui agit sur ma glycémie ? Comment la surveiller efficacement ? 
+    - Quelles sont les sources de mes difficultés de glycémie ? Comment les surmonter ? 
+    - Comment contrôler mes variations de taux de glucose dans le sang ? Que faire pour les normaliser ? 
+    - Qu'est-ce qui génère mes désordres de glycémie ? Comment y mettre fin ? 
+    - Quels sont les processus qui dérèglent ma glycémie ? Comment les rétablir ?
+- intent: 24415cda-2993-4dfe-ad13-3b2db7df33ef
+  examples: |
+    - Existe-t-il un traitement qui guérit le diabète pour toujours? 
+    - Le diabète peut-il être éliminé de façon permanente avec un médicament? 
+    - Quel est le remède ultime contre le diabète? 
+    - Comment se débarrasser définitivement du diabète avec un traitement? 
+    - Un remède efficace et durable contre le diabète est-il possible? 
+    - Peut-on vaincre le diabète une fois pour toutes avec un remède? 
+    - Y a-t-il un moyen de soigner le diabète à jamais? 
+    - Comment mettre fin au diabète de façon irréversible avec un médicament? 
+    - Un traitement qui éradique le diabète existe-t-il? 
+    - Peut-on trouver un remède qui supprime le diabète pour de bon? 
+    - Le diabète peut-il être guéri complètement avec un traitement? 
+    - Quel est le médicament qui met fin au diabète définitivement? 
+    - Comment se libérer du diabète de manière permanente avec un remède? 
+    - Un remède sûr et infaillible contre le diabète est-il envisageable? 
+    - Peut-on combattre le diabète à tout jamais avec un remède? 
+    - Y a-t-il une solution pour soigner le diabète sans retour? 
+    - Comment éliminer le diabète sans récidive avec un traitement? 
+    - Un traitement qui anéantit le diabète est-il disponible? 
+    - Peut-on obtenir un remède qui neutralise le diabète pour toujours? 
+    - Le diabète peut-il être vaincu totalement avec un traitement? 
+    - Quel est le remède miracle contre le diabète? 
+    - Comment se guérir du diabète de façon définitive avec un traitement? 
+    - Un remède radical et permanent contre le diabète est-il réalisable? 
+    - Peut-on terrasser le diabète à jamais avec un remède? 
+    - Y a-t-il une méthode pour guérir le diabète irrémédiablement? 
+    - Comment faire disparaître le diabète sans retour possible avec un traitement? 
+    - Un traitement qui extermine le diabète existe-t-il vraiment? 
+    - Peut-on espérer un remède qui résout le problème du diabète pour toujours? 
+    - Le diabète peut-il être réglé définitivement avec un traitement? 
+    - Quel est le remède qui élimine le risque de diabète à vie?
+- intent: 8b8e0b35-7f97-4212-be13-ecef92a01fb9
+  examples: |
+    - Quelles sont les stratégies pour garder une attitude positive malgré ma situation? 
+    - Comment cultiver la positivité face aux difficultés que je traverse? 
+    - Quels sont les moyens de renforcer mon optimisme face à mon état? 
+    - Comment développer une vision positive de ma vie malgré les obstacles? 
+    - Quels sont les conseils pour rester souriante face à mon état? 
+    - Comment apprendre à voir le bon côté des choses malgré ma condition? 
+    - Quelles sont les astuces pour garder le moral face à mon état? 
+    - Comment adopter une posture positive face aux défis que je rencontre? 
+    - Quels sont les exercices pour renforcer ma positivité face à mon état? 
+    - Comment changer ma perception de ma situation pour être plus positive? 
+    - Quelles sont les habitudes à prendre pour rester optimiste face à mon état? 
+    - Comment trouver des sources de joie et d'espoir malgré ma situation? 
+    - Quels sont les outils pour garder une énergie positive face à mon état? 
+    - Comment faire face à mes émotions négatives et les transformer en positivité? 
+    - Quelles sont les pratiques pour rester sereine face à mon état? 
+    - Comment me focaliser sur mes forces et mes ressources plutôt que sur mes faiblesses et mes limites? 
+    - Quelles sont les techniques pour garder une confiance en soi positive face à mon état? 
+    - Comment créer un environnement positif autour de moi malgré ma condition? 
+    - Quelles sont les activités qui me font du bien et qui renforcent ma positivité face à mon état? 
+    - Comment me fixer des objectifs positifs et motivants malgré ma situation? 
+    - Quelles sont les pensées positives à répéter pour rester optimiste face à mon état? 
+    - Comment exprimer ma gratitude pour ce que j'ai plutôt que de me plaindre de ce qui me manque? 
+    - Quelles sont les inspirations positives à suivre pour garder le cap face à mon état? 
+    - Comment gérer le stress et l'anxiété qui nuisent à ma positivité? 
+    - Quelles sont les valeurs positives qui me guident et me soutiennent face à mon état? 
+    - Comment me connecter à des personnes positives qui m'encouragent et me soutiennent malgré ma situation? 
+    - Quelles sont les actions positives à mettre en place pour améliorer mon état ou ma qualité de vie? 
+    - Comment accepter ce que je ne peux pas changer et lâcher prise sur ce qui m'échappe? 
+    - Quelles sont les leçons positives que je peux tirer de mon expérience et de mon état? 
+    - Comment me faire plaisir et me récompenser pour mes efforts et mes progrès?
+- intent: a9f86ec5-f00e-4831-aff0-9ff3ce4de873
+  examples: |
+    - Quelles sont les causes, les symptômes et les traitements de la neuropathie diabétique ? 
+    - Comment le diabète peut-il affecter les nerfs et provoquer une neuropathie ? 
+    - Quels sont les différents types de neuropathie diabétique et comment les reconnaître ? 
+    - Quelles sont les complications possibles de la neuropathie diabétique et comment les prévenir ? 
+    - Comment vivre avec la neuropathie diabétique au quotidien ? 
+    - Quels sont les facteurs de risque de développer une neuropathie diabétique ? 
+    - Quels sont les examens et les tests pour diagnostiquer une neuropathie diabétique ? 
+    - Quelles sont les options thérapeutiques disponibles pour soulager la douleur liée à la neuropathie diabétique ? 
+    - Comment le contrôle de la glycémie peut-il prévenir ou ralentir la progression de la neuropathie diabétique ? 
+    - Quelles sont les recommandations alimentaires et les activités physiques adaptées pour les personnes souffrant de neuropathie diabétique ? 
+    - Quels sont les effets secondaires des médicaments utilisés pour traiter la neuropathie diabétique ? 
+    - Quelles sont les ressources et les associations qui peuvent aider les personnes atteintes de neuropathie diabétique ? 
+    - Comment la neuropathie diabétique peut-elle impacter la qualité de vie et le bien-être psychologique des patients ? 
+    - Quelles sont les nouvelles recherches et les avancées scientifiques sur la neuropathie diabétique ? 
+    - Comment prendre soin de ses pieds quand on a une neuropathie diabétique ? 
+    - Quels sont les signes d'alerte qui doivent conduire à consulter un médecin en cas de neuropathie diabétique ? 
+    - Quels sont les traitements alternatifs ou complémentaires qui peuvent aider à gérer la neuropathie diabétique ? 
+    - Comment la neuropathie diabétique peut-elle affecter la sexualité et la fertilité des patients ? 
+    - Quels sont les conseils pratiques pour améliorer le confort et la sécurité des personnes souffrant de neuropathie diabétique ? 
+    - Quels sont les mythes et les idées reçues sur la neuropathie diabétique ? 
+    - Comment évaluer l'efficacité et la tolérance des traitements pour la neuropathie diabétique ? 
+    - Quelles sont les interactions possibles entre les médicaments pour la neuropathie diabétique et d'autres substances ou produits ? 
+    - Comment choisir le bon spécialiste pour prendre en charge sa neuropathie diabétique ? 
+    - Quelles sont les mesures préventives à adopter pour éviter ou retarder l'apparition d'une neuropathie diabétique ? 
+    - Comment expliquer la neuropathie diabétique à son entourage et à ses proches ? 
+    - Quels sont les droits et les aides dont peuvent bénéficier les personnes atteintes de neuropathie diabétique ? 
+    - Comment gérer le stress et l'anxiété liés à la neuropathie diabétique ? 
+    - Quels sont les facteurs déclenchants ou aggravants de la douleur liée à la neuropathie diabétique ? 
+    - Comment adapter son matériel et son environnement pour faciliter sa vie avec la neuropathie diabétique ? 
+    - Quelles sont les questions à poser à son médecin lors d'une consultation pour une neuropathie diabétique ?
+- intent: 206a0297-4a5c-423d-8be8-28fa958085a7
+  examples: |
+    - Est-ce que mon diabète peut expliquer mes pertes de mémoire de plus en plus fréquentes ces six derniers mois ? 
+    - J'ai remarqué que ma mémoire se dégradait depuis six mois. Est-ce lié à mon diabète ? 
+    - Mon diabète a-t-il une influence sur ma mémoire ? Je constate que j'oublie de plus en plus de choses depuis six mois. 
+    - Depuis six mois, j'oublie souvent des choses. Cela pourrait-il être dû à mon diabète ? 
+    - Quel est le rapport entre mon diabète et ma mémoire ? J'ai l'impression d'oublier de plus en plus de choses ces six derniers mois. 
+    - Est-ce que mon diabète affecte ma mémoire ? Je remarque que j'ai des trous de mémoire de plus en plus souvent depuis six mois. 
+    - J'oublie de plus en plus de choses depuis six mois. Est-ce que c'est normal avec le diabète ? 
+    - Mon diabète peut-il causer des problèmes de mémoire ? Je trouve que j'oublie beaucoup de choses ces six derniers mois. 
+    - Depuis six mois, ma mémoire me fait défaut. Est-ce que c'est à cause de mon diabète ? 
+    - Est-ce que mon diabète est responsable de mes oublis de plus en plus fréquents ces six derniers mois ? 
+    - J'ai des difficultés à me souvenir des choses depuis six mois. Est-ce que c'est lié à mon diabète ? 
+    - Mon diabète a-t-il un impact sur ma mémoire ? Je note que j'oublie de plus en plus de choses depuis six mois. 
+    - Depuis six mois, j'oublie régulièrement des choses. Cela peut-il être causé par mon diabète ? 
+    - Quelle est la relation entre mon diabète et ma mémoire ? J'ai l'impression d'oublier de plus en plus de choses ces six derniers mois. 
+    - Est-ce que mon diabète altère ma mémoire ? Je constate que j'ai des pertes de mémoire de plus en plus fréquentes depuis six mois. 
+    - J'oublie de plus en plus de choses depuis six mois. Est-ce que c'est dû à mon diabète ? 
+    - Mon diabète peut-il entraîner des troubles de la mémoire ? Je remarque que j'oublie beaucoup de choses ces six derniers mois. 
+    - Depuis six mois, ma mémoire me joue des tours. Est-ce que c'est à cause de mon diabète ? 
+    - Est-ce que mon diabète explique mes oublis de plus en plus fréquents ces six derniers mois ? 
+    - J'ai du mal à me rappeler des choses depuis six mois. Est-ce que c'est lié à mon diabète ? 
+    - Mon diabète a-t-il une incidence sur ma mémoire ? Je trouve que j'oublie de plus en plus de choses depuis six mois. 
+    - Depuis six mois, j'oublie souvent des choses. Cela pourrait-il être lié à mon diabète ? 
+    - Quel est l'effet de mon diabète sur ma mémoire ? J'ai l'impression d'oublier de plus en plus de choses ces six derniers mois. 
+    - Est-ce que mon diabète dégrade ma mémoire ? Je note que j'ai des oublis de plus en plus fréquents depuis six mois. 
+    - J'oublie de plus en plus de choses depuis six mois. Est-ce que c'est un effet du diabète ? 
+    - Mon diabète peut-il provoquer des problèmes de mémoire ? Je constate que j'oublie beaucoup de choses ces six derniers mois. 
+    - Depuis six mois, ma mémoire me fait des siennes. Est-ce que c'est à cause de mon diabète ? 
+    - Est-ce que mon diabète est à l'origine de mes pertes de mémoire de plus en plus fréquentes ces six derniers mois ? 
+    - J'ai des problèmes à me souvenir des choses depuis six mois. Est-ce que c'est lié à mon diabète ? 
+    - Mon diabète a-t-il un effet sur ma mémoire ? Je remarque que j'oublie de plus en plus de choses depuis six mois.
+- intent: 6947550a-b7bf-486b-991c-119f1cbebeb7
+  examples: |
+    - Est-ce que le diabète peut avoir un lien avec l'apnée du sommeil dont je suis en train de faire le test ? 
+    - Je passe actuellement un examen pour détecter une éventuelle apnée du sommeil. Est-ce que cela pourrait être dû au diabète ? 
+    - On m'examine pour voir si j'ai de l'apnée du sommeil. Est-ce que le diabète peut être une cause possible ? 
+    - Je suis en cours d'examen pour une suspicion d'apnée du sommeil. Est-ce que cela a un rapport avec le diabète ? 
+    - On me teste pour une possible apnée du sommeil. Est-ce que le diabète est un facteur de risque ? 
+    - Je fais l'objet d'un dépistage pour une éventuelle apnée du sommeil. Est-ce que cela peut s'expliquer par le diabète ? 
+    - Je subis actuellement un examen pour une potentielle apnée du sommeil. Est-ce que cela a une relation avec le diabète ? 
+    - On me contrôle pour une hypothétique apnée du sommeil. Est-ce que le diabète peut en être la cause ? 
+    - Je suis en train de passer un examen pour une probable apnée du sommeil. Est-ce que cela peut être lié au diabète ? 
+    - On m'évalue pour une possible apnée du sommeil. Est-ce que le diabète est un élément déclencheur ? 
+    - Je fais face à un examen pour une éventuelle apnée du sommeil. Est-ce que cela peut avoir un lien avec le diabète ? 
+    - On me vérifie pour une potentielle apnée du sommeil. Est-ce que le diabète peut en être la conséquence ? 
+    - Je suis soumis à un examen pour une hypothétique apnée du sommeil. Est-ce que cela a un rapport avec le diabète ? 
+    - On me diagnostique pour une probable apnée du sommeil. Est-ce que le diabète est un facteur aggravant ? 
+    - Je fais l'expérience d'un examen pour une éventuelle apnée du sommeil. Est-ce que cela peut être dû au diabète ? 
+    - On me surveille pour une possible apnée du sommeil. Est-ce que le diabète peut en être la raison ? 
+    - Je suis exposé à un examen pour une potentielle apnée du sommeil. Est-ce que cela a une relation avec le diabète ? 
+    - On me scrute pour une hypothétique apnée du sommeil. Est-ce que le diabète est un élément influent ? 
+    - Je fais face à un contrôle pour une éventuelle apnée du sommeil. Est-ce que cela peut avoir un rapport avec le diabète ? 
+    - On me sonde pour une possible apnée du sommeil. Est-ce que le diabète peut en être l'origine ? 
+    - Je suis confronté à un test pour une potentielle apnée du sommeil. Est-ce que cela a un lien avec le diabète ? 
+    - On me questionne pour une hypothétique apnée du sommeil. Est-ce que le diabète est un élément déterminant ? 
+    - Je fais l'épreuve d'un examen pour une éventuelle apnée du sommeil. Est-ce que cela peut être causé par le diabète ? 
+    - On me mesure pour une possible apnée du sommeil. Est-ce que le diabète peut en être la source ? 
+    - Je suis soumis à un contrôle pour une potentielle apnée du sommeil. Est-ce que cela a une connexion avec le diabète ? 
+    - On me pèse pour une hypothétique apnée du sommeil. Est-ce que le diabète est un élément important ? 
+    - Je fais face à un test pour une éventuelle apnée du sommeil. Est-ce que cela peut avoir une relation avec le diabète ? 
+    - On me jauge pour une possible apnée du sommeil. Est-ce que le diabète peut en être la base ? 
+    - Je suis confronté à un examen pour une potentielle apnée du sommeil. Est-ce que cela a un rapport avec le diabète ? 
+    - On me scrute pour une hypothétique apnée du sommeil. Est-ce que le diabète est un élément essentiel ?
+- intent: be4cfc37-f347-4c8b-a073-0df1004721e2
+  examples: |
+    - Est-il possible de réduire les effets secondaires d'une glycémie élevée depuis longtemps ? 
+    - Comment améliorer les conséquences d'un taux de sucre dans le sang trop haut depuis longue date ? 
+    - Quelles sont les solutions pour atténuer les effets indésirables d'une hyperglycémie chronique ? 
+    - Peut-on diminuer les répercussions d'un excès de glucose dans le sang sur le long terme ? 
+    - Quels sont les moyens d'améliorer les complications d'une glycémie trop élevée depuis une longue période ? 
+    - Comment réduire les effets néfastes d'un déséquilibre du taux de sucre dans le sang durable ? 
+    - Quelles sont les options pour soulager les symptômes d'une hyperglycémie persistante ? 
+    - Peut-on améliorer les effets secondaires d'un taux de glucose dans le sang anormalement élevé depuis longtemps ? 
+    - Quels sont les remèdes pour limiter les conséquences d'une glycémie hors norme sur la durée ? 
+    - Comment atténuer les effets indésirables d'un excès de sucre dans le sang chronique ? 
+    - Quelles sont les alternatives pour améliorer les répercussions d'une hyperglycémie durable ? 
+    - Peut-on limiter les complications d'un taux de glucose dans le sang trop haut depuis une longue période ? 
+    - Quels sont les traitements pour réduire les symptômes d'une glycémie élevée depuis longtemps ? 
+    - Comment soulager les effets néfastes d'un déséquilibre du taux de sucre dans le sang persistant ? 
+    - Quelles sont les stratégies pour diminuer les effets secondaires d'une hyperglycémie chronique ? 
+    - Peut-on réduire les conséquences d'un excès de glucose dans le sang sur le long terme ? 
+    - Quels sont les conseils pour atténuer les répercussions d'une glycémie trop élevée depuis longue date ? 
+    - Comment limiter les effets indésirables d'un taux de sucre dans le sang anormalement élevé depuis longtemps ? 
+    - Quelles sont les astuces pour améliorer les symptômes d'une hyperglycémie persistante ? 
+    - Peut-on atténuer les effets néfastes d'un déséquilibre du taux de glucose dans le sang durable ? 
+    - Quels sont les moyens de diminuer les effets secondaires d'une glycémie élevée depuis une longue période ? 
+    - Comment soulager les conséquences d'un excès de sucre dans le sang chronique ? 
+    - Quelles sont les solutions pour réduire les complications d'une hyperglycémie durable ? 
+    - Peut-on limiter les répercussions d'un taux de sucre dans le sang trop haut depuis longue date ? 
+    - Quels sont les remèdes pour atténuer les effets indésirables d'une glycémie hors norme sur la durée ? 
+    - Comment améliorer les symptômes d'un déséquilibre du taux de glucose dans le sang persistant ? 
+    - Quelles sont les options pour diminuer les effets néfastes d'une hyperglycémie chronique ? 
+    - Peut-on réduire les effets secondaires d'un excès de glucose dans le sang sur le long terme ? 
+    - Quels sont les traitements pour limiter les conséquences d'une glycémie trop élevée depuis longtemps ? 
+    - Comment diminuer les complications d'un taux de sucre dans le sang anormalement élevé depuis longue date ?
+- intent: 74680c2e-ca97-4d87-bdd2-8c4c8bcf4ea4
+  examples: |
+    - Est-ce qu'un traitement contre le diabète existe ou existera? 
+    - Le diabète peut-il être guéri ou soigné? 
+    - Quelles sont les chances de trouver un remède contre le diabète? 
+    - Comment vaincre le diabète avec un remède efficace? 
+    - Un remède contre le diabète est-il envisageable ou réalisable? 
+    - Peut-on espérer un remède contre le diabète? 
+    - Le diabète a-t-il un remède ou une solution? 
+    - Quelle est la possibilité d'un remède contre le diabète? 
+    - Comment se débarrasser du diabète avec un remède? 
+    - Un remède contre le diabète est-il en cours de recherche ou de développement? 
+    - Le diabète est-il une maladie incurable ou guérissable? 
+    - Quel est l'état de la recherche sur un remède contre le diabète? 
+    - Comment combattre le diabète avec un remède? 
+    - Un remède contre le diabète est-il à portée de main ou lointain? 
+    - Le diabète peut-il être éliminé ou réduit avec un remède? 
+    - Existe-t-il un espoir de remède contre le diabète? 
+    - Le diabète a-t-il une issue ou une impasse? 
+    - Quel est le progrès vers un remède contre le diabète? 
+    - Comment traiter le diabète avec un remède? 
+    - Un remède contre le diabète est-il probable ou improbable? 
+    - Le diabète peut-il être maîtrisé ou vaincu avec un remède? 
+    - Y a-t-il une perspective de remède contre le diabète? 
+    - Le diabète a-t-il une fin ou une fatalité? 
+    - Quelle est la voie vers un remède contre le diabète? 
+    - Comment guérir le diabète avec un remède? 
+    - Un remède contre le diabète est-il possible ou impossible? 
+    - Le diabète peut-il être surmonté ou subi avec un remède? 
+    - Y a-t-il une solution de remède contre le diabète? 
+    - Le diabète a-t-il une guérison ou une condamnation? 
+    - Quelle est la route vers un remède contre le diabète?
+- intent: 8621ff5e-5f1d-4208-93ca-7458ded3bf30
+  examples: |
+    - Existe-t-il un implant qui remplace la fonction de l'insuline ? 
+    - Comment obtenir un implant qui régule le taux de sucre dans le sang ? 
+    - Quelles sont les conditions pour avoir un implant qui produit de l'insuline ? 
+    - Un implant qui synthétise l'insuline, est-ce possible ? 
+    - Quels sont les avantages et les inconvénients d'un implant qui fait l'insuline à ma place ? 
+    - Où et comment se faire poser un implant qui agit comme l'insuline ? 
+    - Quel est le prix d'un implant qui remplace l'insuline ? 
+    - Quels sont les risques et les effets secondaires d'un implant qui fait l'insuline à ma place ? 
+    - Comment fonctionne un implant qui fabrique de l'insuline ? 
+    - Quelle est la durée de vie d'un implant qui fait l'insuline à ma place ? 
+    - Un implant qui fait l'insuline à ma place, est-ce que c'est remboursé par la sécurité sociale ? 
+    - Quelle est la différence entre un implant qui fait l'insuline à ma place et une pompe à insuline ? 
+    - Comment choisir un implant qui remplace l'insuline ? 
+    - Quels sont les critères d'éligibilité pour avoir un implant qui produit de l'insuline ? 
+    - Un implant qui fait l'insuline à ma place, est-ce que ça existe vraiment ? 
+    - Quels sont les bénéfices d'un implant qui régule le glucose dans le sang ? 
+    - Comment se passe le suivi médical d'un implant qui fait l'insuline à ma place ? 
+    - Quels sont les types d'implants qui remplacent l'insuline ? 
+    - Comment savoir si j'ai besoin d'un implant qui fait l'insuline à ma place ? 
+    - Quels sont les avis des médecins sur les implants qui produisent de l'insuline ? 
+    - Comment se préparer à avoir un implant qui fait l'insuline à ma place ? 
+    - Quelles sont les alternatives à un implant qui remplace l'insuline ? 
+    - Un implant qui fait l'insuline à ma place, est-ce que c'est sûr et efficace ? 
+    - Quels sont les résultats des études cliniques sur les implants qui font l'insuline à ma place ? 
+    - Comment trouver un centre spécialisé dans la pose d'implants qui remplacent l'insuline ? 
+    - Quelles sont les démarches administratives pour avoir un implant qui produit de l'insuline ? 
+    - Un implant qui fait l'insuline à ma place, est-ce que c'est compatible avec mon traitement actuel ? 
+    - Quels sont les impacts d'un implant qui régule le diabète sur la qualité de vie ? 
+    - Comment gérer les complications potentielles d'un implant qui fait l'insuline à ma place ? 
+    - Un implant qui remplace l'insuline, est-ce que c'est la solution idéale pour moi ?
+- intent: 1db47f5c-3976-4351-9f47-b035468b0b0f
+  examples: |
+    - Est-il possible que la glande se remette à fonctionner ? 
+    - La glande a-t-elle une chance de retrouver son activité ? 
+    - Quelle est la probabilité que la glande reprenne son fonctionnement ? 
+    - Peut-on espérer que la glande se réactive ? 
+    - La glande est-elle capable de redevenir fonctionnelle ? 
+    - Comment faire pour que la glande recommence à fonctionner ? 
+    - Quels sont les facteurs qui peuvent favoriser le fonctionnement de la glande ? 
+    - La glande a-t-elle perdu définitivement sa fonction ? 
+    - Existe-t-il un moyen de stimuler la glande pour qu'elle fonctionne à nouveau ? 
+    - Quelles sont les conditions nécessaires pour que la glande se remette en marche ? 
+    - La glande peut-elle être restaurée dans son fonctionnement ? 
+    - La glande a-t-elle conservé une capacité de fonctionnement ? 
+    - Peut-on rétablir le fonctionnement de la glande ? 
+    - La glande est-elle irréversiblement dysfonctionnelle ? 
+    - Quelles sont les perspectives de réactivation de la glande ? 
+    - La glande peut-elle se régénérer et retrouver sa fonction ? 
+    - La glande a-t-elle encore du potentiel de fonctionnement ? 
+    - Comment réveiller la glande pour qu'elle fonctionne à nouveau ? 
+    - Quels sont les obstacles au fonctionnement de la glande ? 
+    - La glande est-elle susceptible de reprendre son activité ? 
+    - Peut-on renforcer la fonction de la glande ? 
+    - La glande est-elle endommagée au point de ne plus fonctionner ? 
+    - Existe-t-il un traitement pour restaurer le fonctionnement de la glande ? 
+    - Quelles sont les chances de récupération de la fonction de la glande ? 
+    - Comment améliorer le fonctionnement de la glande ? 
+    - La glande est-elle en état de marche ? 
+    - Peut-on inverser le processus qui a entraîné le dysfonctionnement de la glande ? 
+    - La glande peut-elle s'adapter et retrouver son rôle ? 
+    - Quels sont les signes qui indiquent que la glande peut encore fonctionner ? 
+    - Comment optimiser le fonctionnement de la glande ?
+- intent: 46852df8-7377-4206-8e1b-80d117ff63e8
+  examples: |
+    - Quel est le lien entre le stress et la hausse de ma glycémie ? 
+    - Comment le stress influence-t-il mon taux de sucre dans le sang ? 
+    - De quelle manière le stress provoque-t-il une élévation de ma glycémie ? 
+    - Quel mécanisme explique que le stress augmente ma glycémie ? 
+    - Par quel processus le stress fait-il monter mon taux de glucose dans le sang ? 
+    - Quels sont les effets du stress sur ma glycémie ? 
+    - Comment le stress agit-il sur mon métabolisme du sucre ? 
+    - De quoi le stress est-il responsable dans l'augmentation de ma glycémie ? 
+    - Quelle est la cause du stress dans la montée de mon taux de sucre sanguin ? 
+    - Comment se fait-il que le stress entraîne une hausse de ma glycémie ? 
+    - Qu'est-ce qui fait que le stress a un impact sur mon taux de glucose dans le sang ? 
+    - Pour quelle raison le stress modifie-t-il ma glycémie ? 
+    - En quoi le stress est-il un facteur de risque pour ma glycémie ? 
+    - Comment éviter que le stress ne fasse grimper ma glycémie ? 
+    - Quelles sont les conséquences du stress sur mon équilibre glycémique ? 
+    - Quels sont les mécanismes physiologiques impliqués dans l'augmentation de ma glycémie par le stress ? 
+    - Comment réduire l'effet du stress sur ma glycémie ? 
+    - Quelle est la relation entre le stress et mon niveau de sucre dans le sang ? 
+    - Comment comprendre que le stress affecte ma glycémie ? 
+    - Quels sont les symptômes du stress qui font monter ma glycémie ? 
+    - Comment gérer le stress pour maintenir ma glycémie stable ? 
+    - Quelles sont les solutions pour prévenir l'augmentation de ma glycémie due au stress ? 
+    - Quels sont les facteurs de stress qui influencent ma glycémie ? 
+    - Comment contrôler le stress pour réguler ma glycémie ? 
+    - Quelle est l'origine du stress qui fait varier ma glycémie ? 
+    - Comment limiter l'impact du stress sur ma glycémie ? 
+    - Quels sont les bénéfices d'une réduction du stress sur ma glycémie ? 
+    - Quelle est la meilleure façon de gérer le stress et ma glycémie ? 
+    - Comment adapter mon traitement en cas de stress qui augmente ma glycémie ? 
+    - Quelles sont les recommandations pour éviter que le stress ne perturbe ma glycémie ?
+- intent: 047e1169-89c5-4f11-b31c-69eb8ce8c88a
+  examples: |
+    - Est-ce que l'insuline en pompe permet de mieux réguler le taux de sucre dans le sang que l'insuline en stylo ? 
+    - Quel est le meilleur moyen de contrôler la glycémie : la pompe à insuline ou les stylos à insuline ? 
+    - Comment comparer l'efficacité de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline offre-t-elle un meilleur contrôle de la glycémie que les stylos à insuline ? 
+    - Quels sont les avantages et les inconvénients de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - Quelle est la différence entre la pompe à insuline et les stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline ou les stylos à insuline : quel dispositif choisir pour mieux contrôler la glycémie ? 
+    - Comment la pompe à insuline peut-elle améliorer le contrôle de la glycémie par rapport aux stylos à insuline ? 
+    - Quels sont les critères pour opter pour la pompe à insuline ou les stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline est-elle plus efficace que les stylos à insuline pour le contrôle de la glycémie ? 
+    - Quels sont les bénéfices de la pompe à insuline par rapport aux stylos à insuline pour le contrôle de la glycémie ? 
+    - Comment évaluer l'impact de la pompe à insuline et des stylos à insuline sur le contrôle de la glycémie ? 
+    - La pompe à insuline ou les stylos à insuline : quelle est la meilleure option pour le contrôle de la glycémie ? 
+    - Quelle est l'influence de la pompe à insuline et des stylos à insuline sur le contrôle de la glycémie ? 
+    - Comment choisir entre la pompe à insuline et les stylos à insuline pour le contrôle de la glycémie ? 
+    - Quels sont les facteurs qui favorisent la pompe à insuline ou les stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline a-t-elle des avantages significatifs sur les stylos à insuline pour le contrôle de la glycémie ? 
+    - Comment mesurer l'effet de la pompe à insuline et des stylos à insuline sur le contrôle de la glycémie ? 
+    - La pompe à insuline ou les stylos à insuline : quelle est la solution la plus adaptée pour le contrôle de la glycémie ? 
+    - Quelle est la performance de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - Comment optimiser le contrôle de la glycémie avec la pompe à insuline ou les stylos à insuline ? 
+    - Quels sont les arguments pour ou contre la pompe à insuline ou les stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline est-elle plus recommandée que les stylos à insuline pour le contrôle de la glycémie ? 
+    - Comment comparer l'apport de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline ou les stylos à insuline : quelle est l'alternative la plus efficace pour le contrôle de la glycémie ? 
+    - Quelle est l'utilité de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - Comment adapter le contrôle de la glycémie avec la pompe à insuline ou les stylos à insuline ? 
+    - Quels sont les atouts et les limites de la pompe à insuline et des stylos à insuline pour le contrôle de la glycémie ? 
+    - La pompe à insuline est-elle plus avantageuse que les stylos à insuline pour le contrôle de la glycémie?
+- intent: 0d0c9a1f-ca17-4f1b-8348-403b7744b932
+  examples: |
+    - Quelle est la raison de l'impact du diabète sur mes mains et mes pieds? 
+    - Comment le diabète affecte-t-il autant mes extrémités? 
+    - Quel est le mécanisme qui explique l'atteinte de mes mains et de mes pieds par le diabète? 
+    - En quoi le diabète est-il responsable des problèmes que je rencontre avec mes mains et mes pieds? 
+    - Qu'est-ce qui fait que mes mains et mes pieds souffrent du diabète? 
+    - Comment se fait-il que le diabète touche particulièrement mes mains et mes pieds? 
+    - Par quel processus le diabète endommage-t-il mes mains et mes pieds? 
+    - Quels sont les facteurs qui rendent mes mains et mes pieds si vulnérables au diabète? 
+    - De quelle manière le diabète altère-t-il mes mains et mes pieds? 
+    - Pour quelle cause le diabète a-t-il des conséquences sur mes mains et mes pieds? 
+    - Comment le diabète agit-il sur mes mains et mes pieds pour les affecter autant? 
+    - Quel est le lien entre le diabète et les troubles que je subis au niveau de mes mains et de mes pieds? 
+    - De quoi le diabète est-il la source pour que mes mains et mes pieds soient si touchés? 
+    - Comment s'explique l'implication du diabète dans les problèmes de mes mains et de mes pieds? 
+    - Qu'est-ce qui provoque l'effet du diabète sur mes mains et mes pieds? 
+    - En quoi consiste l'influence du diabète sur l'état de mes mains et de mes pieds? 
+    - Quelle est l'origine de la détérioration de mes mains et de mes pieds par le diabète? 
+    - Comment se manifeste l'action du diabète sur mes mains et mes pieds? 
+    - Quels sont les éléments qui expliquent que le diabète affecte tant mes mains et mes pieds? 
+    - De quelle façon le diabète entraîne-t-il des complications au niveau de mes mains et de mes pieds? 
+    - Quel est le rôle du diabète dans les atteintes de mes mains et de mes pieds? 
+    - Comment comprendre l'impact du diabète sur la santé de mes mains et de mes pieds? 
+    - Qu'est-ce qui détermine l'aggravation de mes mains et de mes pieds par le diabète? 
+    - Comment se produit l'effet du diabète sur la qualité de vie de mes mains et de mes pieds? 
+    - Quels sont les mécanismes qui font que le diabète nuit à mes mains et à mes pieds? 
+    - De quelle manière le diabète interfère-t-il avec le fonctionnement de mes mains et de mes pieds? 
+    - Quelle est la nature du rapport entre le diabète et les dommages causés à mes mains et à mes pieds? 
+    - Comment analyser l'incidence du diabète sur les conditions de vie de mes mains et de mes pieds? 
+    - Qu'est-ce qui occasionne les troubles du diabète au niveau de mes mains et de mes pieds? 
+    - De quelle façon le diabète se traduit-il par des difficultés pour mes mains et pour mes p
+- intent: 5f43a784-ee30-44cc-a50e-2a1872ab39d3
+  examples: |
+    - Y a-t-il un espoir que je cesse de devoir prendre de l'insuline et des comprimés simultanément ? 
+    - Est-il envisageable que je me libère un jour de la prise conjointe d'insuline et de comprimés ? 
+    - Quelles sont les chances que je puisse arrêter de prendre de l'insuline et des comprimés en même temps un jour ? 
+    - Existe-t-il une possibilité que je n'aie plus besoin de prendre de l'insuline et des comprimés ensemble un jour ? 
+    - Puis-je espérer que je mette fin un jour à la prise combinée d'insuline et de comprimés ? 
+    - Ai-je une chance que je stoppe un jour la prise simultanée d'insuline et de comprimés ? 
+    - Y a-t-il une perspective que je renonce un jour à la prise conjuguée d'insuline et de comprimés ? 
+    - Est-ce réaliste que je me passe un jour de la prise simultanée d'insuline et de comprimés ? 
+    - Quelle est la probabilité que je cesse de prendre de l'insuline et des comprimés en même temps un jour ? 
+    - Est-ce faisable que je me débarrasse un jour de la prise concomitante d'insuline et de comprimés ? 
+    - Puis-je envisager que je termine un jour la prise simultanée d'insuline et de comprimés ? 
+    - Ai-je une possibilité que je suspende un jour la prise conjointe d'insuline et de comprimés ? 
+    - Y a-t-il une opportunité que je rompe un jour avec la prise conjuguée d'insuline et de comprimés ? 
+    - Est-ce plausible que je me dispense un jour de la prise simultanée d'insuline et de comprimés ? 
+    - Quelle est la possibilité que je stoppe de prendre de l'insuline et des comprimés en même temps un jour ? 
+    - Est-ce possible que je me libère un jour de la prise concomitante d'insuline et de comprimés ? 
+    - Puis-je aspirer à ce que je finisse un jour la prise simultanée d'insuline et de comprimés ? 
+    - Ai-je une opportunité que je interrompe un jour la prise conjointe d'insuline et de comprimés ? 
+    - Y a-t-il une chance que je mette un terme un jour à la prise conjuguée d'insuline et de comprimés ? 
+    - Est-ce concevable que je me soustraie un jour à la prise simultanée d'insuline et de comprimés ? 
+    - Quelle est l'éventualité que je renonce à prendre de l'insuline et des comprimés en même temps un jour ? 
+    - Est-ce envisageable que je me dégage un jour de la prise concomitante d'insuline et de comprimés ? 
+    - Puis-je rêver à ce que je arrête un jour la prise simultanée d'insuline et de comprimés ? 
+    - Ai-je une éventualité que je cesse un jour la prise conjointe d'insuline et de comprimés ? 
+    - Y a-t-il une alternative que je abandonne un jour la prise conjuguée d'insuline et de comprimés ? 
+    - Est-ce crédible que je me détache un jour de la prise simultanée d'insuline et de comprimés ? 
+    - Quelle est l'option que je arrête de prendre de l'insuline et des comprimés en même temps un jour ? 
+    - Est-ce réalisable que je me sépare un jour de la prise concomitante d'insuline et de comprimés ? 
+    - Puis-je croire à ce que je termine un jour la prise simultanée d'insuline et de comprimés ? 
+    - Ai-je une alternative que je mette fin un jour à la prise conjointe d'insuline et de comprimés ?
+- intent: 3aabcd15-cc5b-4716-97b4-5c667a5cb96f
+  examples: |
+    - Comment parler d'un dispositif d'insulinothérapie? 
+    - Quelles sont les caractéristiques d'une pompe à insuline? 
+    - Quels sont les avantages et les inconvénients d'une pompe à insuline? 
+    - Comment fonctionne une pompe à insuline? 
+    - Quels sont les critères de choix d'une pompe à insuline? 
+    - Quelle est l'utilité d'une pompe à insuline? 
+    - Quels sont les effets secondaires d'une pompe à insuline? 
+    - Comment gérer une pompe à insuline au quotidien? 
+    - Quelle est la différence entre une pompe à insuline et une injection d'insuline? 
+    - Comment se former à l'utilisation d'une pompe à insuline? 
+    - Quels sont les risques d'une pompe à insuline? 
+    - Comment adapter sa pompe à insuline en fonction de son alimentation et de son activité physique? 
+    - Quelles sont les précautions à prendre avec une pompe à insuline? 
+    - Comment changer le cathéter et le réservoir d'une pompe à insuline? 
+    - Quels sont les coûts et les remboursements d'une pompe à insuline? 
+    - Comment choisir le site d'implantation d'une pompe à insuline? 
+    - Quelles sont les alternatives à une pompe à insuline? 
+    - Comment surveiller sa glycémie avec une pompe à insuline? 
+    - Quels sont les types de pompes à insuline disponibles sur le marché? 
+    - Comment régler sa pompe à insuline en fonction de ses besoins en insuline? 
+    - Quelles sont les indications et les contre-indications d'une pompe à insuline? 
+    - Comment nettoyer et entretenir sa pompe à insuline? 
+    - Comment voyager avec une pompe à insuline? 
+    - Quels sont les impacts psychologiques et sociaux d'une pompe à insuline? 
+    - Comment résoudre les problèmes techniques d'une pompe à insuline? 
+    - Comment associer une pompe à insuline à un capteur de glucose en continu? 
+    - Quelles sont les innovations et les perspectives d'avenir pour les pompes à insuline? 
+    - Comment vivre avec une pompe à insuline au long terme? 
+    - Quels sont les témoignages de personnes utilisant une pompe à insuline? 
+    - Comment bénéficier d'un accompagnement personnalisé pour sa pompe à insuline?
+- intent: f48ec2ea-4bbc-43d8-845e-2736700d593f
+  examples: |
+    - Où peut-on injecter un médicament ? 
+    - Quelles sont les zones du corps adaptées à l'injection ? 
+    - Comment choisir le site d'injection approprié ? 
+    - Quels sont les critères pour déterminer un site d'injection ? 
+    - Quelles sont les différentes régions anatomiques pour l'injection ? 
+    - Quels sont les avantages et les inconvénients des différents sites d'injection ? 
+    - Quels sont les risques liés aux différents sites d'injection ? 
+    - Comment éviter les complications lors de l'injection ? 
+    - Quelles sont les précautions à prendre avant de choisir un site d'injection ? 
+    - Quels sont les types de sites d'injection selon le mode d'administration ? 
+    - Quels sont les facteurs à considérer pour sélectionner un site d'injection ? 
+    - Quelles sont les recommandations pour effectuer une injection en toute sécurité ? 
+    - Quels sont les endroits du corps où l'on peut injecter une substance ? 
+    - Quelles sont les caractéristiques des différents sites d'injection ? 
+    - Comment identifier le site d'injection le plus adapté à la situation ? 
+    - Quels sont les principes généraux pour choisir un site d'injection ? 
+    - Quelles sont les techniques d'injection selon le site choisi ? 
+    - Quels sont les soins à apporter au site d'injection après l'administration ? 
+    - Quelles sont les contre-indications à l'utilisation de certains sites d'injection ? 
+    - Quels sont les noms des différents sites d'injection selon leur localisation ? 
+    - Comment évaluer la qualité d'un site d'injection ? 
+    - Quelles sont les bonnes pratiques pour préparer un site d'injection ? 
+    - Quels sont les effets secondaires possibles selon le site d'injection ? 
+    - Comment optimiser l'absorption du médicament selon le site d'injection ? 
+    - Quelles sont les règles d'hygiène à respecter pour un site d'injection ? 
+    - Quels sont les outils nécessaires pour réaliser une injection selon le site choisi ? 
+    - Comment varier les sites d'injection pour éviter les complications ? 
+    - Quelles sont les spécificités des sites d'injection selon la population cible ? 
+    - Comment mesurer la profondeur de l'aiguille selon le site d'injection ? 
+    - Comment adapter la dose du médicament selon le site d'injection ?
+- intent: 5c5034c4-6341-4463-ba5a-a6e3f01fc191
+  examples: |
+    - Quelles sont les astuces pour prévenir les bleus ? 
+    - Comment faire pour ne pas avoir des hématomes ? 
+    - Quels sont les moyens d'éviter les marques violettes sur la peau ? 
+    - Comment se protéger des ECCHYMOSes ? 
+    - Quelle est la meilleure façon de ne pas se faire des bleus ? 
+    - Comment réduire le risque d'avoir des hématomes ? 
+    - Quels sont les gestes à adopter pour éviter les ECCHYMOSes ? 
+    - Comment faire pour ne pas se blesser et avoir des bleus ? 
+    - Quelles sont les précautions à prendre pour ne pas avoir des hématomes ? 
+    - Comment éviter d'avoir des marques sur la peau après un choc ? 
+    - Quels sont les conseils pour ne pas se faire des ECCHYMOSes ? 
+    - Comment faire pour ne pas souffrir de bleus ? 
+    - Quelles sont les solutions pour éviter les hématomes ? 
+    - Comment prévenir les ECCHYMOSes ? 
+    - Quelle est la méthode la plus efficace pour ne pas avoir des bleus ? 
+    - Comment diminuer la probabilité d'avoir des hématomes ? 
+    - Quels sont les trucs à savoir pour éviter les ECCHYMOSes ? 
+    - Comment faire pour ne pas se cogner et avoir des bleus ? 
+    - Quelles sont les mesures à suivre pour ne pas avoir des hématomes ? 
+    - Comment éviter de se faire des marques sur la peau en cas de coup ? 
+    - Quels sont les astuces pour ne pas se faire des ECCHYMOSes ? 
+    - Comment faire pour ne pas subir de bleus ? 
+    - Quelles sont les alternatives pour éviter les hématomes ? 
+    - Comment éviter les ECCHYMOSes ? 
+    - Quelle est la stratégie la plus simple pour ne pas avoir des bleus ? 
+    - Comment réduire la chance d'avoir des hématomes ? 
+    - Quels sont les secrets pour éviter les ECCHYMOSes ? 
+    - Comment faire pour ne pas s'écorcher et avoir des bleus ? 
+    - Quelles sont les recommandations à respecter pour ne pas avoir des hématomes ? 
+    - Comment éviter de se marquer la peau lors d'un traumatisme ?
+- intent: ddad6438-3108-4a31-99da-bb54ce51857c
+  examples: |
+    - Le diabète peut-il causer des taux élevés de LFT ? 
+    - Quel est le lien entre le diabète et les résultats anormaux de LFT ? 
+    - Comment le diabète affecte-t-il les tests de la fonction hépatique (LFT) ? 
+    - Les personnes diabétiques ont-elles des LFT plus élevés que la normale ? 
+    - Est-ce que les LFT augmentent à cause du diabète ? 
+    - Quels sont les facteurs diabétiques qui influencent les LFT ? 
+    - Les LFT sont-ils un indicateur du diabète ? 
+    - Comment le diabète peut-il entraîner une élévation des LFT ? 
+    - Quelle est la relation entre les LFT et le diabète ? 
+    - Les LFT élevés sont-ils un symptôme du diabète ? 
+    - Le diabète est-il responsable des LFT anormaux ? 
+    - Comment savoir si les LFT élevés sont dus au diabète ? 
+    - Quels sont les effets du diabète sur les LFT ? 
+    - Les LFT reflètent-ils le niveau de diabète ? 
+    - Comment le diabète peut-il modifier les LFT ? 
+    - Les LFT sont-ils affectés par le diabète ? 
+    - Le diabète peut-il provoquer une augmentation des LFT ? 
+    - Quelle est la cause des LFT élevés chez les diabétiques ? 
+    - Comment interpréter les LFT chez les personnes atteintes de diabète ? 
+    - Les LFT sont-ils liés au diabète ? 
+    - Le diabète peut-il altérer les résultats des LFT ? 
+    - Quels sont les risques des LFT élevés pour les diabétiques ? 
+    - Comment prévenir les LFT élevés en cas de diabète ? 
+    - Les LFT peuvent-ils détecter le diabète ? 
+    - Quelle est la signification des LFT élevés en présence de diabète ? 
+    - Le diabète peut-il aggraver les LFT ? 
+    - Comment traiter les LFT élevés chez les patients diabétiques ? 
+    - Les LFT sont-ils un facteur de complication du diabète ? 
+    - Les LFT peuvent-ils varier en fonction du type de diabète ? 
+    - Les LFT sont-ils influencés par le traitement du diabète ?
+- intent: 3250ec7a-61f2-407f-944e-17f075a12c33
+  examples: |
+    - Comment un taux de glucose élevé affecte-t-il la santé à long terme? 
+    - Quels sont les effets à long terme d'une glycémie trop élevée? 
+    - Quels sont les risques à long terme d'un taux de glucose anormalement élevé? 
+    - Comment un taux de glucose trop élevé peut-il nuire à l'organisme sur le long terme? 
+    - Quelles sont les conséquences à long terme d'une hyperglycémie? 
+    - Quels sont les problèmes de santé à long terme liés à un taux de glucose élevé? 
+    - Comment un taux de glucose élevé peut-il entraîner des complications à long terme? 
+    - Quels sont les dommages à long terme causés par un taux de glucose trop élevé? 
+    - Quelles sont les répercussions à long terme d'un taux de glucose supérieur à la normale? 
+    - Comment un taux de glucose anormalement élevé peut-il affecter l'organisme à long terme? 
+    - Quels sont les dangers à long terme d'un taux de glucose trop élevé? 
+    - Quelles sont les séquelles à long terme d'une glycémie élevée? 
+    - Comment un taux de glucose supérieur à la normale peut-il nuire à la santé sur le long terme? 
+    - Quels sont les impacts à long terme d'un taux de glucose élevé? 
+    - Quelles sont les complications à long terme d'un taux de glucose trop élevé? 
+    - Comment un taux de glucose trop élevé peut-il engendrer des problèmes de santé à long terme? 
+    - Quels sont les effets indésirables à long terme d'un taux de glucose anormalement élevé? 
+    - Quelles sont les manifestations à long terme d'une hyperglycémie? 
+    - Comment un taux de glucose anormalement élevé peut-il altérer le fonctionnement de l'organisme sur le long terme? 
+    - Quels sont les troubles à long terme liés à un taux de glucose élevé? 
+    - Comment un taux de glucose supérieur à la normale peut-il provoquer des dommages à long terme? 
+    - Quels sont les facteurs de risque à long terme d'un taux de glucose trop élevé? 
+    - Quelles sont les atteintes à long terme causées par un taux de glucose anormalement élevé? 
+    - Comment un taux de glucose trop élevé peut-il avoir des répercussions négatives sur le long terme? 
+    - Quels sont les enjeux à long terme d'un taux de glucose supérieur à la normale? 
+    - Quelles sont les dégradations à long terme dues à une glycémie élevée? 
+    - Comment un taux de glucose élevé peut-il entraîner des séquelles à long terme? 
+    - Quels sont les désagréments à long terme d'un taux de glucose trop élevé? 
+    - Quelles sont les perturbations à long terme d'une hyperglycémie? 
+    - Comment un taux de glucose supérieur à la normale peut-il affecter la qualité de vie sur le long terme?
+- intent: 01eb77b2-7d1d-4eec-8123-dd82380e891a
+  examples: |
+    - Quelles sont les mesures à prendre pour éviter l'aggravation du diabète ? 
+    - Comment limiter les complications liées au diabète ? 
+    - Quels sont les facteurs de risque à contrôler pour freiner le diabète ? 
+    - Comment adopter un mode de vie sain pour réduire l'impact du diabète ? 
+    - Quels sont les traitements efficaces pour stabiliser le diabète ? 
+    - Comment gérer son alimentation et son activité physique pour préserver sa santé en cas de diabète ? 
+    - Quels sont les conseils pratiques pour vivre mieux avec le diabète ? 
+    - Comment surveiller son taux de sucre dans le sang pour éviter les dérèglements du diabète ? 
+    - Quelles sont les bonnes habitudes à adopter pour diminuer les effets du diabète ? 
+    - Comment renforcer son système immunitaire pour lutter contre le diabète ? 
+    - Quels sont les examens médicaux à faire régulièrement pour contrôler le diabète ? 
+    - Comment se protéger des infections et des blessures qui peuvent aggraver le diabète ? 
+    - Quelles sont les plantes ou les compléments alimentaires qui peuvent aider à prévenir le diabète ? 
+    - Comment gérer son stress et ses émotions pour ne pas perturber son diabète ? 
+    - Quels sont les signes d'alerte à connaître pour détecter une aggravation du diabète ? 
+    - Comment adapter son traitement en fonction de l'évolution du diabète ? 
+    - Quelles sont les complications potentielles du diabète et comment les prévenir ? 
+    - Comment équilibrer son régime alimentaire pour réduire les besoins en insuline ou en médicaments antidiabétiques ? 
+    - Quels sont les bénéfices d'une activité physique régulière pour améliorer la sensibilité à l'insuline et prévenir le diabète ? 
+    - Comment se faire accompagner par une équipe médicale et paramédicale pour mieux gérer son diabète ? 
+    - Comment s'informer sur le diabète et ses traitements pour mieux comprendre sa maladie ? 
+    - Comment participer à des programmes d'éducation thérapeutique pour apprendre à vivre avec le diabète ? 
+    - Quelles sont les associations ou les groupes de soutien qui peuvent aider les personnes atteintes de diabète ? 
+    - Comment impliquer son entourage familial et social dans la prise en charge du diabète ? 
+    - Comment concilier sa vie professionnelle et personnelle avec le diabète ? 
+    - Quels sont les droits et les devoirs des personnes diabétiques dans la société ? 
+    - Comment voyager en toute sécurité avec le diabète ? 
+    - Comment profiter des plaisirs de la vie sans mettre en danger sa santé en cas de diabète ? 
+    - Quelles sont les innovations technologiques ou médicales qui peuvent faciliter la vie des personnes diabétiques ? 
+    - Comment se préparer à une éventuelle transplantation d'îlots pancréatiques ou de pancréas en cas de diabète sévère ?
+- intent: 606a82ed-2a39-4211-83fd-ddffe0929a74
+  examples: |
+    - Quelle est la conduite à tenir en cas de glycémie trop haute ? 
+    - Comment réagir face à une hyperglycémie ? 
+    - Quels sont les gestes à adopter quand la glycémie dépasse la normale ? 
+    - Que faire pour baisser la glycémie si elle est trop élevée ? 
+    - Comment gérer une situation d'excès de sucre dans le sang ? 
+    - Quelles sont les mesures à prendre en présence d'une glycémie élevée ? 
+    - Comment traiter une hyperglycémie ? 
+    - Quelles sont les solutions pour réduire la glycémie si elle est supérieure à la normale ? 
+    - Comment faire face à une glycémie trop haute ? 
+    - Quels sont les conseils à suivre en cas de glycémie élevée ? 
+    - Comment diminuer la glycémie si elle est trop élevée ? 
+    - Quelle attitude adopter face à une hyperglycémie ? 
+    - Quelles sont les actions à mener quand la glycémie est supérieure à la normale ? 
+    - Que faire pour réguler la glycémie si elle est trop élevée ? 
+    - Comment contrôler une situation d'excès de sucre dans le sang ? 
+    - Quelles sont les précautions à prendre en cas de glycémie élevée ? 
+    - Comment soigner une hyperglycémie ? 
+    - Quelles sont les alternatives pour abaisser la glycémie si elle est supérieure à la normale ? 
+    - Comment réduire la glycémie si elle est trop élevée ? 
+    - Quelle stratégie adopter face à une hyperglycémie ? 
+    - Quelles sont les interventions à réaliser quand la glycémie dépasse la normale ? 
+    - Que faire pour stabiliser la glycémie si elle est trop élevée ? 
+    - Comment maîtriser une situation d'excès de sucre dans le sang ? 
+    - Quelles sont les recommandations à respecter en cas de glycémie élevée ? 
+    - Comment corriger une hyperglycémie ? 
+    - Quelles sont les options pour diminuer la glycémie si elle est supérieure à la normale ? 
+    - Comment ajuster la glycémie si elle est trop élevée ? 
+    - Quelle tactique adopter face à une hyperglycémie ? 
+    - Quelles sont les démarches à effectuer quand la glycémie est au-dessus de la normale ? 
+    - Que faire pour normaliser la glycémie si elle est trop élevée ?
+- intent: b69077bf-f3f7-466e-a00b-47362291b246
+  examples: |
+    - Quelle est la cause des fluctuations constantes de ma glycémie? 
+    - Comment expliquer que ma glycémie varie toujours entre des pics et des creux? 
+    - Quels sont les facteurs qui influencent l'instabilité de ma glycémie? 
+    - Comment se fait-il que ma glycémie ne reste jamais stable, mais monte et descend sans cesse? 
+    - Qu'est-ce qui provoque les changements fréquents de ma glycémie à la hausse et à la baisse? 
+    - Comment stabiliser ma glycémie qui oscille toujours entre des valeurs élevées et basses? 
+    - Quelles sont les raisons des variations incessantes de ma glycémie? 
+    - Comment faire pour que ma glycémie ne soit pas toujours en dents de scie, mais plus régulière? 
+    - Qu'est-ce qui fait que ma glycémie n'a pas de constance, mais passe du haut au bas? 
+    - Comment éviter que ma glycémie ne change tout le temps entre des niveaux supérieurs et inférieurs? 
+    - Quels sont les éléments qui déterminent l'irrégularité de ma glycémie? 
+    - Comment obtenir une glycémie plus constante, au lieu de toujours fluctuer à la hausse et à la baisse? 
+    - Qu'est-ce qui entraîne les variations permanentes de ma glycémie dans les deux sens? 
+    - Comment faire pour que ma glycémie ne soit pas toujours en mouvement, mais plus stable? 
+    - Qu'est-ce qui cause les modifications répétées de ma glycémie vers le haut et vers le bas? 
+    - Comment contrôler ma glycémie qui alterne toujours entre des valeurs hautes et basses? 
+    - Quelles sont les origines des changements continus de ma glycémie? 
+    - Comment arriver à une glycémie plus régulière, au lieu de toujours monter et descendre? 
+    - Qu'est-ce qui génère les fluctuations incessantes de ma glycémie dans un sens ou dans l'autre? 
+    - Comment maintenir une glycémie plus stable, au lieu de toujours varier à la hausse et à la baisse? 
+    - Qu'est-ce qui explique les différences constantes de ma glycémie vers le haut ou vers le bas? 
+    - Comment gérer ma glycémie qui passe toujours d'un extrême à l'autre? 
+    - Quelles sont les causes des écarts permanents de ma glycémie? 
+    - Comment atteindre une glycémie plus constante, au lieu de toujours osciller entre le haut et le bas? 
+    - Qu'est-ce qui déclenche les variations constantes de ma glycémie dans les deux directions? 
+    - Comment réguler ma glycémie qui bouge toujours entre des niveaux élevés et faibles? 
+    - Quelles sont les sources des modifications continues de ma glycémie? 
+    - Comment parvenir à une glycémie plus stable, au lieu de toujours fluctuer entre le haut et le bas? 
+    - Qu'est-ce qui crée les changements incessants de ma glycémie vers le haut ou vers le bas? 
+    - Comment réduire les fluctuations de ma glycémie qui est toujours en hausse ou en baisse?

@@ -1,0 +1,40 @@
+body{
+    background-color:#c2b7b791;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c2b7b791;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #c09090;
+  }
+
+  .circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
